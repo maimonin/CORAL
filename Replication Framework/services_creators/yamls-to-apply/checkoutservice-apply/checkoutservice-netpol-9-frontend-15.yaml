@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: checkoutservice-8-allow-frontend-15
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend-15
+    ports:
+    - port: 21079
+  podSelector:
+    matchLabels:
+      app: checkoutservice-8

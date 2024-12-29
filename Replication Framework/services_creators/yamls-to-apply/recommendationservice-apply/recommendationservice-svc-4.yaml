@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: recommendationservice-4
+spec:
+  ports:
+  - name: grpc
+    port: 5524
+    targetPort: 5524
+  selector:
+    app: recommendationservice-4
+  type: ClusterIP

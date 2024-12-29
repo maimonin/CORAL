@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: checkoutservice-2
+spec:
+  ports:
+  - name: grpc
+    port: 39724
+    targetPort: 39724
+  selector:
+    app: checkoutservice-2
+  type: ClusterIP

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: emailservice-1
+spec:
+  ports:
+  - name: grpc
+    port: 20996
+    targetPort: 20996
+  selector:
+    app: emailservice-1
+  type: ClusterIP

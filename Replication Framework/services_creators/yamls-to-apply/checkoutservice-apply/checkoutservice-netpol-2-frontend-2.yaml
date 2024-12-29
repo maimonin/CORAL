@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: checkoutservice-2-allow-frontend-2
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend-2
+    ports:
+    - port: 39724
+  podSelector:
+    matchLabels:
+      app: checkoutservice-2

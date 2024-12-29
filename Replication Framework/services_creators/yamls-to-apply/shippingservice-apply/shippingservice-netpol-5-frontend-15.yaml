@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: shippingservice-5-allow-frontend-15
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend-15
+    ports:
+    - port: 60729
+  podSelector:
+    matchLabels:
+      app: shippingservice-5

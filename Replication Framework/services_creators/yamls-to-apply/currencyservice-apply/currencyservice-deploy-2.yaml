@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: currencyservice-2
+spec:
+  selector:
+    matchLabels:
+      app: currencyservice-2
+  template:
+    metadata:
+      labels:
+        app: currencyservice-2
+    spec:
+      containers:
+      - env:
+        - name: PORT
+          value: '9799'
+        - name: DISABLE_PROFILER
+          value: '1'
+        image: gcr.io/google-samples/microservices-demo/currencyservice:v0.5.0
+        livenessProbe:
+          exec:
+            command:
+            - /bin/grpc_health_probe
+            - -addr=:9799
+        name: server
+        ports:
+        - containerPort: 9799
+          name: grpc
+        readinessProbe:
+          exec:
+            command:
+            - /bin/grpc_health_probe
+            - -addr=:9799
+        resources:
+          limits:
+            cpu: 200m
+            memory: 128Mi
+          requests:
+            cpu: 100m
+            memory: 64Mi
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+            - all
+          privileged: false
+          readOnlyRootFilesystem: true
+      securityContext:
+        fsGroup: 1000
+        runAsGroup: 1000
+        runAsNonRoot: true
+        runAsUser: 1000
+      serviceAccountName: default
+      terminationGracePeriodSeconds: 5

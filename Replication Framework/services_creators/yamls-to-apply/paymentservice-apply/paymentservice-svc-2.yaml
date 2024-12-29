@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: paymentservice-2
+spec:
+  ports:
+  - name: grpc
+    port: 53096
+    targetPort: 53096
+  selector:
+    app: paymentservice-2
+  type: ClusterIP

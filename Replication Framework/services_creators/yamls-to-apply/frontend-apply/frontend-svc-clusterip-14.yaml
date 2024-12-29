@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-14
+spec:
+  ports:
+  - name: http
+    port: 3599
+    targetPort: 3599
+  selector:
+    app: frontend-14
+  type: ClusterIP

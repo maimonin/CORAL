@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: redis-cart-1-allow-cartservice-1
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: cartservice-1
+    ports:
+    - port: 6379
+  podSelector:
+    matchLabels:
+      app: redis-cart-1

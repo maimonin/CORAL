@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: checkoutservice-8
+spec:
+  ports:
+  - name: grpc
+    port: 21079
+    targetPort: 21079
+  selector:
+    app: checkoutservice-8
+  type: ClusterIP

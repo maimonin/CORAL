@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: cartservice-1-allow-frontend-1
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend-1
+    ports:
+    - port: 7070
+  podSelector:
+    matchLabels:
+      app: cartservice-1

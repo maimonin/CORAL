@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-13
+spec:
+  selector:
+    matchLabels:
+      app: frontend-13
+  template:
+    metadata:
+      annotations:
+        sidecar.istio.io/rewriteAppHTTPProbers: 'true'
+      labels:
+        app: frontend-13
+    spec:
+      containers:
+      - env:
+        - name: PORT
+          value: '16388'
+        - name: PRODUCT_CATALOG_SERVICE_ADDR
+          value: productcatalogservice-7:47981
+        - name: CURRENCY_SERVICE_ADDR
+          value: currencyservice-1:64752
+        - name: CART_SERVICE_ADDR
+          value: cartservice-1:7070
+        - name: RECOMMENDATION_SERVICE_ADDR
+          value: recommendationservice-3:2116
+        - name: SHIPPING_SERVICE_ADDR
+          value: shippingservice-3:11702
+        - name: CHECKOUT_SERVICE_ADDR
+          value: checkoutservice-4:30144
+        - name: AD_SERVICE_ADDR
+          value: adservice-7:18563
+        - name: ENABLE_PROFILER
+          value: '0'
+        image: gcr.io/google-samples/microservices-demo/frontend:v0.5.0
+        livenessProbe:
+          httpGet:
+            httpHeaders:
+            - name: Cookie
+              value: shop_session-id=x-liveness-probe
+            path: /_healthz
+            port: 16388
+          initialDelaySeconds: 0
+        name: server
+        ports:
+        - containerPort: 16388
+        readinessProbe:
+          httpGet:
+            httpHeaders:
+            - name: Cookie
+              value: shop_session-id=x-readiness-probe
+            path: /_healthz
+            port: 16388
+          initialDelaySeconds: 0
+        resources:
+          limits:
+            cpu: 200m
+            memory: 128Mi
+          requests:
+            cpu: 100m
+            memory: 64Mi
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+            - all
+          privileged: false
+          readOnlyRootFilesystem: true
+      securityContext:
+        fsGroup: 1000
+        runAsGroup: 1000
+        runAsNonRoot: true
+        runAsUser: 1000
+      serviceAccountName: default

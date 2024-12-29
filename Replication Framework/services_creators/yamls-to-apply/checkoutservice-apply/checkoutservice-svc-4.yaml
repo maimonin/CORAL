@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: checkoutservice-4
+spec:
+  ports:
+  - name: grpc
+    port: 8241
+    targetPort: 8241
+  selector:
+    app: checkoutservice-4
+  type: ClusterIP

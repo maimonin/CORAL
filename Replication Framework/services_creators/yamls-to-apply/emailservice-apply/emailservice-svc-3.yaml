@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: emailservice-3
+spec:
+  ports:
+  - name: grpc
+    port: 56335
+    targetPort: 56335
+  selector:
+    app: emailservice-3
+  type: ClusterIP

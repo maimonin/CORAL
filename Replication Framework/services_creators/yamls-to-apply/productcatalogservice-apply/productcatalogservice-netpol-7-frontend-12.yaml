@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: productcatalogservice-7-allow-frontend-12
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend-12
+    ports:
+    - port: 47981
+  podSelector:
+    matchLabels:
+      app: productcatalogservice-7

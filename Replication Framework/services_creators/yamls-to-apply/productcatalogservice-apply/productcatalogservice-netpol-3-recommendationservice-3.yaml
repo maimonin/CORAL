@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: productcatalogservice-3-allow-recommendationservice-3
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: recommendationservice-3
+    ports:
+    - port: 32537
+  podSelector:
+    matchLabels:
+      app: productcatalogservice-3

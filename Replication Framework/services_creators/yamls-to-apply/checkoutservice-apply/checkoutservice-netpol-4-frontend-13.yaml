@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: checkoutservice-4-allow-frontend-13
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend-13
+    ports:
+    - port: 30144
+  podSelector:
+    matchLabels:
+      app: checkoutservice-4

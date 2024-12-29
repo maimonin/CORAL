@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: currencyservice-allow-frontend
+  namespace: attack-graphs
+spec:
+  podSelector:
+    matchLabels:
+      app: currencyservice
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend
+    ports:
+      - port: 7000

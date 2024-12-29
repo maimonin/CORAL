@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: adservice-5-allow-frontend-14
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend-14
+    ports:
+    - port: 44631
+  podSelector:
+    matchLabels:
+      app: adservice-5
