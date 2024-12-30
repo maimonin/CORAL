@@ -1,0 +1,16 @@
+1,"vulnerablePod(frontend)","OR",0
+2,"RULE 0 (vulnerability with remote access-vector in a pod that interacts with the world)","AND",0
+3,"vulExists('CVE-2022-3996',libcrypto3,'3_0_7_r0','Network','A_loss','HIGH')","LEAF",1
+4,"residesOn(frontend,libcrypto3,'3_0_7_r0')","LEAF",1
+5,"hacl('Internet',frontend,'HTTP','8080')","LEAF",1
+6,"RULE 0 (vulnerability with remote access-vector in a pod that interacts with the world)","AND",0
+7,"vulExists('CVE-2022-3996',libssl3,'3_0_7_r0','Network','A_loss','HIGH')","LEAF",1
+8,"residesOn(frontend,libssl3,'3_0_7_r0')","LEAF",1
+9,"vulnerablePod(recommendationservice)","OR",0
+10,"RULE 1 (vulnerability in pod1 and connection to pod2 with CVE leads to vulnerability in pod2)","AND",0
+11,"vulExists('CVE-2019-8457',libdb5_3,'5_3_28+dfsg1_0_8','Network','CIA_loss','CRITICAL')","LEAF",1
+12,"residesOn(recommendationservice,libdb5_3,'5_3_28+dfsg1_0_8')","LEAF",1
+13,"dataFlow(frontend,recommendationservice,'TCP','13979')","LEAF",1
+14,"RULE 1 (vulnerability in pod1 and connection to pod2 with CVE leads to vulnerability in pod2)","AND",0
+15,"vulExists('CVE-2021-46848',libtasn1_6,'4_16_0_2','Network','CA_loss','CRITICAL')","LEAF",1
+16,"residesOn(recommendationservice,libtasn1_6,'4_16_0_2')","LEAF",1

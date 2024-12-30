@@ -1,0 +1,1592 @@
+,id,type,path,subtype,permissions,epoch,source,version,local address,remote port,protocol,remote address,local port,net namespace,memory address,size,tgid,read fd,write fd,svc
+0,a41db92088a31a823a23ed48145dd661,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,39612.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+1,a2f50c6b069415c603efdac935d00de4,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,39614.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+2,be892937315bea0644510e695d37ac30,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,46636.0,4026532231.0,,,,,,frontend
+3,5a7a49b0a1c2096d4e6e896d35f9194d,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,46636.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+4,80a3b6046c1aa2dda29b76dc32d1e4fa,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,46642.0,4026532231.0,,,,,,frontend
+5,cf367aec66d57a49adcb74b784437e1f,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,46642.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+6,a89c134c210562dfccc3bea41c2d5d63,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,36032.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+7,8df23791c8b2af5a86b875d28afdcc51,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,36032.0,4026532967.0,,,,,,paymentservice
+8,e7026795986d1db96f7ca019fe9aca94,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,46658.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+9,f6afa0dc808e7927692a2a402dd37e1b,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,46658.0,4026532694.0,,,,,,frontend
+10,5ac5d0a9cea066d03b805a8a1e419e54,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,46664.0,4026532694.0,,,,,,frontend
+11,b19587f0ce057e0a68dedb9f2a76026e,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,46664.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+12,df651caf48a8fb66322f4d4f0a0887ae,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,55840.0,tcp,0000:0000:0000:0000:0000:FFFF:AC1F:1EE3,8080.0,-1.0,,,,,,frontend
+13,7baa97ff0494788f0b47200ef6aaa6a8,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,36038.0,4026532382.0,,,,,,paymentservice
+14,69824c109ae4302f910be7a9e823d71c,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,36038.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+15,a14668ae49f6ee8b6355891156206d37,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7070.0,tcp,0.0.0.0,55102.0,4026532899.0,,,,,,cartservice
+16,87ae26cb62fd1b3481c32d1e4f60a4ba,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,55102.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7070.0,-1.0,,,,,,cartservice
+17,d5e6ecbfd578d56a4fd2a52574557af2,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,55844.0,tcp,0000:0000:0000:0000:0000:FFFF:AC1F:1EE3,8080.0,-1.0,,,,,,frontend
+18,703a57eb0eaf1afe71b4b4ae39f694c6,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,43688.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7000.0,-1.0,,,,,,currencyservice
+19,465862b6f8b03b3e88e9cb462132dced,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7000.0,tcp,0.0.0.0,43688.0,4026532583.0,,,,,,currencyservice
+20,088dabc017ff04ffbfe67a32b98e8944,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,36046.0,4026532382.0,,,,,,paymentservice
+21,fb507055b141b3fd37433c97e4cf05cb,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,36046.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+22,90dd4bea017d4880ad69f8b359bd601f,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,3550.0,tcp,0.0.0.0,34350.0,4026532449.0,,,,,,productcatalogservice
+23,d5a7e866af60ad8ea6677f6d8309b1ed,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,34350.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,3550.0,-1.0,,,,,,productcatalogservice
+24,29a8df94fc46d2ae387d5d2ae0d668dc,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7070.0,tcp,0.0.0.0,55106.0,4026532899.0,,,,,,cartservice
+25,8f81ec5123339f726e81185572c9074c,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,55106.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7070.0,-1.0,,,,,,cartservice
+26,8f73a750905117f3f45810eea79c923e,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,3550.0,tcp,0.0.0.0,34356.0,4026532449.0,,,,,,productcatalogservice
+27,7428adc6445392a6eb8066a7f3d9f3ec,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,34356.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,3550.0,-1.0,,,,,,productcatalogservice
+28,0b0919bd7c3db979f75592d01b508f61,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7000.0,tcp,0.0.0.0,43704.0,4026532583.0,,,,,,currencyservice
+29,0d5dc426db6fba38aa2fad35c45e81fc,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,43704.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7000.0,-1.0,,,,,,currencyservice
+30,bcebe7b8dd2fe889e103dfa10d77edc6,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,36050.0,4026532967.0,,,,,,paymentservice
+31,7bc945978b4aadfe4d7f2f75f0ec7886,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,36050.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+32,90bc64de35e356de6d7062ed712606c7,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,39636.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+33,6923e0d2e16ac5e3b77b516c69990235,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,39638.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+34,773c68c3b89710892a4783d58c60923e,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,46678.0,4026532231.0,,,,,,frontend
+35,357010570762c4c5e8d2980b1fe0c7fc,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,46678.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+36,a1bc2d49b45e0cac5f84ae79142976cd,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,46688.0,4026532231.0,,,,,,frontend
+37,9023f1e7157fcc34d7420190b86bc331,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,46688.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+38,02c2c1d55e6857aaf2d692c7f2e128ff,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,36056.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+39,9b481146e3353abc2d72ee71b99f3072,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,36056.0,-1.0,,,,,,paymentservice
+40,2f1d2c5f1c4b02a9a50c78a31d477996,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,46700.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+41,d96e1103a0b4c49f26b547e651bdc2b5,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,46700.0,-1.0,,,,,,frontend
+42,83e3d510126da32af2dbcb1cdc91b732,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,37050.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,5050.0,-1.0,,,,,,checkoutservice
+43,4e5449a3f331dba3bf1cf4f4533d3907,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,5050.0,tcp,0.0.0.0,37050.0,4026532516.0,,,,,,checkoutservice
+44,99f71eb6a0d861c922d5100d347c8efb,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,37066.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,5050.0,-1.0,,,,,,checkoutservice
+45,047b521f716b04aefc919a91a043861a,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,5050.0,tcp,0.0.0.0,37066.0,4026532516.0,,,,,,checkoutservice
+46,2c69133e0eb3d9dbbbfdc05fefa4bc93,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,9555.0,tcp,0.0.0.0,57410.0,4026532761.0,,,,,,adservice
+47,79bb9e95fab2c6d74d1b2d0d33e99b18,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,57410.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,9555.0,-1.0,,,,,,adservice
+48,e559ca82bf843b0a349a668247940950,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,48918.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+49,4d119933ecb532edb982b54501a8d651,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,48920.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+50,1a04b02e87116c33b2f35f5ede3d0854,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,54816.0,4026532231.0,,,,,,frontend
+51,d53c26db793a3462fa7853d395f6a314,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,54816.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+52,7522067028a70dc8f441db683f3c2daf,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,54824.0,4026532231.0,,,,,,frontend
+53,8a6b699d5f4437e5e3e60fa12b994119,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,54824.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+54,832c1f8a9cb3735a48104c56897102fb,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,57420.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,9555.0,-1.0,,,,,,adservice
+55,a5902e67e928a549f18d8df62b9c0e62,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,56226.0,tcp,0000:0000:0000:0000:0000:FFFF:AC1F:1EE3,8080.0,-1.0,,,,,,frontend
+56,62125313a7ae2c47340e967c0d16d490,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,45548.0,4026532967.0,,,,,,paymentservice
+57,e696986102995f7b5f2b7fbf588de496,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,45548.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+58,a1f1ace4653957bf443108e00fbf1fc0,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,9555.0,tcp,0.0.0.0,57420.0,4026532761.0,,,,,,adservice
+59,00ab8b8c0d3e4e6aeab4db0e22ea64eb,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,54838.0,4026532694.0,,,,,,frontend
+60,d8a6ecbd5248c3cecba09a720b38ba73,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,54838.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+61,cd9db0aea8d3ca12ed1a489eac689bb6,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,45552.0,4026532382.0,,,,,,paymentservice
+62,6173b3f6c25f0dc6ee3ac9dd07cef5c6,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,45552.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+63,fcc24d6a796010761bc53d763654441c,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,54854.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+64,d71481aa09b2bfca828d6c345107b07c,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,54854.0,4026532694.0,,,,,,frontend
+65,679f8a95c289bcddb5d280114da5aa46,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7070.0,tcp,0.0.0.0,46368.0,4026532899.0,,,,,,cartservice
+66,d6f0beacc10bc8af29fa71b2cae568d9,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,46368.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7070.0,-1.0,,,,,,cartservice
+67,9ded0ba11cf0ee6b43c2ba33ddc7a0ef,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,56238.0,tcp,0000:0000:0000:0000:0000:FFFF:AC1F:1EE3,8080.0,-1.0,,,,,,frontend
+68,821a42c44606abd92c05f5ad815e7eb3,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,45394.0,tcp,0000:0000:0000:0000:0000:FFFF:C0A8:BB00,8080.0,-1.0,,,,,,frontend
+69,d62b77e1bc1c69274860a1bed1c699c1,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,45562.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+70,9da61eb1dd4507324e06667145e3d876,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,45562.0,4026532382.0,,,,,,paymentservice
+71,4ab6ccae3be04a2c2d88dceaec67d6a5,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7000.0,tcp,0.0.0.0,43992.0,4026532583.0,,,,,,currencyservice
+72,b00713c871e2f8c308c3846675331f62,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,43992.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7000.0,-1.0,,,,,,currencyservice
+73,2cd5b25172f73fb88d9024d4a778eb39,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,52324.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,3550.0,-1.0,,,,,,productcatalogservice
+74,1a3d958545e369616e1ba2556c4051e6,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,3550.0,tcp,0.0.0.0,52324.0,4026532449.0,,,,,,productcatalogservice
+75,9b894cd395fe9b20e62edf631ff5b307,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,7760.0,tcp,0000:0000:0000:0000:0000:FFFF:C0A8:BB00,8080.0,-1.0,,,,,,frontend
+76,df5e0750396fdbe7bbb4ecadd3c38689,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7070.0,tcp,0.0.0.0,46376.0,-1.0,,,,,,cartservice
+77,9756df0fee86ec9f8a70e09bbb05eefe,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,46376.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7070.0,-1.0,,,,,,cartservice
+78,4c8f28b80909150abe6827c7df921c3e,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,52334.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,3550.0,-1.0,,,,,,productcatalogservice
+79,dfe63d4bff7054519356604519c1dd05,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,3550.0,tcp,0.0.0.0,52334.0,4026532449.0,,,,,,productcatalogservice
+80,b9563dbe87b4d5a7eadee3de94dbe4c8,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,44000.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7000.0,-1.0,,,,,,currencyservice
+81,cc977a1883989acd4ff1ef2d2e97326f,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7000.0,tcp,0.0.0.0,44000.0,4026532583.0,,,,,,currencyservice
+82,519062a9d3235e9c6366c56f5c99bf78,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,45564.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+83,a046055d7f73d8ad3cf815cbd1d22409,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,45564.0,4026532967.0,,,,,,paymentservice
+84,449bbd2320a6dd81b8bb58a915f8ccdf,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,48936.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+85,d398b7aa7da643df28b7144a06462338,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,48950.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+86,13a6c254dbe0512b29325e74b1050d85,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,54860.0,4026532231.0,,,,,,frontend
+87,44e6dfcc8e8205cf3cff266ad4e50b7f,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,54860.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+88,57d49b5df9b22be84c5789aa4644071c,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,54862.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+89,7f5ca4a8f790bcc72852bd2a93960dfe,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,54862.0,4026532231.0,,,,,,frontend
+90,a139b5561a74d0cda45b62ff6a1c3e21,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,45574.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+91,0348490952fac40155324fa033368efb,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,45574.0,4026532967.0,,,,,,paymentservice
+92,6355706709df8fde13b691945b0b974a,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,36028.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,5050.0,-1.0,,,,,,checkoutservice
+93,73ce56fd94694c3fabf557460875a7c5,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,5050.0,tcp,0.0.0.0,36028.0,4026532516.0,,,,,,checkoutservice
+94,9cb4db079cb8ca5d73fd24735f0a79cd,Artifact,,network socket,,0.0,syscall,0,192.168.16.110,53.0,udp,10.96.0.10,46801.0,-1.0,,,,,,frontend
+95,5d48987b50ad4ad3e90808f3b01edfd1,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,54870.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+96,b66f7fabda58b5d9a660dde2c632a858,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,54870.0,4026532694.0,,,,,,frontend
+97,8a26329cc5b2c6dc0d44130fbce1dbc5,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,54882.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+98,08685322b23cb3b656e56d0752fc0718,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,54882.0,4026532694.0,,,,,,frontend
+99,fd1830f192c0009a09a0384ead4da290,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,36036.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,5050.0,-1.0,,,,,,checkoutservice
+100,1ea2bcb93e11726ca5b696497ec33b5d,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,5050.0,tcp,0.0.0.0,36036.0,4026532516.0,,,,,,checkoutservice
+101,6b8fcf20d9e0e3d9aee8efbc84937352,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,34030.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+102,57075dd1e6d908850265bcd1033922bb,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,34034.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+103,54bf09d456fd5fff6b91cefd6945d757,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,32800.0,4026532231.0,,,,,,frontend
+104,db8c77360743080ed6bab87bf187a9e7,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,32800.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+105,134a1b10855bf64a72ff0d402379c5bb,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,32804.0,4026532231.0,,,,,,frontend
+106,ad6793c17e1ddd1876791b468925807e,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,32804.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+107,f2c00679e2a14cc76e0d9e0f969abfad,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,32808.0,4026532694.0,,,,,,frontend
+108,583989f4a669ea30e1e1b2991b2a483f,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,32808.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+109,e881c5042d68bd70b609b6d8a9028dc7,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,51230.0,4026532382.0,,,,,,paymentservice
+110,d2e419c608bdf7f1fa23acebdc5d184c,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,51230.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+111,7d424c8c801d1b3e846ae450e3449335,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7070.0,tcp,0.0.0.0,53666.0,4026532899.0,,,,,,cartservice
+112,325fada5bb2e66e5bef71d6684eaadb3,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,53666.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7070.0,-1.0,,,,,,cartservice
+113,db844b11e95ee42b7d2e5ae551e06cb7,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,45384.0,tcp,0000:0000:0000:0000:0000:FFFF:AC1F:1EE3,8080.0,-1.0,,,,,,frontend
+114,351d3c8b033f1398ece9dc0afb76c475,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7000.0,tcp,0.0.0.0,60528.0,4026532583.0,,,,,,currencyservice
+115,38f02fa39c3ecfb51bd59c923f1e18b1,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,51240.0,4026532382.0,,,,,,paymentservice
+116,1ab9f3ec24aa817420e893ccd6ade701,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,51240.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+117,6b64e6e5ef8d5ff2d552cc575fec7a5e,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,60528.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7000.0,-1.0,,,,,,currencyservice
+118,f32e8fa6f6e2d66aba227b30d3008990,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,41176.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,3550.0,-1.0,,,,,,productcatalogservice
+119,0ff0d3b425df7ae951b0210cc850ce51,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,3550.0,tcp,0.0.0.0,41176.0,4026532449.0,,,,,,productcatalogservice
+120,8daffba9184e04ba5d4b82012e889bba,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,48824.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,9555.0,-1.0,,,,,,adservice
+121,cd35cb0eb8c6d08a133c4e15177e13aa,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,9555.0,tcp,0.0.0.0,48824.0,4026532761.0,,,,,,adservice
+122,28e6d16f834bdc1735ad88db02c6e173,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7070.0,tcp,0.0.0.0,53678.0,4026532899.0,,,,,,cartservice
+123,6bc254a8fcf2b81387931421fe046ef2,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,3550.0,tcp,0.0.0.0,41182.0,-1.0,,,,,,productcatalogservice
+124,6b9366b0d9ce21fc8f176a96f9c2202f,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,41182.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,3550.0,-1.0,,,,,,productcatalogservice
+125,39233700d9247917bb1ceba3f7a41a54,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7000.0,tcp,0.0.0.0,60538.0,4026532583.0,,,,,,currencyservice
+126,0f7aa968521ec3706da99ea48df3c194,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,60538.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7000.0,-1.0,,,,,,currencyservice
+127,d3be24d952a27f5e43816a84c2d95050,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,51248.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+128,00a58c0609fda7485a383a62aade7668,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,51248.0,4026532967.0,,,,,,paymentservice
+129,869702d594ff48be0be9a495d574fb64,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,34050.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+130,bbb27a4e56aa7a54fc7824362b21d1fc,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,34054.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+131,b54e6504ec275a9be378784f4e72c536,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,32820.0,-1.0,,,,,,frontend
+132,0fdc8466714018ad6438f0fef6f54cda,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,32820.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+133,035513c60e98df8a5f4a2d86ffb8294b,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,32832.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+134,32f1a41e43ccd3196622d3b52147c87f,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,48840.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,9555.0,-1.0,,,,,,adservice
+135,73a247fe77f26c701751abb8de6ce03a,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,9555.0,tcp,0.0.0.0,48840.0,-1.0,,,,,,adservice
+136,d61afb110ef97db8ba86b537f34ec175,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,51260.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+137,3372ec3d17799d8386aec8c4a462c2ea,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,51260.0,4026532967.0,,,,,,paymentservice
+138,0d78e5b12b36b33a19b4239811bbc822,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,32848.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+139,d0a89b0dfc5f7be1031d6a01ffda1834,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,32848.0,4026532694.0,,,,,,frontend
+140,4d255ae86ee754eabe0a683ddba9da98,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,32850.0,4026532694.0,,,,,,frontend
+141,b80b9d4b13a9446f84ca04efa25ec437,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,32850.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+142,50b2f73cc774680d10171be2b4a1be7e,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,51792.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,5050.0,-1.0,,,,,,checkoutservice
+143,cb91db51002dc5fbf290a5e98c6b70d0,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,5050.0,tcp,0.0.0.0,51792.0,4026532516.0,,,,,,checkoutservice
+144,d821d17bed0aa5534e6b890efd46375b,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,5050.0,tcp,0.0.0.0,51798.0,4026532516.0,,,,,,checkoutservice
+145,3cebcbe1daaeab171d2c62b036f0e2b3,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,51798.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,5050.0,-1.0,,,,,,checkoutservice
+146,d7b5629d68154d3a0e3fd7cfa6d71d49,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,54104.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+147,437351329892f628b0190b3a18a889ff,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,54112.0,tcp,172.31.30.227,6379.0,-1.0,,,,,,redis-cart
+148,74ae779f50447093b442b8412d480567,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,58508.0,4026532231.0,,,,,,frontend
+149,c5cce8d6c02d473ae31c07808ce2067a,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,58510.0,4026532231.0,,,,,,frontend
+150,f8f23acbcf961f357c53fff3f4706dad,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,58508.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+151,2576b7a59d301ceb4ce8e9956ba37264,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,58510.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+152,8ea258fa8e785769cf1c4013ed7fcb30,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,37604.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+153,e7e28c043d43d9bcc6dafd64e73e21f1,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,37604.0,4026532967.0,,,,,,paymentservice
+154,08382f5e7de87c4a7685b9e87e7305cd,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,58512.0,4026532694.0,,,,,,frontend
+155,6158494b504be4c0d1c6531364647cbb,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,58512.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+156,48108c38dec99d5ecc061fea3039076a,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,8080.0,tcp,0.0.0.0,58522.0,4026532694.0,,,,,,frontend
+157,3755bde2467599dfa823ec65cb26788d,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,58522.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,8080.0,-1.0,,,,,,frontend
+158,afcfa21812d2f719e81ab88ad8db4765,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,35062.0,tcp,0000:0000:0000:0000:0000:FFFF:AC1F:1EE3,8080.0,4026532830.0,,,,,,frontend
+159,9b785b5a5d2dc461a9fca8e7e959fed0,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7070.0,tcp,0.0.0.0,49254.0,4026532899.0,,,,,,cartservice
+160,3bd046e5f56c015ac67a439a70bb93b9,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,49254.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7070.0,-1.0,,,,,,cartservice
+161,44593fa4d9a1562de7a6c9d5cc888d70,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,35064.0,tcp,0000:0000:0000:0000:0000:FFFF:AC1F:1EE3,8080.0,4026532830.0,,,,,,frontend
+162,40bd8feab58f3d49ce3f674c5c90346b,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,35042.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,7000.0,-1.0,,,,,,currencyservice
+163,3998eceda38b8f5dae8cc3bae8bf54e0,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,7000.0,tcp,0.0.0.0,35042.0,4026532583.0,,,,,,currencyservice
+164,21b987534f7bbaa103be947ab2d950ad,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,43390.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,3550.0,-1.0,,,,,,productcatalogservice
+165,5238236d70966fe2bda3eb36fbe49df9,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,3550.0,tcp,0.0.0.0,43390.0,-1.0,,,,,,productcatalogservice
+166,58fec781896a518ed3adf046ed9e8548,Artifact,,network socket,,0.0,syscall,0,127.0.0.1,50051.0,tcp,0.0.0.0,37622.0,4026532382.0,,,,,,paymentservice
+167,cd9b49dcd834bd4771719cbffbf5370e,Artifact,,network socket,,0.0,syscall,0,0000:0000:0000:0000:0000:0000:0000:0000,37622.0,tcp,0000:0000:0000:0000:0000:FFFF:7F00:0001,50051.0,-1.0,,,,,,paymentservice
+168,9154e1fe447110ceac41673360bce4a7,Artifact,,memory,,,syscall,0,,,,,,,7fa729436000,40000,1711.0,,,frontend
+169,3188e84116ec3dec720b426708d995b9,Artifact,,memory,,,syscall,0,,,,,,,7fa729416000,20000,1711.0,,,frontend
+170,2cf03ed16c7bffbd199edfee2d2a61a4,Artifact,,memory,,,syscall,0,,,,,,,7fa729316000,100000,1711.0,,,frontend
+171,4284b3f03d8fa9c20037b8bbe38b3329,Artifact,,memory,,,syscall,0,,,,,,,7fa728b16000,800000,1711.0,,,frontend
+172,50be0f5b01f2561f7210c25484bc3838,Artifact,,memory,,,syscall,0,,,,,,,7fa724b16000,4000000,1711.0,,,frontend
+173,de08c0963f8725ed4503257ef0923597,Artifact,,memory,,,syscall,0,,,,,,,7fa704b16000,20000000,1711.0,,,frontend
+174,818a93ce922c6a07db6cab9caac03a2c,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1711.0,,,frontend
+175,2b31496a895825d2965f87e18b253cb2,Artifact,,memory,,,syscall,0,,,,,,,7fa702b16000,2000000,1711.0,,,frontend
+176,429350b0bee73e50da5dc8f989524318,Artifact,,memory,,,syscall,0,,,,,,,7fa702905000,210c10,1711.0,,,frontend
+177,c1164a52a433cafdf8aa419b3dad29e7,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1711.0,,,frontend
+178,de8fbf3c8e7a5ec6fce2bf4b3c388fa5,Artifact,,memory,,,syscall,1,,,,,,,7fa729416000,20000,1711.0,,,frontend
+179,c66bfb4e9ea05d991d0afb7a5008e523,Artifact,,memory,,,syscall,0,,,,,,,7fa729396000,1000,1711.0,,,frontend
+180,d07b1b54a53685a94817818ce1352d7d,Artifact,,memory,,,syscall,0,,,,,,,7fa728f1c000,1000,1711.0,,,frontend
+181,704937fc7bf2f0468a4ff536fe74ac44,Artifact,,memory,,,syscall,0,,,,,,,7fa726b46000,1000,1711.0,,,frontend
+182,348cc8a6729897c34bc12cd9b35527cd,Artifact,,memory,,,syscall,0,,,,,,,7fa714c96000,1000,1711.0,,,frontend
+183,188e8a53a01586687898dbd63e86e1ca,Artifact,,memory,,,syscall,0,,,,,,,7fa702805000,100000,1711.0,,,frontend
+184,bf13bef0bb44577af8ae512162f8d3e9,Artifact,,memory,,,syscall,0,,,,,,,7fa7027f5000,10000,1711.0,,,frontend
+185,f375917f68a9f27b6c798ddc32db25e2,Artifact,,memory,,,syscall,0,,,,,,,7fa7027e5000,10000,1711.0,,,frontend
+186,1937837090be22e262514602803bb4af,Artifact,,memory,,,syscall,0,,,,,,,7fa7027a5000,40000,1711.0,,,frontend
+187,c8d9b59492532a8b9733d302368ba3a5,Artifact,,memory,,,syscall,0,,,,,,,7f6f32a55000,40000,1712.0,,,frontend
+188,c333b844164283db3c32b11865a5ac29,Artifact,,memory,,,syscall,0,,,,,,,7f6f32a35000,20000,1712.0,,,frontend
+189,13b5f15a07dcec491ce8b4e5c38418bb,Artifact,,memory,,,syscall,0,,,,,,,7f6f32935000,100000,1712.0,,,frontend
+190,69320ba08c87768f3cb39a7a6094a6ad,Artifact,,memory,,,syscall,0,,,,,,,7f6f32135000,800000,1712.0,,,frontend
+191,d6996557a89ac599cc5067bec0e3165f,Artifact,,memory,,,syscall,0,,,,,,,7f6f2e135000,4000000,1712.0,,,frontend
+192,9bea935ed0a35e96bab24776304deb43,Artifact,,memory,,,syscall,0,,,,,,,7f6f0e135000,20000000,1712.0,,,frontend
+193,3d5b6240f05cfab3c19ec3b0c6de8eea,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1712.0,,,frontend
+194,b97c755749e8709a2109eb329a0f2faa,Artifact,,memory,,,syscall,0,,,,,,,7f6f0c135000,2000000,1712.0,,,frontend
+195,2559f09cc690e940574a564bf186dd81,Artifact,,memory,,,syscall,0,,,,,,,7f6f0bf24000,210c10,1712.0,,,frontend
+196,c6a115f20a8c0bd16713e9672d2ef72c,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1712.0,,,frontend
+197,29c8df1b3063b240f75c8fa6d8435c30,Artifact,,memory,,,syscall,1,,,,,,,7f6f32a35000,20000,1712.0,,,frontend
+198,82faacc4a7fcc57d472b97293ca6fd7c,Artifact,,memory,,,syscall,0,,,,,,,7f6f329b5000,1000,1712.0,,,frontend
+199,804e05197f8e9e579d91a26f3b444d2e,Artifact,,memory,,,syscall,0,,,,,,,7f6f3253b000,1000,1712.0,,,frontend
+200,8ab4cc3f734b1ea2930ddfeb33e10545,Artifact,,memory,,,syscall,0,,,,,,,7f6f30165000,1000,1712.0,,,frontend
+201,3bcdd002bacfb4fb48d7991b6ac68c97,Artifact,,memory,,,syscall,0,,,,,,,7f6f1e2b5000,1000,1712.0,,,frontend
+202,ff2fd37297d7011b56c87cc87343e506,Artifact,,memory,,,syscall,0,,,,,,,7f6f0be24000,100000,1712.0,,,frontend
+203,2fe81e76d7c2180a3b583d717e8735c0,Artifact,,memory,,,syscall,0,,,,,,,7f6f0be14000,10000,1712.0,,,frontend
+204,070beccb01c76b84da7b1509008d3ac9,Artifact,,memory,,,syscall,0,,,,,,,7f6f0be04000,10000,1712.0,,,frontend
+205,cdf7c1c7f332df7c2245e9133db0caab,Artifact,,memory,,,syscall,0,,,,,,,7fa702765000,40000,1711.0,,,frontend
+206,d6c907152ddc87a76c68b7eef6daa2e0,Artifact,,memory,,,syscall,0,,,,,,,7f6f0bdc4000,40000,1712.0,,,frontend
+207,d9f90567c23c834d6fea158b7531a40b,Artifact,,memory,,,syscall,0,,,,,,,7f6f0bd84000,40000,1712.0,,,frontend
+208,9732ab0fd26b5caf2baa16f103268dca,Artifact,,memory,,,syscall,0,,,,,,,7f6f0bd44000,40000,1712.0,,,frontend
+209,905be422bfe4a1f18c91e812edecc7f7,Artifact,,memory,,,syscall,0,,,,,,,7f6f0bd04000,40000,1712.0,,,frontend
+210,38b136bfa8fe84cb3c996454cefbc942,Artifact,,memory,,,syscall,0,,,,,,,7f870a0fa000,40000,1765.0,,,recommendationservice
+211,914b0c42ae1a27b1331485fc9b461f1d,Artifact,,memory,,,syscall,0,,,,,,,7f870a0da000,20000,1765.0,,,recommendationservice
+212,67884a9801c720a81ec1e4ddd63a2ad3,Artifact,,memory,,,syscall,0,,,,,,,7f8709fda000,100000,1765.0,,,recommendationservice
+213,a875c00fb6304291d114888414c724e0,Artifact,,memory,,,syscall,0,,,,,,,7f87097da000,800000,1765.0,,,recommendationservice
+214,94c53cc71eb533e7db8d1c66e71374c2,Artifact,,memory,,,syscall,0,,,,,,,7f87057da000,4000000,1765.0,,,recommendationservice
+215,181e5399ddc4128b2f1121e5ed8f3ac1,Artifact,,memory,,,syscall,0,,,,,,,7f86e57da000,20000000,1765.0,,,recommendationservice
+216,7a845841ae141f98f6d36683ece898df,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1765.0,,,recommendationservice
+217,920b1b3afdc25d1afa1b45f7047467bd,Artifact,,memory,,,syscall,0,,,,,,,7f86e37da000,2000000,1765.0,,,recommendationservice
+218,918b818ec7438c64d60384e8345d5d99,Artifact,,memory,,,syscall,0,,,,,,,7f86e35c9000,210c10,1765.0,,,recommendationservice
+219,98c20c348e6c6048329b40a0b40e69f8,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1765.0,,,recommendationservice
+220,263fe76d2c655c439e97a877a2a3e33f,Artifact,,memory,,,syscall,1,,,,,,,7f870a0da000,20000,1765.0,,,recommendationservice
+221,de0b604a5209023b0972d2fdc29e2174,Artifact,,memory,,,syscall,0,,,,,,,7f870a05a000,1000,1765.0,,,recommendationservice
+222,19818d866974787c78811cc884b1b7a3,Artifact,,memory,,,syscall,0,,,,,,,7f8709be0000,1000,1765.0,,,recommendationservice
+223,19ce5ece06253ca71cff31c51a1ace58,Artifact,,memory,,,syscall,0,,,,,,,7f870780a000,1000,1765.0,,,recommendationservice
+224,7f9561b431f5260ac3be6f4ce6d32ed7,Artifact,,memory,,,syscall,0,,,,,,,7f86f595a000,1000,1765.0,,,recommendationservice
+225,ea7ff80a5650a06c907a145b050bc8fb,Artifact,,memory,,,syscall,0,,,,,,,7f86e34c9000,100000,1765.0,,,recommendationservice
+226,c06d5b8f5f360292435a3d972fe1969d,Artifact,,memory,,,syscall,0,,,,,,,7f86e34b9000,10000,1765.0,,,recommendationservice
+227,fcd3e9ad3434984851578a0edd6fac5b,Artifact,,memory,,,syscall,0,,,,,,,7f86e34a9000,10000,1765.0,,,recommendationservice
+228,54e69efabbae666f252a7fd267e0adcd,Artifact,,memory,,,syscall,0,,,,,,,7f86e3469000,40000,1765.0,,,recommendationservice
+229,59a9c9416e4601ebff391d9fe7bc85c8,Artifact,,memory,,,syscall,0,,,,,,,7f86e3429000,40000,1765.0,,,recommendationservice
+230,9faae61eb4b3400d1c29dd1e4419fdf3,Artifact,,memory,,,syscall,0,,,,,,,7ff7c10bd000,40000,1772.0,,,paymentservice
+231,7a03a75d650aade66f2297077eb4ee06,Artifact,,memory,,,syscall,0,,,,,,,7ff7c109d000,20000,1772.0,,,paymentservice
+232,0b6f11b2019d5cdec853dba414095ab5,Artifact,,memory,,,syscall,0,,,,,,,7ff7c0f9d000,100000,1772.0,,,paymentservice
+233,445ec0aabc5b32352c80f211892ad72d,Artifact,,memory,,,syscall,0,,,,,,,7ff7c079d000,800000,1772.0,,,paymentservice
+234,4510940b56bf8908bd47c103d8eefef9,Artifact,,memory,,,syscall,0,,,,,,,7ff7bc79d000,4000000,1772.0,,,paymentservice
+235,e66a5801e972386aaf6703e586da05bd,Artifact,,memory,,,syscall,0,,,,,,,7ff79c79d000,20000000,1772.0,,,paymentservice
+236,fa78380f16faa57f541ca613546f55d4,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1772.0,,,paymentservice
+237,82e0aa9610078da784513e24f1db1ec2,Artifact,,memory,,,syscall,0,,,,,,,7ff79a79d000,2000000,1772.0,,,paymentservice
+238,307c647e2d959c59e1d2938e7b365a02,Artifact,,memory,,,syscall,0,,,,,,,7ff79a58c000,210c10,1772.0,,,paymentservice
+239,a18bfcaea80ac940217dfdad89a733a1,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1772.0,,,paymentservice
+240,c2d61dd47aa6a81b6fddd8046da1f0e8,Artifact,,memory,,,syscall,1,,,,,,,7ff7c109d000,20000,1772.0,,,paymentservice
+241,ba7471593dcf969d2c736348b6be51f0,Artifact,,memory,,,syscall,0,,,,,,,7ff7c101d000,1000,1772.0,,,paymentservice
+242,698a7bae78ef57cf69aae697be242676,Artifact,,memory,,,syscall,0,,,,,,,7ff7c0ba3000,1000,1772.0,,,paymentservice
+243,990cbbae599a81bbbdfefac531e2109d,Artifact,,memory,,,syscall,0,,,,,,,7ff7be7cd000,1000,1772.0,,,paymentservice
+244,2eb0b0f06faae3c79d864ed8d58e2162,Artifact,,memory,,,syscall,0,,,,,,,7ff7ac91d000,1000,1772.0,,,paymentservice
+245,f88d7a86f7acc9c558cf74b7c600b612,Artifact,,memory,,,syscall,0,,,,,,,7ff79a48c000,100000,1772.0,,,paymentservice
+246,aee6bcad568c12986ca484818f2b8e28,Artifact,,memory,,,syscall,0,,,,,,,7ff79a47c000,10000,1772.0,,,paymentservice
+247,3d662e2c6afcf2bc7cbc2a3bf195808c,Artifact,,memory,,,syscall,0,,,,,,,7ff79a46c000,10000,1772.0,,,paymentservice
+248,4886735be51ab42a8c7713ddd1b41119,Artifact,,memory,,,syscall,0,,,,,,,7ff79a42c000,40000,1772.0,,,paymentservice
+249,f8d81aab74289aaded5d074ed136eda0,Artifact,,memory,,,syscall,0,,,,,,,7fa88db1a000,40000,1774.0,,,recommendationservice
+250,5076603fa5c97eed64898804964a1dd3,Artifact,,memory,,,syscall,0,,,,,,,7fa88dafa000,20000,1774.0,,,recommendationservice
+251,6dda37cbd6c7a2ffea0061beda9d45ad,Artifact,,memory,,,syscall,0,,,,,,,7fa88d9fa000,100000,1774.0,,,recommendationservice
+252,871231fa9b77bb0b3819a9d83d188f54,Artifact,,memory,,,syscall,0,,,,,,,7fa88d1fa000,800000,1774.0,,,recommendationservice
+253,4b276e14319bfa03b257735cc1a60498,Artifact,,memory,,,syscall,0,,,,,,,7fa8891fa000,4000000,1774.0,,,recommendationservice
+254,91578458092e697383c37ef7f5a798c3,Artifact,,memory,,,syscall,0,,,,,,,7fa8691fa000,20000000,1774.0,,,recommendationservice
+255,2da867406ea27ee6e8326aebe16f4d35,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1774.0,,,recommendationservice
+256,e6cc627e32a952e162f8d15d6f24d65a,Artifact,,memory,,,syscall,0,,,,,,,7fa8671fa000,2000000,1774.0,,,recommendationservice
+257,8fd70c7d678edc3be9d097aa75791c2b,Artifact,,memory,,,syscall,0,,,,,,,7fa866fe9000,210c10,1774.0,,,recommendationservice
+258,62fe5dadfe17df9817f9cceacc42187f,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1774.0,,,recommendationservice
+259,d4e168167e531ca947b762a478af3aeb,Artifact,,memory,,,syscall,1,,,,,,,7fa88dafa000,20000,1774.0,,,recommendationservice
+260,57d28bbf1e3ec6391da22c718ab2d553,Artifact,,memory,,,syscall,0,,,,,,,7fa88da7a000,1000,1774.0,,,recommendationservice
+261,25864b203168233fae6e04e667b309c1,Artifact,,memory,,,syscall,0,,,,,,,7fa88d600000,1000,1774.0,,,recommendationservice
+262,ce6b8f0b9784acccd753844f5810b215,Artifact,,memory,,,syscall,0,,,,,,,7fa88b22a000,1000,1774.0,,,recommendationservice
+263,d79fa296892d3b0e81a1d09d579f8c2a,Artifact,,memory,,,syscall,0,,,,,,,7fa87937a000,1000,1774.0,,,recommendationservice
+264,0e016a9eeacaf5770908319e0272602c,Artifact,,memory,,,syscall,0,,,,,,,7fa866ee9000,100000,1774.0,,,recommendationservice
+265,789e6e1840d2c29382b34ab0971b20ab,Artifact,,memory,,,syscall,0,,,,,,,7f86e33e9000,40000,1765.0,,,recommendationservice
+266,29d8cd6b5c55fca2d666c0c329e67dff,Artifact,,memory,,,syscall,0,,,,,,,7fa866ed9000,10000,1774.0,,,recommendationservice
+267,f937796ee3433f683307ffc8019c996b,Artifact,,memory,,,syscall,0,,,,,,,7fa866ec9000,10000,1774.0,,,recommendationservice
+268,69334399a23f143c2ea892e441ebe5e3,Artifact,,memory,,,syscall,0,,,,,,,7fa866e89000,40000,1774.0,,,recommendationservice
+269,567b09387d73cecbf1aaf1adae0fbccc,Artifact,,memory,,,syscall,0,,,,,,,7fa866e49000,40000,1774.0,,,recommendationservice
+270,9894f8796126a65ead3ee28dc42a5e16,Artifact,,memory,,,syscall,0,,,,,,,7fa866e09000,40000,1774.0,,,recommendationservice
+271,fa2a7ab464cc47e2f68d461820bed52d,Artifact,,memory,,,syscall,0,,,,,,,7f9cf684e000,40000,1815.0,,,paymentservice
+272,82c4ccd9cfbdc57534749d05dacc7a40,Artifact,,memory,,,syscall,0,,,,,,,7f9cf682e000,20000,1815.0,,,paymentservice
+273,06661d7aa6d161a8657526de993c5fa2,Artifact,,memory,,,syscall,0,,,,,,,7f9cf672e000,100000,1815.0,,,paymentservice
+274,bf4b77dd91d8a19328e37a2e3d8dfded,Artifact,,memory,,,syscall,0,,,,,,,7f9cf5f2e000,800000,1815.0,,,paymentservice
+275,5359fc413a7d4952dabc353707dee83c,Artifact,,memory,,,syscall,0,,,,,,,7f9cf1f2e000,4000000,1815.0,,,paymentservice
+276,57bf98401b4e3b8d66d725cf50ec1701,Artifact,,memory,,,syscall,0,,,,,,,7f9cd1f2e000,20000000,1815.0,,,paymentservice
+277,73d72855d7fbea8daae05bd3e60dbd41,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1815.0,,,paymentservice
+278,d19d06f0e4328a5b6f5702d1e7783eea,Artifact,,memory,,,syscall,0,,,,,,,7f9ccff2e000,2000000,1815.0,,,paymentservice
+279,49fede463a7c4139fc9d8a8d27430ad1,Artifact,,memory,,,syscall,0,,,,,,,7f9ccfd1d000,210c10,1815.0,,,paymentservice
+280,ebbbfd99615d85bb9adcc64fa87e1615,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1815.0,,,paymentservice
+281,44ffa7f82a2e61c2280f768e6ea480fd,Artifact,,memory,,,syscall,1,,,,,,,7f9cf682e000,20000,1815.0,,,paymentservice
+282,4f626a1268657cfca93fcd78ab6e263e,Artifact,,memory,,,syscall,0,,,,,,,7f9cf67ae000,1000,1815.0,,,paymentservice
+283,be062ea1832bcb780cd7970672268f4d,Artifact,,memory,,,syscall,0,,,,,,,7f9cf6334000,1000,1815.0,,,paymentservice
+284,8643b48929a5f63bbcc13b5b2783ac83,Artifact,,memory,,,syscall,0,,,,,,,7f9cf3f5e000,1000,1815.0,,,paymentservice
+285,74bb92bef6e6577fd77831bc245dd7f3,Artifact,,memory,,,syscall,0,,,,,,,7f9ce20ae000,1000,1815.0,,,paymentservice
+286,5771df847059f93a8c4bf8d53d7a6c09,Artifact,,memory,,,syscall,0,,,,,,,7f9ccfc1d000,100000,1815.0,,,paymentservice
+287,89c129893d1ffe91604a820e863b78cd,Artifact,,memory,,,syscall,0,,,,,,,7f9ccfc0d000,10000,1815.0,,,paymentservice
+288,3fba9994dc42ac5495ffab2361799553,Artifact,,memory,,,syscall,0,,,,,,,7f9ccfbfd000,10000,1815.0,,,paymentservice
+289,799539b6f0570d7efdf10d0dd919d828,Artifact,,memory,,,syscall,0,,,,,,,7f9ccfbbd000,40000,1815.0,,,paymentservice
+290,86fae9cef1d4edca54d8037c6f39c429,Artifact,,memory,,,syscall,0,,,,,,,7f9ccfb7d000,40000,1815.0,,,paymentservice
+291,4eeb89e019967da10ff5007bb97efe8d,Artifact,,memory,,,syscall,0,,,,,,,7f9ccfb3d000,40000,1815.0,,,paymentservice
+292,1665ba7de5685bc4eef1e308a9460424,Artifact,,memory,,,syscall,0,,,,,,,7f952553c000,40000,1837.0,,,cartservice
+293,9feff2244351941bd1f2332995928f9a,Artifact,,memory,,,syscall,0,,,,,,,7f952551c000,20000,1837.0,,,cartservice
+294,207078ea3fc92a659135740e98dd99a5,Artifact,,memory,,,syscall,0,,,,,,,7f952541c000,100000,1837.0,,,cartservice
+295,ad246246a3598e7f43af4abb69ac43ad,Artifact,,memory,,,syscall,0,,,,,,,7f9524c1c000,800000,1837.0,,,cartservice
+296,145e34c4ac772c0fbf995be004766201,Artifact,,memory,,,syscall,0,,,,,,,7f9520c1c000,4000000,1837.0,,,cartservice
+297,3c89861f0a68987c3719efc8a35ce65e,Artifact,,memory,,,syscall,0,,,,,,,7f9500c1c000,20000000,1837.0,,,cartservice
+298,d4cc259b1ffec616c5a15711a28ac397,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1837.0,,,cartservice
+299,f7852f3dc6e2cea5fe6e32cd7ac30669,Artifact,,memory,,,syscall,0,,,,,,,7f94fec1c000,2000000,1837.0,,,cartservice
+300,14747b006e9466536d4b6900f4bc9771,Artifact,,memory,,,syscall,0,,,,,,,7f94fea0b000,210c10,1837.0,,,cartservice
+301,a110bb0d672dcc583b302567a7eda11b,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1837.0,,,cartservice
+302,8d35c1611561270710883cd770a989cf,Artifact,,memory,,,syscall,1,,,,,,,7f952551c000,20000,1837.0,,,cartservice
+303,0fbc4dd2342cd2b62746a80827157040,Artifact,,memory,,,syscall,0,,,,,,,7f952549c000,1000,1837.0,,,cartservice
+304,034f4d28e3488b5b9be30d70e1ee0225,Artifact,,memory,,,syscall,0,,,,,,,7f9525022000,1000,1837.0,,,cartservice
+305,17664bde7e59497098198cb5aaa26979,Artifact,,memory,,,syscall,0,,,,,,,7f9522c4c000,1000,1837.0,,,cartservice
+306,438e55def392f6869fa7964a02eca876,Artifact,,memory,,,syscall,0,,,,,,,7f9510d9c000,1000,1837.0,,,cartservice
+307,51746c00bb28623fff7847d152090f18,Artifact,,memory,,,syscall,0,,,,,,,7f94fe90b000,100000,1837.0,,,cartservice
+308,116dd5819e6b91f584bbf4d3f7b3bfb1,Artifact,,memory,,,syscall,0,,,,,,,7f94fe8fb000,10000,1837.0,,,cartservice
+309,38e9323656ecaec88e2359ad80fa1095,Artifact,,memory,,,syscall,0,,,,,,,7f94fe8eb000,10000,1837.0,,,cartservice
+310,2667c3db52dfaeb2ba43032586afd55b,Artifact,,memory,,,syscall,0,,,,,,,7f94fe8ab000,40000,1837.0,,,cartservice
+311,29a188b82838e87bd119ede935e8f8a5,Artifact,,memory,,,syscall,0,,,,,,,7f94fe86b000,40000,1837.0,,,cartservice
+312,b0402f68fa2ea9e826d815b0bd7a39eb,Artifact,,memory,,,syscall,0,,,,,,,7fa55df1a000,40000,1858.0,,,currencyservice
+313,204b6e7964379a8572771d0a062ce501,Artifact,,memory,,,syscall,0,,,,,,,7fa55defa000,20000,1858.0,,,currencyservice
+314,4e252a1ae7f73a9ee476a910a8045da4,Artifact,,memory,,,syscall,0,,,,,,,7fa55ddfa000,100000,1858.0,,,currencyservice
+315,49350bc1bd102b53144c4d18476f53c0,Artifact,,memory,,,syscall,0,,,,,,,7fa55d5fa000,800000,1858.0,,,currencyservice
+316,b96406e80f856ca8674654277e38be0a,Artifact,,memory,,,syscall,0,,,,,,,7fa5595fa000,4000000,1858.0,,,currencyservice
+317,d54ede9d13282e17ab485304ac49409a,Artifact,,memory,,,syscall,0,,,,,,,7fa5395fa000,20000000,1858.0,,,currencyservice
+318,13b62c4bebeae9ee97dd14e463dea693,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1858.0,,,currencyservice
+319,7ffaa31314688747326e011fda013ddf,Artifact,,memory,,,syscall,0,,,,,,,7fa5375fa000,2000000,1858.0,,,currencyservice
+320,a5afe136739f33383fe6ad83d8ed9994,Artifact,,memory,,,syscall,0,,,,,,,7fa5373e9000,210c10,1858.0,,,currencyservice
+321,792ed070454008ad6e82121599cf75d6,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1858.0,,,currencyservice
+322,294a9a386eeceb19eefac0fd9a739e99,Artifact,,memory,,,syscall,1,,,,,,,7fa55defa000,20000,1858.0,,,currencyservice
+323,6632bda2ab362c952f881996df0e9e9e,Artifact,,memory,,,syscall,0,,,,,,,7fa55de7a000,1000,1858.0,,,currencyservice
+324,c3fa807e7aeaf9586b6975db320081c2,Artifact,,memory,,,syscall,0,,,,,,,7fa55da00000,1000,1858.0,,,currencyservice
+325,876b972c879b53ccf07d15c209eb6aaa,Artifact,,memory,,,syscall,0,,,,,,,7fa55b62a000,1000,1858.0,,,currencyservice
+326,196295d01e71966be8f5c91213fde3fe,Artifact,,memory,,,syscall,0,,,,,,,7fa54977a000,1000,1858.0,,,currencyservice
+327,fb6d00dfc56395142d3903a8f18e1cf8,Artifact,,memory,,,syscall,0,,,,,,,7fa5372e9000,100000,1858.0,,,currencyservice
+328,7edb64b5861a90b8222cb9cecadd4bd6,Artifact,,memory,,,syscall,0,,,,,,,7fa5372d9000,10000,1858.0,,,currencyservice
+329,25b1128d7bff63f4644c11ce2f1a2050,Artifact,,memory,,,syscall,0,,,,,,,7fa5372c9000,10000,1858.0,,,currencyservice
+330,df2b3154fb2bccd0b5d0c1a1afdefbe3,Artifact,,memory,,,syscall,0,,,,,,,7fa537289000,40000,1858.0,,,currencyservice
+331,9a6457399d848d6b4f3e90e4127c89f4,Artifact,,memory,,,syscall,0,,,,,,,7fa537249000,40000,1858.0,,,currencyservice
+332,c7d85f7414eaa614ec8e5eab96c08b23,Artifact,,memory,,,syscall,0,,,,,,,7fa537209000,40000,1858.0,,,currencyservice
+333,c7c7f987e0719fca3e7c4b374500b4f8,Artifact,,memory,,,syscall,0,,,,,,,7f718e782000,40000,1888.0,,,paymentservice
+334,25b05b00d66d365ddc2ad065b660c559,Artifact,,memory,,,syscall,0,,,,,,,7f718e762000,20000,1888.0,,,paymentservice
+335,7a6d69c0378e2d54a342cd28b6d85419,Artifact,,memory,,,syscall,0,,,,,,,7f718e662000,100000,1888.0,,,paymentservice
+336,e793b50ea44467b2cd545b1b24a38697,Artifact,,memory,,,syscall,0,,,,,,,7f718de62000,800000,1888.0,,,paymentservice
+337,595ed448d2c5ac9a73e50f834de43dcf,Artifact,,memory,,,syscall,0,,,,,,,7f7189e62000,4000000,1888.0,,,paymentservice
+338,982c57e44676a7d9f0e58ad619a41d01,Artifact,,memory,,,syscall,0,,,,,,,7f7169e62000,20000000,1888.0,,,paymentservice
+339,b9436aa6bb9490e1dc5d085554194644,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1888.0,,,paymentservice
+340,3b387bdc6a611d98b914b7ad93f47dfc,Artifact,,memory,,,syscall,0,,,,,,,7f7167e62000,2000000,1888.0,,,paymentservice
+341,815891fe2d1142e2e3ae785ae4296020,Artifact,,memory,,,syscall,0,,,,,,,7f7167c51000,210c10,1888.0,,,paymentservice
+342,90ae9068fa037f4fc39341ca4fe67a05,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1888.0,,,paymentservice
+343,0aa01b56da45ada0e360bc72020a16e7,Artifact,,memory,,,syscall,1,,,,,,,7f718e762000,20000,1888.0,,,paymentservice
+344,bd82bd15c41960718db7a409e737d95c,Artifact,,memory,,,syscall,0,,,,,,,7f718e6e2000,1000,1888.0,,,paymentservice
+345,3dc38b0af913dba6b4abc04bc9a0a986,Artifact,,memory,,,syscall,0,,,,,,,7f718e268000,1000,1888.0,,,paymentservice
+346,7af40c5f11772bda2f9d34c7374a5f6b,Artifact,,memory,,,syscall,0,,,,,,,7f718be92000,1000,1888.0,,,paymentservice
+347,713bd7011ff56de1e5240f228f22c8aa,Artifact,,memory,,,syscall,0,,,,,,,7f7179fe2000,1000,1888.0,,,paymentservice
+348,74dfec503f7b500cc2975e6c42c509cd,Artifact,,memory,,,syscall,0,,,,,,,7f7167b51000,100000,1888.0,,,paymentservice
+349,ddc775b30b62ae399de93a8f68a1c296,Artifact,,memory,,,syscall,0,,,,,,,7f7167b41000,10000,1888.0,,,paymentservice
+350,3a56849bdb535c8ac5aac1b933bc6517,Artifact,,memory,,,syscall,0,,,,,,,7f7167b31000,10000,1888.0,,,paymentservice
+351,68f5eba95b912068f23037c4a83aef82,Artifact,,memory,,,syscall,0,,,,,,,7f7167af1000,40000,1888.0,,,paymentservice
+352,129ef76def5d31d018436b37f1edf8d8,Artifact,,memory,,,syscall,0,,,,,,,7f7167ab1000,40000,1888.0,,,paymentservice
+353,8fd577e30fc17c8e997dd1e7b676f1d2,Artifact,,memory,,,syscall,0,,,,,,,7ff77ee97000,40000,1895.0,,,productcatalogservice
+354,8c342550285d91d086b250369eac718c,Artifact,,memory,,,syscall,0,,,,,,,7ff77ee77000,20000,1895.0,,,productcatalogservice
+355,cf479a7912c22882c0748683d482589c,Artifact,,memory,,,syscall,0,,,,,,,7ff77ed77000,100000,1895.0,,,productcatalogservice
+356,61c39a249a731df42d00e9db756e680a,Artifact,,memory,,,syscall,0,,,,,,,7ff77e577000,800000,1895.0,,,productcatalogservice
+357,9a2e1538de4bef8c702dc2f3f6f77a4a,Artifact,,memory,,,syscall,0,,,,,,,7ff77a577000,4000000,1895.0,,,productcatalogservice
+358,1aee1e721d39cf140abefe6de0689add,Artifact,,memory,,,syscall,0,,,,,,,7ff75a577000,20000000,1895.0,,,productcatalogservice
+359,48b6878ed92b31b1b0bf9d34b28dac3f,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1895.0,,,productcatalogservice
+360,1aceeca10c8a38c023ecb9459c17daf3,Artifact,,memory,,,syscall,0,,,,,,,7ff758577000,2000000,1895.0,,,productcatalogservice
+361,ea1272cb21524e52fb64c6d136f570fa,Artifact,,memory,,,syscall,0,,,,,,,7ff758366000,210c10,1895.0,,,productcatalogservice
+362,4b7f4ac90a50ab8b0d34ca2aa35060d4,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1895.0,,,productcatalogservice
+363,5a60ee2083ca60e729a6b423e25431d3,Artifact,,memory,,,syscall,1,,,,,,,7ff77ee77000,20000,1895.0,,,productcatalogservice
+364,989208be01d9d6f5cefed4ddade574ed,Artifact,,memory,,,syscall,0,,,,,,,7ff77edf7000,1000,1895.0,,,productcatalogservice
+365,1a61594c2eb4b1a4d3005677bb109f1a,Artifact,,memory,,,syscall,0,,,,,,,7ff77e97d000,1000,1895.0,,,productcatalogservice
+366,16d8006480655ffdfc34be807a55b0cf,Artifact,,memory,,,syscall,0,,,,,,,7ff77c5a7000,1000,1895.0,,,productcatalogservice
+367,196e106d44f770ea2da64a508932272e,Artifact,,memory,,,syscall,0,,,,,,,7ff76a6f7000,1000,1895.0,,,productcatalogservice
+368,aebeb2b50d7dee2eecbd42cc1107bfe1,Artifact,,memory,,,syscall,0,,,,,,,7ff758266000,100000,1895.0,,,productcatalogservice
+369,3a756be94a0b87dae8d2e88be3eddca1,Artifact,,memory,,,syscall,0,,,,,,,7ff758256000,10000,1895.0,,,productcatalogservice
+370,4a244337c440f9fff34f3deac971b87e,Artifact,,memory,,,syscall,0,,,,,,,7ff758246000,10000,1895.0,,,productcatalogservice
+371,7a2b7d1e04646ce327c76dfe09aad521,Artifact,,memory,,,syscall,0,,,,,,,7ff758206000,40000,1895.0,,,productcatalogservice
+372,4ebd81ed55986a7722f77ee117e158ec,Artifact,,memory,,,syscall,0,,,,,,,7ff7581c6000,40000,1895.0,,,productcatalogservice
+373,67f8e075c5cf770c437afe0f18a88c47,Artifact,,memory,,,syscall,0,,,,,,,7f7167a71000,40000,1888.0,,,paymentservice
+374,d6a56a27d58748f5d211fbdef39356d4,Artifact,,memory,,,syscall,0,,,,,,,7ff758186000,40000,1895.0,,,productcatalogservice
+375,f0531822754b995751bad534745abd54,Artifact,,memory,,,syscall,0,,,,,,,7f0596d48000,40000,1923.0,,,cartservice
+376,c699e70a3c6e374c33768ca478c954d0,Artifact,,memory,,,syscall,0,,,,,,,7f0596d28000,20000,1923.0,,,cartservice
+377,5bb9573873584456bd2c7d34d2e77320,Artifact,,memory,,,syscall,0,,,,,,,7f0596c28000,100000,1923.0,,,cartservice
+378,435ff585bad16e546b6b509ec74fc39a,Artifact,,memory,,,syscall,0,,,,,,,7f0596428000,800000,1923.0,,,cartservice
+379,eeb484299e280857491af4442a897be3,Artifact,,memory,,,syscall,0,,,,,,,7f0592428000,4000000,1923.0,,,cartservice
+380,29319223be3cb4704840ca1de5bde9f1,Artifact,,memory,,,syscall,0,,,,,,,7f0572428000,20000000,1923.0,,,cartservice
+381,b6a50019ecb0dac129742a661d8f4282,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1923.0,,,cartservice
+382,42e8a36d964db6d21d99ebe61fa0b045,Artifact,,memory,,,syscall,0,,,,,,,7f0570428000,2000000,1923.0,,,cartservice
+383,5bfa94de33025a4c3cabd0a81a19d71c,Artifact,,memory,,,syscall,0,,,,,,,7f0570217000,210c10,1923.0,,,cartservice
+384,d6df23bebf642e1159635665914d1ac4,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1923.0,,,cartservice
+385,874b86e4dd9d1699e4d47af123ecffe2,Artifact,,memory,,,syscall,1,,,,,,,7f0596d28000,20000,1923.0,,,cartservice
+386,ad4104f52ec5d44e873bd48dd5607a9a,Artifact,,memory,,,syscall,0,,,,,,,7f0596ca8000,1000,1923.0,,,cartservice
+387,ac933f8aaa4f5bd285e429ecb4220a90,Artifact,,memory,,,syscall,0,,,,,,,7f059682e000,1000,1923.0,,,cartservice
+388,837151642eab416c243916bd5c5f65ae,Artifact,,memory,,,syscall,0,,,,,,,7f0594458000,1000,1923.0,,,cartservice
+389,871c17c8e3577ec39146baa410a576de,Artifact,,memory,,,syscall,0,,,,,,,7f05825a8000,1000,1923.0,,,cartservice
+390,661ac9f524481354fbfc0e52e1fbe562,Artifact,,memory,,,syscall,0,,,,,,,7f0570117000,100000,1923.0,,,cartservice
+391,275558d0d867cf3bd0fc5c3d15f56b4e,Artifact,,memory,,,syscall,0,,,,,,,7f0570107000,10000,1923.0,,,cartservice
+392,13ecff51c3dbfbb66510ab42a01d4b3e,Artifact,,memory,,,syscall,0,,,,,,,7f05700f7000,10000,1923.0,,,cartservice
+393,6d29bab271c58a1634b16d741714d546,Artifact,,memory,,,syscall,0,,,,,,,7f05700b7000,40000,1923.0,,,cartservice
+394,c27151477920fe330d44b6ff7f8e42ca,Artifact,,memory,,,syscall,0,,,,,,,7f0570077000,40000,1923.0,,,cartservice
+395,fb6826d59523d13dc35a70e589e8e528,Artifact,,memory,,,syscall,0,,,,,,,7f0570037000,40000,1923.0,,,cartservice
+396,830c8de205872a4fb64454bc49a16c6e,Artifact,,memory,,,syscall,0,,,,,,,7f056fff7000,40000,1923.0,,,cartservice
+397,b2caaa9c9e935ffe0937864d20cfcce0,Artifact,,memory,,,syscall,0,,,,,,,7fcbc859a000,40000,1946.0,,,productcatalogservice
+398,f0a5e660aeede79c4860823319a0f794,Artifact,,memory,,,syscall,0,,,,,,,7fcbc857a000,20000,1946.0,,,productcatalogservice
+399,9b0067e3afaa78ab6ec695e16928006d,Artifact,,memory,,,syscall,0,,,,,,,7fcbc847a000,100000,1946.0,,,productcatalogservice
+400,18ba43d657befd881b3241bcad8e432f,Artifact,,memory,,,syscall,0,,,,,,,7fcbc7c7a000,800000,1946.0,,,productcatalogservice
+401,5a291154183badcb604e9d252439ce21,Artifact,,memory,,,syscall,0,,,,,,,7fcbc3c7a000,4000000,1946.0,,,productcatalogservice
+402,efd840995a1922a92d9a0aad670d3501,Artifact,,memory,,,syscall,0,,,,,,,7fcba3c7a000,20000000,1946.0,,,productcatalogservice
+403,b6e61390f2d2d66504776ab14d0bc6a2,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1946.0,,,productcatalogservice
+404,601734222257fe879462b44bf417ffc2,Artifact,,memory,,,syscall,0,,,,,,,7fcba1c7a000,2000000,1946.0,,,productcatalogservice
+405,9abf48bf7943c0b90417c18cb927c7c4,Artifact,,memory,,,syscall,0,,,,,,,7fcba1a69000,210c10,1946.0,,,productcatalogservice
+406,645b5d2cccd2827f0db002a8e7952416,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1946.0,,,productcatalogservice
+407,1ab0ab18add48ca0062ac9a5e63729d0,Artifact,,memory,,,syscall,1,,,,,,,7fcbc857a000,20000,1946.0,,,productcatalogservice
+408,d1a704982a8866fc0b78ac6adcf852fa,Artifact,,memory,,,syscall,0,,,,,,,7fcbc84fa000,1000,1946.0,,,productcatalogservice
+409,5c538bac9667180ffe6f2d3e9d145d25,Artifact,,memory,,,syscall,0,,,,,,,7fcbc8080000,1000,1946.0,,,productcatalogservice
+410,515440a5368316eb5f783b39ee3b6528,Artifact,,memory,,,syscall,0,,,,,,,7fcbc5caa000,1000,1946.0,,,productcatalogservice
+411,61150a26dced4f0e888b2940ac594cb7,Artifact,,memory,,,syscall,0,,,,,,,7fcbb3dfa000,1000,1946.0,,,productcatalogservice
+412,b8a46c0bb8cde2318a939165cdf45083,Artifact,,memory,,,syscall,0,,,,,,,7fcba1969000,100000,1946.0,,,productcatalogservice
+413,90a1461870248544599ea1664bfb6d63,Artifact,,memory,,,syscall,0,,,,,,,7fcba1959000,10000,1946.0,,,productcatalogservice
+414,8bafd4544352a324c0d3c8a376f52e68,Artifact,,memory,,,syscall,0,,,,,,,7fcba1949000,10000,1946.0,,,productcatalogservice
+415,87f8ff6679f6a789de24cb06c0ff0db2,Artifact,,memory,,,syscall,0,,,,,,,7fcba1909000,40000,1946.0,,,productcatalogservice
+416,fde8028c37a6a3ff6f27e05b43417b4b,Artifact,,memory,,,syscall,0,,,,,,,7fcba18c9000,40000,1946.0,,,productcatalogservice
+417,80670fad9e1155e1a1f00c31c0369330,Artifact,,memory,,,syscall,0,,,,,,,7fcba1889000,40000,1946.0,,,productcatalogservice
+418,46a41c52c736015337a27ad00955c537,Artifact,,memory,,,syscall,0,,,,,,,7f8e78a9f000,40000,1967.0,,,currencyservice
+419,3d93924662131bd2f5a1815c3cadcaa5,Artifact,,memory,,,syscall,0,,,,,,,7f8e78a7f000,20000,1967.0,,,currencyservice
+420,74d12f30e6c512cbec49717f1260a225,Artifact,,memory,,,syscall,0,,,,,,,7f8e7897f000,100000,1967.0,,,currencyservice
+421,67b4964b7db9072f611b6632f9a9d3d2,Artifact,,memory,,,syscall,0,,,,,,,7f8e7817f000,800000,1967.0,,,currencyservice
+422,7ef7e40426c81927af82e165bd708f98,Artifact,,memory,,,syscall,0,,,,,,,7f8e7417f000,4000000,1967.0,,,currencyservice
+423,6fe80f603a0507968b4b9b7b44b171b7,Artifact,,memory,,,syscall,0,,,,,,,7f8e5417f000,20000000,1967.0,,,currencyservice
+424,fe3f0ba96e6be432b5762e6bf0ced05a,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1967.0,,,currencyservice
+425,2229ebac78d22effc701728b3be6fde9,Artifact,,memory,,,syscall,0,,,,,,,7f8e5217f000,2000000,1967.0,,,currencyservice
+426,30ea1dc39bff8b889cba757dd92d6112,Artifact,,memory,,,syscall,0,,,,,,,7f8e51f6e000,210c10,1967.0,,,currencyservice
+427,885087a25c8cbc9f62ef7071f6471b1f,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1967.0,,,currencyservice
+428,95cf73b257d19cce04a556da44d83080,Artifact,,memory,,,syscall,1,,,,,,,7f8e78a7f000,20000,1967.0,,,currencyservice
+429,519267550819bb324821e25d47afc054,Artifact,,memory,,,syscall,0,,,,,,,7f8e789ff000,1000,1967.0,,,currencyservice
+430,e14ba06c744fdd670ca2d7260aef6718,Artifact,,memory,,,syscall,0,,,,,,,7f8e78585000,1000,1967.0,,,currencyservice
+431,e88e19c4e0001bff752e245b4b39be78,Artifact,,memory,,,syscall,0,,,,,,,7f8e761af000,1000,1967.0,,,currencyservice
+432,d562a5f0fbaf44916d612da230275860,Artifact,,memory,,,syscall,0,,,,,,,7f8e642ff000,1000,1967.0,,,currencyservice
+433,9560e3420f620f495e203fe05c32b113,Artifact,,memory,,,syscall,0,,,,,,,7f8e51e6e000,100000,1967.0,,,currencyservice
+434,27d63fba2066ce203db16ada5d16a257,Artifact,,memory,,,syscall,0,,,,,,,7f8e51e5e000,10000,1967.0,,,currencyservice
+435,4ebc4103141537414d40dd6eecfe8d52,Artifact,,memory,,,syscall,0,,,,,,,7f8e51e4e000,10000,1967.0,,,currencyservice
+436,28d88288d971dd2f7b32729034107095,Artifact,,memory,,,syscall,0,,,,,,,7f8e51e0e000,40000,1967.0,,,currencyservice
+437,64ef485cdad544c6d65c2eec28e82438,Artifact,,memory,,,syscall,0,,,,,,,7f8e51dce000,40000,1967.0,,,currencyservice
+438,2ede4c3d0213cdbe898ce3ea159d0881,Artifact,,memory,,,syscall,0,,,,,,,7f8e51d8e000,40000,1967.0,,,currencyservice
+439,3d592040d2bfa9c964ea1fc61df11d97,Artifact,,memory,,,syscall,0,,,,,,,7ff59dcf7000,40000,1988.0,,,paymentservice
+440,010eb62e94faa9a3764a5c9eac2df978,Artifact,,memory,,,syscall,0,,,,,,,7ff59dcd7000,20000,1988.0,,,paymentservice
+441,f7a2aad29869c169d4d25378486d5181,Artifact,,memory,,,syscall,0,,,,,,,7ff59dbd7000,100000,1988.0,,,paymentservice
+442,307da5b6d5b99f64240b40e7af18bf4b,Artifact,,memory,,,syscall,0,,,,,,,7ff59d3d7000,800000,1988.0,,,paymentservice
+443,a7dd01fa1ca0191dcbd910f688ee74df,Artifact,,memory,,,syscall,0,,,,,,,7ff5993d7000,4000000,1988.0,,,paymentservice
+444,8f74fe5d3b727382fa094cc2b48e09e2,Artifact,,memory,,,syscall,0,,,,,,,7ff5793d7000,20000000,1988.0,,,paymentservice
+445,a338eee357612ed0ace5d55cc81a81dd,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,1988.0,,,paymentservice
+446,65d5cc722a0ad373f5decd9c5b5832bd,Artifact,,memory,,,syscall,0,,,,,,,7ff5773d7000,2000000,1988.0,,,paymentservice
+447,4d5ce18d48c769af1146a514a0e39155,Artifact,,memory,,,syscall,0,,,,,,,7ff5771c6000,210c10,1988.0,,,paymentservice
+448,dca1ce84dff2ce552c6c40b2ecb35012,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,1988.0,,,paymentservice
+449,eede0eb24e118cbf0e6ce122b8e95340,Artifact,,memory,,,syscall,1,,,,,,,7ff59dcd7000,20000,1988.0,,,paymentservice
+450,9f4f8d19ff601fbf4e35314db880f104,Artifact,,memory,,,syscall,0,,,,,,,7ff59dc57000,1000,1988.0,,,paymentservice
+451,756d5eb2b0c8248477e6c396bdee8b34,Artifact,,memory,,,syscall,0,,,,,,,7ff59d7dd000,1000,1988.0,,,paymentservice
+452,a82915454f60e79588092bde3f5af022,Artifact,,memory,,,syscall,0,,,,,,,7ff59b407000,1000,1988.0,,,paymentservice
+453,437659bfd2c5ce7a8d58b37a228e1855,Artifact,,memory,,,syscall,0,,,,,,,7ff589557000,1000,1988.0,,,paymentservice
+454,f8eabd48fba39f1c349d826d70c96490,Artifact,,memory,,,syscall,0,,,,,,,7ff5770c6000,100000,1988.0,,,paymentservice
+455,2b3595580f5c3d433dbcd1d6217234fd,Artifact,,memory,,,syscall,0,,,,,,,7ff5770b6000,10000,1988.0,,,paymentservice
+456,fbc3aec53ddbb12d8244576d36e55018,Artifact,,memory,,,syscall,0,,,,,,,7ff5770a6000,10000,1988.0,,,paymentservice
+457,8bd785b28ce3883196dc68b792f84136,Artifact,,memory,,,syscall,0,,,,,,,7ff577066000,40000,1988.0,,,paymentservice
+458,0fa05d7bd68ae48de8c6fb262979a814,Artifact,,memory,,,syscall,0,,,,,,,7ff577026000,40000,1988.0,,,paymentservice
+459,1b59858569bd2ad00710b1f426a08bcc,Artifact,,memory,,,syscall,0,,,,,,,7ff576fe6000,40000,1988.0,,,paymentservice
+460,c80475474f3f10fc4ac72d936cecc774,Artifact,,memory,,,syscall,0,,,,,,,7ff576fa6000,40000,1988.0,,,paymentservice
+461,2320463002879e8d7908e547aa3d344f,Artifact,,memory,,,syscall,0,,,,,,,7fe2f10a3000,40000,2073.0,,,frontend
+462,602ef02bdccfe7399038df898c391605,Artifact,,memory,,,syscall,0,,,,,,,7fe2f1083000,20000,2073.0,,,frontend
+463,33a54af5b1f47cd758b5110dcb0d802f,Artifact,,memory,,,syscall,0,,,,,,,7fe2f0f83000,100000,2073.0,,,frontend
+464,cdf6bff9e62df0dd284c4a8cce26b566,Artifact,,memory,,,syscall,0,,,,,,,7fe2f0783000,800000,2073.0,,,frontend
+465,48c72118a1dc53351801bba6e7703ee4,Artifact,,memory,,,syscall,0,,,,,,,7fe2ec783000,4000000,2073.0,,,frontend
+466,24daee2d2a3de6cf6c236ad3f7fc8462,Artifact,,memory,,,syscall,0,,,,,,,7fe2cc783000,20000000,2073.0,,,frontend
+467,d446ad53982ba07963e9588507c56b14,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2073.0,,,frontend
+468,e84caafc902d895052238853a9bd3436,Artifact,,memory,,,syscall,0,,,,,,,7fe2ca783000,2000000,2073.0,,,frontend
+469,d5a90c35a8c09f61dba3ae059b002515,Artifact,,memory,,,syscall,0,,,,,,,7fe2ca572000,210c10,2073.0,,,frontend
+470,c6de8fbb9788983c549b0369794cc03e,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2073.0,,,frontend
+471,f183b6f784989ced745b05bbe3f8c7db,Artifact,,memory,,,syscall,1,,,,,,,7fe2f1083000,20000,2073.0,,,frontend
+472,bc1b3ee558d5236a055b6041b8c5f75a,Artifact,,memory,,,syscall,0,,,,,,,7fe2f1003000,1000,2073.0,,,frontend
+473,805f5ecac073793e2df1d04b7addf808,Artifact,,memory,,,syscall,0,,,,,,,7fe2f0b89000,1000,2073.0,,,frontend
+474,c054abe2ed12b7798fb68bb6b9068ee3,Artifact,,memory,,,syscall,0,,,,,,,7fe2ee7b3000,1000,2073.0,,,frontend
+475,79552c1f401754fc1498bab082c1b103,Artifact,,memory,,,syscall,0,,,,,,,7fe2dc903000,1000,2073.0,,,frontend
+476,d3e3563a16c0febdd62d12df5254582d,Artifact,,memory,,,syscall,0,,,,,,,7fe2ca472000,100000,2073.0,,,frontend
+477,aa9e04b30ccf109691e9e9ba2dd3546b,Artifact,,memory,,,syscall,0,,,,,,,7fe2ca462000,10000,2073.0,,,frontend
+478,f165d376de3cbd04cc5205b84a21ec11,Artifact,,memory,,,syscall,0,,,,,,,7fe2ca452000,10000,2073.0,,,frontend
+479,6cdeee40bcaf195785832d3e585ffd16,Artifact,,memory,,,syscall,0,,,,,,,7fe2ca412000,40000,2073.0,,,frontend
+480,7cb6db6057190177a44e04c79ca01901,Artifact,,memory,,,syscall,0,,,,,,,7fe2ca3d2000,40000,2073.0,,,frontend
+481,6b64ca457447cb457af69d60637c04ff,Artifact,,memory,,,syscall,0,,,,,,,7fe2ca392000,40000,2073.0,,,frontend
+482,948adcfeec13b414efb0411ce6848aa0,Artifact,,memory,,,syscall,0,,,,,,,7f8277fba000,40000,2067.0,,,frontend
+483,0de8003c8b964bbff6b3a74df9848df1,Artifact,,memory,,,syscall,0,,,,,,,7f8277f9a000,20000,2067.0,,,frontend
+484,5b3e6ca41951461aa5b1c03f2e8a9631,Artifact,,memory,,,syscall,0,,,,,,,7f8277e9a000,100000,2067.0,,,frontend
+485,936f5cf7a526cb4a518ca7d368e698fa,Artifact,,memory,,,syscall,0,,,,,,,7f827769a000,800000,2067.0,,,frontend
+486,e3b44e8d4f151bd44ef3452b0787f771,Artifact,,memory,,,syscall,0,,,,,,,7f827369a000,4000000,2067.0,,,frontend
+487,7a22c25b15a6e078dc95e33f74824287,Artifact,,memory,,,syscall,0,,,,,,,7f825369a000,20000000,2067.0,,,frontend
+488,89920d863aba911f4d0e52d64a4ead95,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2067.0,,,frontend
+489,e2c566ecc039b453473610934d76528d,Artifact,,memory,,,syscall,0,,,,,,,7f825169a000,2000000,2067.0,,,frontend
+490,23586a686af6df3b48601e5a09581613,Artifact,,memory,,,syscall,0,,,,,,,7f8251489000,210c10,2067.0,,,frontend
+491,b508a034c34079f16698335a2bd28da3,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2067.0,,,frontend
+492,17dba488367c66e96244303e0a69d189,Artifact,,memory,,,syscall,1,,,,,,,7f8277f9a000,20000,2067.0,,,frontend
+493,97effb975386f0fb66f463c6c122a388,Artifact,,memory,,,syscall,0,,,,,,,7f8277f1a000,1000,2067.0,,,frontend
+494,4e4db4aa40f949dec6d744dd37072350,Artifact,,memory,,,syscall,0,,,,,,,7f8277aa0000,1000,2067.0,,,frontend
+495,22671b6f60a7db0a5ac2506bdbbe2b74,Artifact,,memory,,,syscall,0,,,,,,,7f82756ca000,1000,2067.0,,,frontend
+496,8e0371900f2c673bcb29e0a119f05a3a,Artifact,,memory,,,syscall,0,,,,,,,7f826381a000,1000,2067.0,,,frontend
+497,32eaa4c41fe7226ead1cf29c4f339e45,Artifact,,memory,,,syscall,0,,,,,,,7f8251389000,100000,2067.0,,,frontend
+498,25f7d4a66b77f5e57942799d89d3f69f,Artifact,,memory,,,syscall,0,,,,,,,7f8251379000,10000,2067.0,,,frontend
+499,2f2048dce1dcce4316788f6c6bc6597c,Artifact,,memory,,,syscall,0,,,,,,,7f8251369000,10000,2067.0,,,frontend
+500,777a005fe83d1ab2da454f7c5bd3e474,Artifact,,memory,,,syscall,0,,,,,,,7f8251329000,40000,2067.0,,,frontend
+501,7333860d4b99148fe4f0f48edb955aab,Artifact,,memory,,,syscall,0,,,,,,,7f82512e9000,40000,2067.0,,,frontend
+502,0f0d2addec2d277f678ffa273cecd8cb,Artifact,,memory,,,syscall,0,,,,,,,7f82512a9000,40000,2067.0,,,frontend
+503,2064a2b1dd3193f42f8d3db9d7104fde,Artifact,,memory,,,syscall,0,,,,,,,7f9940715000,40000,2138.0,,,recommendationservice
+504,b3d66f2ce252ad516eb0f5f03526b89c,Artifact,,memory,,,syscall,0,,,,,,,7f99406f5000,20000,2138.0,,,recommendationservice
+505,805eed4f293a563cd8db36ac63b83f24,Artifact,,memory,,,syscall,0,,,,,,,7f99405f5000,100000,2138.0,,,recommendationservice
+506,1efb0c6397efe0f1b6d1e1bac634f087,Artifact,,memory,,,syscall,0,,,,,,,7f993fdf5000,800000,2138.0,,,recommendationservice
+507,21099625c7a6f9adce4dbf2415bbf676,Artifact,,memory,,,syscall,0,,,,,,,7f993bdf5000,4000000,2138.0,,,recommendationservice
+508,7a94ff89a8458424063c44e562f00258,Artifact,,memory,,,syscall,0,,,,,,,7f991bdf5000,20000000,2138.0,,,recommendationservice
+509,e640a5205bccfeca1bca5ab2a6f49037,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2138.0,,,recommendationservice
+510,dbf8b774022c4170e86525e07964630f,Artifact,,memory,,,syscall,0,,,,,,,7f9919df5000,2000000,2138.0,,,recommendationservice
+511,dbeb8932b628a28b4222f9ddf7af5748,Artifact,,memory,,,syscall,0,,,,,,,7f9919be4000,210c10,2138.0,,,recommendationservice
+512,9c14f05b3908a86051b782d30a3e9d35,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2138.0,,,recommendationservice
+513,da16e563d799b07cc20f897a111c0c48,Artifact,,memory,,,syscall,1,,,,,,,7f99406f5000,20000,2138.0,,,recommendationservice
+514,cc7e96d51c386b193ebfc8c918102b32,Artifact,,memory,,,syscall,0,,,,,,,7f9940675000,1000,2138.0,,,recommendationservice
+515,bc70b66d49bec30ed673850e0c99a929,Artifact,,memory,,,syscall,0,,,,,,,7f99401fb000,1000,2138.0,,,recommendationservice
+516,ff634916f8663a0ad4d396371d58d7ff,Artifact,,memory,,,syscall,0,,,,,,,7f993de25000,1000,2138.0,,,recommendationservice
+517,701c07d862566ef822c27e5084d76100,Artifact,,memory,,,syscall,0,,,,,,,7f992bf75000,1000,2138.0,,,recommendationservice
+518,6d7bec8a4d52ca96870a4834ab64b183,Artifact,,memory,,,syscall,0,,,,,,,7f9919ae4000,100000,2138.0,,,recommendationservice
+519,3218585d8c17be2664d2774814db2834,Artifact,,memory,,,syscall,0,,,,,,,7f4ba1d11000,40000,2171.0,,,checkoutservice
+520,ddcf9207f7e2df3776f19f0a46d75ce5,Artifact,,memory,,,syscall,0,,,,,,,7f4ba1cf1000,20000,2171.0,,,checkoutservice
+521,086fd9494f762149f4553f78cbf163c3,Artifact,,memory,,,syscall,0,,,,,,,7f4ba1bf1000,100000,2171.0,,,checkoutservice
+522,8ea6782062c6c38da19d00fc93a4d416,Artifact,,memory,,,syscall,0,,,,,,,7f4ba13f1000,800000,2171.0,,,checkoutservice
+523,950125ac6be87e8922b09fb4be540482,Artifact,,memory,,,syscall,0,,,,,,,7f4b9d3f1000,4000000,2171.0,,,checkoutservice
+524,bb5eb204be3579812df9646572782505,Artifact,,memory,,,syscall,0,,,,,,,7f4b7d3f1000,20000000,2171.0,,,checkoutservice
+525,e0e7b30a24ccd36c26016934d04bc36c,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2171.0,,,checkoutservice
+526,b241a176bc27906970a17a46813380df,Artifact,,memory,,,syscall,0,,,,,,,7f4b7b3f1000,2000000,2171.0,,,checkoutservice
+527,0cc242b1199cac542082ea98c02e9198,Artifact,,memory,,,syscall,0,,,,,,,7f4b7b1e0000,210c10,2171.0,,,checkoutservice
+528,91c5f9ada3753afb7f8763ae013fb206,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2171.0,,,checkoutservice
+529,ff03aa4c44d03a60d9ed539e3f12013e,Artifact,,memory,,,syscall,1,,,,,,,7f4ba1cf1000,20000,2171.0,,,checkoutservice
+530,7fec3d67e5495fff4f60d16af0441095,Artifact,,memory,,,syscall,0,,,,,,,7f4ba1c71000,1000,2171.0,,,checkoutservice
+531,72a1917110d980e51abbd3536cada2fd,Artifact,,memory,,,syscall,0,,,,,,,7f4ba17f7000,1000,2171.0,,,checkoutservice
+532,69792091e8b30c91a0066667111ff3c9,Artifact,,memory,,,syscall,0,,,,,,,7f4b9f421000,1000,2171.0,,,checkoutservice
+533,8046325725bfa794bb17ac7f520b712f,Artifact,,memory,,,syscall,0,,,,,,,7f4b8d571000,1000,2171.0,,,checkoutservice
+534,53908ffcdc3946a3b298a811cf948089,Artifact,,memory,,,syscall,0,,,,,,,7f4b7b0e0000,100000,2171.0,,,checkoutservice
+535,08e1e3359f3a9e029a7d5b983fd22517,Artifact,,memory,,,syscall,0,,,,,,,7f4b7b0d0000,10000,2171.0,,,checkoutservice
+536,5ffabdb40b2aba36bb651a48c70527c0,Artifact,,memory,,,syscall,0,,,,,,,7f4b7b0c0000,10000,2171.0,,,checkoutservice
+537,e3b1acad781c97343fb7fed74f919237,Artifact,,memory,,,syscall,0,,,,,,,7f4b7b080000,40000,2171.0,,,checkoutservice
+538,d293e028a68f77c4dfa40e4e53bfc5c1,Artifact,,memory,,,syscall,0,,,,,,,7f4b7b040000,40000,2171.0,,,checkoutservice
+539,729f5ba4999930d95ad85cfbb06e844f,Artifact,,memory,,,syscall,0,,,,,,,7fbb45560000,40000,2198.0,,,checkoutservice
+540,9259a03ceac7e39e501e05cc4656c6f1,Artifact,,memory,,,syscall,0,,,,,,,7fbb45540000,20000,2198.0,,,checkoutservice
+541,af95c088f8bc7501f21d17ea7994ea02,Artifact,,memory,,,syscall,0,,,,,,,7fbb45440000,100000,2198.0,,,checkoutservice
+542,4a091dea156a325bec69e8da287a7058,Artifact,,memory,,,syscall,0,,,,,,,7fbb44c40000,800000,2198.0,,,checkoutservice
+543,74941ac4df7296263feb58f504eaca8a,Artifact,,memory,,,syscall,0,,,,,,,7fbb40c40000,4000000,2198.0,,,checkoutservice
+544,40aba2e96c5eea5c1dbd446fb5080ad5,Artifact,,memory,,,syscall,0,,,,,,,7fbb20c40000,20000000,2198.0,,,checkoutservice
+545,f2e2379a15029cd5a4065ad51805e1af,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2198.0,,,checkoutservice
+546,1061d5816f064e4fd1db819e429a5ab7,Artifact,,memory,,,syscall,0,,,,,,,7fbb1ec40000,2000000,2198.0,,,checkoutservice
+547,432a9e76b278687eff1c587be35535c5,Artifact,,memory,,,syscall,0,,,,,,,7fbb1ea2f000,210c10,2198.0,,,checkoutservice
+548,286d03d7f173c2d22760ea87cf9e9925,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2198.0,,,checkoutservice
+549,0458c518a49d44e4a38fa21bca4db979,Artifact,,memory,,,syscall,1,,,,,,,7fbb45540000,20000,2198.0,,,checkoutservice
+550,2419a0fc3679093b2477559e32e46fb2,Artifact,,memory,,,syscall,0,,,,,,,7fbb454c0000,1000,2198.0,,,checkoutservice
+551,a6b2e5999ee00d7d24f5f0caf0c833fb,Artifact,,memory,,,syscall,0,,,,,,,7fbb45046000,1000,2198.0,,,checkoutservice
+552,622ee38ceb7e1754bd54ca7ccc18d80a,Artifact,,memory,,,syscall,0,,,,,,,7fbb42c70000,1000,2198.0,,,checkoutservice
+553,7435be863951a04ee63aef4cf36f1f24,Artifact,,memory,,,syscall,0,,,,,,,7fbb30dc0000,1000,2198.0,,,checkoutservice
+554,4823bb487e4cf4002115785ebad56bd8,Artifact,,memory,,,syscall,0,,,,,,,7fbb1e92f000,100000,2198.0,,,checkoutservice
+555,2df39e33016db37d55ed56b457882e8e,Artifact,,memory,,,syscall,0,,,,,,,7fbb1e91f000,10000,2198.0,,,checkoutservice
+556,7403d96dbef480a144743d9731772d16,Artifact,,memory,,,syscall,0,,,,,,,7fbb1e90f000,10000,2198.0,,,checkoutservice
+557,1071dc7be3f33ad23af69c7357e7d7ed,Artifact,,memory,,,syscall,0,,,,,,,7fbb1e8cf000,40000,2198.0,,,checkoutservice
+558,12db081410b2aa35e3261104168b1155,Artifact,,memory,,,syscall,0,,,,,,,7fbb1e88f000,40000,2198.0,,,checkoutservice
+559,dcaff1936dd98a778e4cc45610b90cbf,Artifact,,memory,,,syscall,0,,,,,,,7fbb1e84f000,40000,2198.0,,,checkoutservice
+560,f63432984e9f0ab1f6aa5e8ac1a49d4b,Artifact,,memory,,,syscall,0,,,,,,,7fbb1e80f000,40000,2198.0,,,checkoutservice
+561,91892fef50ef9dc917efa35382c82abd,Artifact,,memory,,,syscall,0,,,,,,,7fd97f66a000,40000,2222.0,,,adservice
+562,dc06c1520dc86aeaf0a0bfe039a0aec5,Artifact,,memory,,,syscall,0,,,,,,,7fd97f64a000,20000,2222.0,,,adservice
+563,fc23c709aeb490e2ca2046e7ed8ba1f3,Artifact,,memory,,,syscall,0,,,,,,,7fd97f54a000,100000,2222.0,,,adservice
+564,653da2935880305cae2d0e8fd6bd437c,Artifact,,memory,,,syscall,0,,,,,,,7fd97ed4a000,800000,2222.0,,,adservice
+565,33e397df31801a87fbf9c25a21a2ceed,Artifact,,memory,,,syscall,0,,,,,,,7fd97ad4a000,4000000,2222.0,,,adservice
+566,93a757d5edcf865dbde3c76253344c79,Artifact,,memory,,,syscall,0,,,,,,,7fd95ad4a000,20000000,2222.0,,,adservice
+567,0f1e8967050262be09de8cab5ce03f97,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2222.0,,,adservice
+568,4838fd94aa911c8c27a973c001126875,Artifact,,memory,,,syscall,0,,,,,,,7fd958d4a000,2000000,2222.0,,,adservice
+569,9e5d0032391f724ed937919c01245b0b,Artifact,,memory,,,syscall,0,,,,,,,7fd958b39000,210c10,2222.0,,,adservice
+570,74306e4d4fb576a7a2cfb2045b5f8026,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2222.0,,,adservice
+571,2b2852fef3802a5ecf3c6657f040a91e,Artifact,,memory,,,syscall,1,,,,,,,7fd97f64a000,20000,2222.0,,,adservice
+572,89e6e31ae7c72d2a1a33181e591e4315,Artifact,,memory,,,syscall,0,,,,,,,7fd97f5ca000,1000,2222.0,,,adservice
+573,55ca7eb68f235606030f3618aa8a2a9b,Artifact,,memory,,,syscall,0,,,,,,,7fd97f150000,1000,2222.0,,,adservice
+574,84cba46f97b6059dea24de55920989b6,Artifact,,memory,,,syscall,0,,,,,,,7fd97cd7a000,1000,2222.0,,,adservice
+575,0ba4f9d1ae318fe234cfe64907dd8ce9,Artifact,,memory,,,syscall,0,,,,,,,7fd96aeca000,1000,2222.0,,,adservice
+576,fd714a25f28bb89f3c5240933ca82a61,Artifact,,memory,,,syscall,0,,,,,,,7fd958a39000,100000,2222.0,,,adservice
+577,4303cd8c55bbd1461b5fa433defaca07,Artifact,,memory,,,syscall,0,,,,,,,7fd958a29000,10000,2222.0,,,adservice
+578,aaef32fc4402cfc22b139a3f539e7709,Artifact,,memory,,,syscall,0,,,,,,,7fd958a19000,10000,2222.0,,,adservice
+579,38c63525f174c6675f308a13a95aab6a,Artifact,,memory,,,syscall,0,,,,,,,7fd9589d9000,40000,2222.0,,,adservice
+580,8bf09dccd5b763a89588e5740fb0c949,Artifact,,memory,,,syscall,0,,,,,,,7fd958999000,40000,2222.0,,,adservice
+581,122976e8ff74d951ce5dd45ee0a17e76,Artifact,,memory,,,syscall,0,,,,,,,7fd958959000,40000,2222.0,,,adservice
+582,aa45732d6be6e9c8fa4f444a71f8f1b2,Artifact,,memory,,,syscall,0,,,,,,,7f01338f6000,40000,2283.0,,,frontend
+583,414463af7276aef21606573a9ae2e2e1,Artifact,,memory,,,syscall,0,,,,,,,7f01338d6000,20000,2283.0,,,frontend
+584,0c1634a460182efe598c3ea68237ad29,Artifact,,memory,,,syscall,0,,,,,,,7f01337d6000,100000,2283.0,,,frontend
+585,c7bf679fc873289da263d217e450bdd8,Artifact,,memory,,,syscall,0,,,,,,,7f0132fd6000,800000,2283.0,,,frontend
+586,728055fa5f119557407a74d34f6bba8a,Artifact,,memory,,,syscall,0,,,,,,,7f012efd6000,4000000,2283.0,,,frontend
+587,4fe5ef3d85e71ac5da772f9332b63913,Artifact,,memory,,,syscall,0,,,,,,,7f010efd6000,20000000,2283.0,,,frontend
+588,6ca534ad72d234ab366d4cd087bbd213,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2283.0,,,frontend
+589,422c960ff802df4899cd8b22f2c9915f,Artifact,,memory,,,syscall,0,,,,,,,7f010cfd6000,2000000,2283.0,,,frontend
+590,cabdf0e93d87c6575925622adf9008dc,Artifact,,memory,,,syscall,0,,,,,,,7f010cdc5000,210c10,2283.0,,,frontend
+591,3245812a69a738ff7d564346aa7f94f3,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2283.0,,,frontend
+592,4ffa4b9db8e6a7ed1bc112114896575f,Artifact,,memory,,,syscall,1,,,,,,,7f01338d6000,20000,2283.0,,,frontend
+593,4f8627bc35bf487a380b46012b3893e3,Artifact,,memory,,,syscall,0,,,,,,,7f0133856000,1000,2283.0,,,frontend
+594,c451962be9b7ce2b126b784b15a31033,Artifact,,memory,,,syscall,0,,,,,,,7f01333dc000,1000,2283.0,,,frontend
+595,39cd66a900eadf07650824bb4f5b09aa,Artifact,,memory,,,syscall,0,,,,,,,7f0131006000,1000,2283.0,,,frontend
+596,c2a76e429fbc5c68926eb64aeaa7f36e,Artifact,,memory,,,syscall,0,,,,,,,7f011f156000,1000,2283.0,,,frontend
+597,d4302c1caf94da4334f0dbc4ffb86741,Artifact,,memory,,,syscall,0,,,,,,,7f010ccc5000,100000,2283.0,,,frontend
+598,752882c35b47704742e846926e988a4f,Artifact,,memory,,,syscall,0,,,,,,,7f010ccb5000,10000,2283.0,,,frontend
+599,133853872248ba0ce14130d7c521f538,Artifact,,memory,,,syscall,0,,,,,,,7f010cca5000,10000,2283.0,,,frontend
+600,7b01fa225736d8cd5c8c5ab4c543ee12,Artifact,,memory,,,syscall,0,,,,,,,7f9fa9bc2000,40000,2290.0,,,frontend
+601,e9c745153d1aa6fd137c0291c37acb0f,Artifact,,memory,,,syscall,0,,,,,,,7f9fa9ba2000,20000,2290.0,,,frontend
+602,c511016863b624c451660d284480645b,Artifact,,memory,,,syscall,0,,,,,,,7f9fa9aa2000,100000,2290.0,,,frontend
+603,549afdd3a49d60d81e49a575f40f9728,Artifact,,memory,,,syscall,0,,,,,,,7f9fa92a2000,800000,2290.0,,,frontend
+604,af01a563d5b90a9a9a0f18a589ca7e3e,Artifact,,memory,,,syscall,0,,,,,,,7f9fa52a2000,4000000,2290.0,,,frontend
+605,357d169573a59e8791c6bf48ca0244cc,Artifact,,memory,,,syscall,0,,,,,,,7f9f852a2000,20000000,2290.0,,,frontend
+606,d9e05197c111563f82a28f36055a1dc3,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2290.0,,,frontend
+607,58ea2d4d7200be1662914d16b12bed92,Artifact,,memory,,,syscall,0,,,,,,,7f9f832a2000,2000000,2290.0,,,frontend
+608,95cf2db3caad92dd1f43abd94e4d6dd9,Artifact,,memory,,,syscall,0,,,,,,,7f9f83091000,210c10,2290.0,,,frontend
+609,555ee4371e4f01416329c7e026b85f35,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2290.0,,,frontend
+610,d25d1828203dd4be41fe38e2ec86ab3a,Artifact,,memory,,,syscall,1,,,,,,,7f9fa9ba2000,20000,2290.0,,,frontend
+611,a359277f53e60b5d2bc1a77579f3b58a,Artifact,,memory,,,syscall,0,,,,,,,7f9fa9b22000,1000,2290.0,,,frontend
+612,3a1b58e33fe857f2ac8be7ed448c8052,Artifact,,memory,,,syscall,0,,,,,,,7f9fa96a8000,1000,2290.0,,,frontend
+613,c87d3f8f95dfce0c368b121efa484bdb,Artifact,,memory,,,syscall,0,,,,,,,7f9fa72d2000,1000,2290.0,,,frontend
+614,fc83c8684d5f80cd00ddd7624052de57,Artifact,,memory,,,syscall,0,,,,,,,7f9f95422000,1000,2290.0,,,frontend
+615,975d557cd7f7dd0b49e93e95edce0aa9,Artifact,,memory,,,syscall,0,,,,,,,7f9f82f91000,100000,2290.0,,,frontend
+616,7d84b01a826cb83d37b9098ba0fd1937,Artifact,,memory,,,syscall,0,,,,,,,7f9f82f81000,10000,2290.0,,,frontend
+617,857c7fc4cae0d8fff27cbd9e481e9c30,Artifact,,memory,,,syscall,0,,,,,,,7f9f82f71000,10000,2290.0,,,frontend
+618,658e6382325f94a8a67b2d9a8b84cc28,Artifact,,memory,,,syscall,0,,,,,,,7f010cc65000,40000,2283.0,,,frontend
+619,fda3653ad4120a835f808b12fa1ea34d,Artifact,,memory,,,syscall,0,,,,,,,7f010cc25000,40000,2283.0,,,frontend
+620,ce4e42e3a882075c210e7e0128b077d2,Artifact,,memory,,,syscall,0,,,,,,,7f010cbe5000,40000,2283.0,,,frontend
+621,eefdb19d0a97785f35f605e44a326006,Artifact,,memory,,,syscall,0,,,,,,,7f9f82f31000,40000,2290.0,,,frontend
+622,d64daa6d0196916c76b0c61876c66667,Artifact,,memory,,,syscall,0,,,,,,,7f9f82ef1000,40000,2290.0,,,frontend
+623,94d2f91356b3e424729d56cb094584d0,Artifact,,memory,,,syscall,0,,,,,,,7f9f82eb1000,40000,2290.0,,,frontend
+624,81c641976c2a168198b3bbe2b9c9cb74,Artifact,,memory,,,syscall,0,,,,,,,7f8efbd0d000,40000,2356.0,,,paymentservice
+625,48ac6c6cdb6f1f0ab3844350629297eb,Artifact,,memory,,,syscall,0,,,,,,,7f8efbced000,20000,2356.0,,,paymentservice
+626,608dc9075e0271d2279cddcaad011f48,Artifact,,memory,,,syscall,0,,,,,,,7f8efbbed000,100000,2356.0,,,paymentservice
+627,d22fa304048675e8393e7d54133a16af,Artifact,,memory,,,syscall,0,,,,,,,7f8efb3ed000,800000,2356.0,,,paymentservice
+628,a47a456978dd82dcb2ca7e58845f9ef0,Artifact,,memory,,,syscall,0,,,,,,,7f8ef73ed000,4000000,2356.0,,,paymentservice
+629,74ae9546b20e06f33a827ff54eabbffb,Artifact,,memory,,,syscall,0,,,,,,,7f8ed73ed000,20000000,2356.0,,,paymentservice
+630,70a518338d7f3b2b7c4f574fcd6d4a04,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2356.0,,,paymentservice
+631,87efa82a61583da1d393e38c2d2f4aa4,Artifact,,memory,,,syscall,0,,,,,,,7f8ed53ed000,2000000,2356.0,,,paymentservice
+632,8f3f0c4b4b17c74b2c16cb8fe7224ad0,Artifact,,memory,,,syscall,0,,,,,,,7f8ed51dc000,210c10,2356.0,,,paymentservice
+633,e1b4a8cc318dea231fa99a938002d3a7,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2356.0,,,paymentservice
+634,6ca952a0ac7aedbf26812de139ef92e8,Artifact,,memory,,,syscall,1,,,,,,,7f8efbced000,20000,2356.0,,,paymentservice
+635,b033c2a37808840ba0770a52fe10483a,Artifact,,memory,,,syscall,0,,,,,,,7f8efbc6d000,1000,2356.0,,,paymentservice
+636,a2aba0085a7cc63f53890e6cc7b6f933,Artifact,,memory,,,syscall,0,,,,,,,7f8efb7f3000,1000,2356.0,,,paymentservice
+637,7f1d76edf049ab281961c6092e652194,Artifact,,memory,,,syscall,0,,,,,,,7f8ef941d000,1000,2356.0,,,paymentservice
+638,ffd550be36f10d927161e22986e9f4e1,Artifact,,memory,,,syscall,0,,,,,,,7f8ee756d000,1000,2356.0,,,paymentservice
+639,a1cb183db14a1eb83a3e4d5d821b5264,Artifact,,memory,,,syscall,0,,,,,,,7f8ed50dc000,100000,2356.0,,,paymentservice
+640,f318286473b8d0aaea3680bb0cff4eb7,Artifact,,memory,,,syscall,0,,,,,,,7f8ed50cc000,10000,2356.0,,,paymentservice
+641,b3d579308eb6c24e73c45226e16c5639,Artifact,,memory,,,syscall,0,,,,,,,7f8ed50bc000,10000,2356.0,,,paymentservice
+642,210d5db545c48f842bf66a4b9fcb6a2a,Artifact,,memory,,,syscall,0,,,,,,,7f8ed507c000,40000,2356.0,,,paymentservice
+643,89e3ab44689bf76e060418d38d36e3f8,Artifact,,memory,,,syscall,0,,,,,,,7f862657b000,40000,2324.0,,,adservice
+644,8455c9d95acc0b661221379386a18b30,Artifact,,memory,,,syscall,0,,,,,,,7f862655b000,20000,2324.0,,,adservice
+645,3d319493c0a921235c0252d4e2e73781,Artifact,,memory,,,syscall,0,,,,,,,7f862645b000,100000,2324.0,,,adservice
+646,63bef3631012c8bbcc4fb69d4f941aca,Artifact,,memory,,,syscall,0,,,,,,,7f8625c5b000,800000,2324.0,,,adservice
+647,835ea89df74481a8a1efb074e0946ac5,Artifact,,memory,,,syscall,0,,,,,,,7f8621c5b000,4000000,2324.0,,,adservice
+648,e32e7b45530cf5806c9dbef4aec0b29a,Artifact,,memory,,,syscall,0,,,,,,,7f8601c5b000,20000000,2324.0,,,adservice
+649,196c568ebdddf50be1a30f2dc4bc7ee4,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2324.0,,,adservice
+650,c77838d80dae60931c2eaab3a4f54b88,Artifact,,memory,,,syscall,0,,,,,,,7f85ffc5b000,2000000,2324.0,,,adservice
+651,44151cd497a7dd8e6599d75da52b6963,Artifact,,memory,,,syscall,0,,,,,,,7f85ffa4a000,210c10,2324.0,,,adservice
+652,0c4619576eeb38afecb989694a3938d0,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2324.0,,,adservice
+653,f70be4a952e072dd598621bb649405ed,Artifact,,memory,,,syscall,1,,,,,,,7f862655b000,20000,2324.0,,,adservice
+654,4fc671d2c10aab15fee57c51e924239e,Artifact,,memory,,,syscall,0,,,,,,,7f86264db000,1000,2324.0,,,adservice
+655,dfecf32b9e148567c81622fffb502dd0,Artifact,,memory,,,syscall,0,,,,,,,7f8626061000,1000,2324.0,,,adservice
+656,874ffb8a4eeda1726978d56c82a7c3ce,Artifact,,memory,,,syscall,0,,,,,,,7f8623c8b000,1000,2324.0,,,adservice
+657,47fa56c145a501c44cc151d4fdc1bf61,Artifact,,memory,,,syscall,0,,,,,,,7f8611ddb000,1000,2324.0,,,adservice
+658,27cd0a1e485476b0f8a2dd6aa2ce2cee,Artifact,,memory,,,syscall,0,,,,,,,7f85ff94a000,100000,2324.0,,,adservice
+659,b48dcc9f8b909d66816b931059685d45,Artifact,,memory,,,syscall,0,,,,,,,7f85ff93a000,10000,2324.0,,,adservice
+660,0db2ea99bf2c1eeb5b5b0c53353ae5f8,Artifact,,memory,,,syscall,0,,,,,,,7f85ff92a000,10000,2324.0,,,adservice
+661,1688395e6f6533f95b60625f467e9dc2,Artifact,,memory,,,syscall,0,,,,,,,7f85ff8ea000,40000,2324.0,,,adservice
+662,3955dbe64af38f23067b16a4406859ce,Artifact,,memory,,,syscall,0,,,,,,,7f85ff8aa000,40000,2324.0,,,adservice
+663,ecaff7861bc78a47fc74da4db47c4bb7,Artifact,,memory,,,syscall,0,,,,,,,7f85ff86a000,40000,2324.0,,,adservice
+664,94353cb5b160b26dbadfde62c8b2e995,Artifact,,memory,,,syscall,0,,,,,,,7f8ed503c000,40000,2356.0,,,paymentservice
+665,f25302ad9376b7107f4ff3e523e6eeb5,Artifact,,memory,,,syscall,0,,,,,,,7f8ed4ffc000,40000,2356.0,,,paymentservice
+666,86e53873d9f1fd790b66bfb7b38c445e,Artifact,,memory,,,syscall,0,,,,,,,7fb987f8d000,40000,2345.0,,,recommendationservice
+667,2ccdbec289d2470fab90f1abe7f59fb6,Artifact,,memory,,,syscall,0,,,,,,,7fb987f6d000,20000,2345.0,,,recommendationservice
+668,bd4d5379f3ff08de9fd9055f397d7b96,Artifact,,memory,,,syscall,0,,,,,,,7fb987e6d000,100000,2345.0,,,recommendationservice
+669,066e7b5daf76080cdef305c0ed3adf00,Artifact,,memory,,,syscall,0,,,,,,,7fb98766d000,800000,2345.0,,,recommendationservice
+670,c55f7678dda97dc9f6d94f2f876d853a,Artifact,,memory,,,syscall,0,,,,,,,7fb98366d000,4000000,2345.0,,,recommendationservice
+671,34ed37b34aabc0559a775a77045a2014,Artifact,,memory,,,syscall,0,,,,,,,7fb96366d000,20000000,2345.0,,,recommendationservice
+672,edfcfa5ff0927b2c8d4febb4af5623d6,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2345.0,,,recommendationservice
+673,64f03ce95cd8ba6414a4ec799423392b,Artifact,,memory,,,syscall,0,,,,,,,7fb96166d000,2000000,2345.0,,,recommendationservice
+674,4f51b9f5aee0971cf64249575a4b79c7,Artifact,,memory,,,syscall,0,,,,,,,7fb96145c000,210c10,2345.0,,,recommendationservice
+675,dac8842e5dd5773db0d5c7baaacb15e3,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2345.0,,,recommendationservice
+676,c89b0bfbdfc5f0f9a00ab9758690dab8,Artifact,,memory,,,syscall,1,,,,,,,7fb987f6d000,20000,2345.0,,,recommendationservice
+677,12b6964903bfe7ef69324221b0782ff6,Artifact,,memory,,,syscall,0,,,,,,,7fb987eed000,1000,2345.0,,,recommendationservice
+678,6bd7cd271e1ae278c77ba5027131f02d,Artifact,,memory,,,syscall,0,,,,,,,7fb987a73000,1000,2345.0,,,recommendationservice
+679,e5e6f22ef2d0f53f95e7b74070e0fb28,Artifact,,memory,,,syscall,0,,,,,,,7fb98569d000,1000,2345.0,,,recommendationservice
+680,e78147d0598928e972e847244cf7f899,Artifact,,memory,,,syscall,0,,,,,,,7fb9737ed000,1000,2345.0,,,recommendationservice
+681,92910c97a8d0b3dbe909f1976e1ff25b,Artifact,,memory,,,syscall,0,,,,,,,7fb96135c000,100000,2345.0,,,recommendationservice
+682,692ec4a6a597db237df4cc6325988e07,Artifact,,memory,,,syscall,0,,,,,,,7fb96133c000,10000,2345.0,,,recommendationservice
+683,1ee53745765d9664c323d5d8f22b4cb0,Artifact,,memory,,,syscall,0,,,,,,,7fb9612fc000,40000,2345.0,,,recommendationservice
+684,7f029abb3af34409d8da547d9be51783,Artifact,,memory,,,syscall,0,,,,,,,7fb9612bc000,40000,2345.0,,,recommendationservice
+685,2efbd48d18706a3f34f39117bec2c5b8,Artifact,,memory,,,syscall,0,,,,,,,7f41ff010000,40000,2391.0,,,paymentservice
+686,eb970f5e25b238e0fc1f45829162e8a4,Artifact,,memory,,,syscall,0,,,,,,,7f41feff0000,20000,2391.0,,,paymentservice
+687,287ced34965b37950de80189f90be741,Artifact,,memory,,,syscall,0,,,,,,,7f41feef0000,100000,2391.0,,,paymentservice
+688,02f5cdcd3e5e74d65676174e318c6452,Artifact,,memory,,,syscall,0,,,,,,,7f41fe6f0000,800000,2391.0,,,paymentservice
+689,948a869eff650014951cd52e44e28624,Artifact,,memory,,,syscall,0,,,,,,,7f41fa6f0000,4000000,2391.0,,,paymentservice
+690,68bb21d4376323a308182925c1d54ef1,Artifact,,memory,,,syscall,0,,,,,,,7fb96127c000,40000,2345.0,,,recommendationservice
+691,3654bb86bf6b0cae8539db8d1ed1876b,Artifact,,memory,,,syscall,0,,,,,,,7f41da6f0000,20000000,2391.0,,,paymentservice
+692,b57a960d36f11c26fe7c3799ccc91a6c,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2391.0,,,paymentservice
+693,5e5796794a040a770530d0508c303fdc,Artifact,,memory,,,syscall,0,,,,,,,7f41d86f0000,2000000,2391.0,,,paymentservice
+694,06cd20c8c0e5e684ba8a30b0db482f26,Artifact,,memory,,,syscall,0,,,,,,,7f41d84df000,210c10,2391.0,,,paymentservice
+695,c34f7915600559635aedb77b19cbb6a1,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2391.0,,,paymentservice
+696,4552640aa8b1aba0e13fb6bafd6691fd,Artifact,,memory,,,syscall,1,,,,,,,7f41feff0000,20000,2391.0,,,paymentservice
+697,b2b1992a7477133e67aeb004b13f064e,Artifact,,memory,,,syscall,0,,,,,,,7f41fef70000,1000,2391.0,,,paymentservice
+698,d08b913e8580c288345e5095f97c7c5c,Artifact,,memory,,,syscall,0,,,,,,,7f41fc720000,1000,2391.0,,,paymentservice
+699,c0edfd55c04c3895a9c7cff0b54ace7a,Artifact,,memory,,,syscall,0,,,,,,,7f41ea870000,1000,2391.0,,,paymentservice
+700,de282ad43dd373dc178248e192daa57a,Artifact,,memory,,,syscall,0,,,,,,,7f41d83df000,100000,2391.0,,,paymentservice
+701,c677af068e6c0e380e101ac575ca5cb6,Artifact,,memory,,,syscall,0,,,,,,,7f41d83cf000,10000,2391.0,,,paymentservice
+702,8de4b0136356c9449ff424dfc4ec61be,Artifact,,memory,,,syscall,0,,,,,,,7f41d83bf000,10000,2391.0,,,paymentservice
+703,52dea8407cc45b6f75e3d1a1902e6ab9,Artifact,,memory,,,syscall,0,,,,,,,7fb96123c000,40000,2345.0,,,recommendationservice
+704,1f726b9387da4deede927dae36b22fa9,Artifact,,memory,,,syscall,0,,,,,,,7f41d837f000,40000,2391.0,,,paymentservice
+705,740187106c000d1800661e9e22e6c3fa,Artifact,,memory,,,syscall,0,,,,,,,7f41d833f000,40000,2391.0,,,paymentservice
+706,b9fdd4ec6319e8df2b04117acce71d4a,Artifact,,memory,,,syscall,0,,,,,,,7f41d82ff000,40000,2391.0,,,paymentservice
+707,464e82bbd40bcf272015807b4ddd9c67,Artifact,,memory,,,syscall,0,,,,,,,7f41d82bf000,40000,2391.0,,,paymentservice
+708,f451d0e8c4fea9f1356cb1154e04ed0f,Artifact,,memory,,,syscall,0,,,,,,,7fd74874c000,40000,2362.0,,,recommendationservice
+709,0cfba563beb025336b4f45b67047910a,Artifact,,memory,,,syscall,0,,,,,,,7fd74872c000,20000,2362.0,,,recommendationservice
+710,3b42384c92806d30435cbc0eda55e39b,Artifact,,memory,,,syscall,0,,,,,,,7fd74862c000,100000,2362.0,,,recommendationservice
+711,5b0fbd47611f09cf5246483dcdd673a0,Artifact,,memory,,,syscall,0,,,,,,,7fd747e2c000,800000,2362.0,,,recommendationservice
+712,03639ddcced8c04a1a50feb505427424,Artifact,,memory,,,syscall,0,,,,,,,7fd743e2c000,4000000,2362.0,,,recommendationservice
+713,8d95f95c36efd7acfbf5c44bb76db16f,Artifact,,memory,,,syscall,0,,,,,,,7fd723e2c000,20000000,2362.0,,,recommendationservice
+714,ed3519f827189df2a73180ad6882abea,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2362.0,,,recommendationservice
+715,ef51f885332cec2c7ad43ebba3ccf84d,Artifact,,memory,,,syscall,0,,,,,,,7fd721e2c000,2000000,2362.0,,,recommendationservice
+716,3e664371383e463e26a72ebfa825d0d5,Artifact,,memory,,,syscall,0,,,,,,,7fd721c1b000,210c10,2362.0,,,recommendationservice
+717,b2f616cd466fd82a1c87e94293ca0c66,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2362.0,,,recommendationservice
+718,36c0b07eb5d12207f5b63e3f1781da68,Artifact,,memory,,,syscall,1,,,,,,,7fd74872c000,20000,2362.0,,,recommendationservice
+719,58b5aedb5fd3e53e62c7aaefc0e0afb3,Artifact,,memory,,,syscall,0,,,,,,,7fd7486ac000,1000,2362.0,,,recommendationservice
+720,cfb1f56a3f3ef9105cec90cfa6cc76b5,Artifact,,memory,,,syscall,0,,,,,,,7fd748232000,1000,2362.0,,,recommendationservice
+721,611241e13ac2ce63ef5eda89c6081a9a,Artifact,,memory,,,syscall,0,,,,,,,7fd745e5c000,1000,2362.0,,,recommendationservice
+722,194e8b8f2d8958684df517f878116e2b,Artifact,,memory,,,syscall,0,,,,,,,7fd733fac000,1000,2362.0,,,recommendationservice
+723,b80606cda24b317306b3ed7f9a39b473,Artifact,,memory,,,syscall,0,,,,,,,7fd721b1b000,100000,2362.0,,,recommendationservice
+724,5785d6eb2c54ab2468b322dbea51c5c0,Artifact,,memory,,,syscall,0,,,,,,,7fd721b0b000,10000,2362.0,,,recommendationservice
+725,b62b870ebde2fb33af70fbf275ed413d,Artifact,,memory,,,syscall,0,,,,,,,7fd721afb000,10000,2362.0,,,recommendationservice
+726,9760c97ae1fd69576a5b320a9748f361,Artifact,,memory,,,syscall,0,,,,,,,7fd721abb000,40000,2362.0,,,recommendationservice
+727,5ca56d74de8fe87f48aee89a3e4eb82e,Artifact,,memory,,,syscall,0,,,,,,,7fd721a7b000,40000,2362.0,,,recommendationservice
+728,33fe39fc6324ae41825eb8466d34c23f,Artifact,,memory,,,syscall,0,,,,,,,7fd721a3b000,40000,2362.0,,,recommendationservice
+729,8db8c82cd57a72087c1a109d9cbdf88b,Artifact,,memory,,,syscall,0,,,,,,,7fdec8e91000,40000,2425.0,,,cartservice
+730,d369bc3818883c9a00d0e7cdb63f8544,Artifact,,memory,,,syscall,0,,,,,,,7fdec8e71000,20000,2425.0,,,cartservice
+731,75a37eddc032b422495f199fa1576c60,Artifact,,memory,,,syscall,0,,,,,,,7fdec8d71000,100000,2425.0,,,cartservice
+732,c0debe724c3326b56270bb6f22d3f63c,Artifact,,memory,,,syscall,0,,,,,,,7fdec8571000,800000,2425.0,,,cartservice
+733,7d9e38c463be7efad6c2c76b16a0b462,Artifact,,memory,,,syscall,0,,,,,,,7fdec4571000,4000000,2425.0,,,cartservice
+734,f0dcc5c549afa84c2f7509b85a8affdd,Artifact,,memory,,,syscall,0,,,,,,,7fdea4571000,20000000,2425.0,,,cartservice
+735,d0234b78bf5e838fede9aca5d4c82072,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2425.0,,,cartservice
+736,d60fa18f9389fc4be0b990b4f6571e8f,Artifact,,memory,,,syscall,0,,,,,,,7fdea2571000,2000000,2425.0,,,cartservice
+737,50c6a6a297a30fde59649b7976b1bf41,Artifact,,memory,,,syscall,0,,,,,,,7fdea2360000,210c10,2425.0,,,cartservice
+738,005659778a4c2c348d9a5133050a18f0,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2425.0,,,cartservice
+739,e446b9df18d5e1fc60a70fc74af06bc6,Artifact,,memory,,,syscall,1,,,,,,,7fdec8e71000,20000,2425.0,,,cartservice
+740,4665c1e8d222bc93aca25a84f6d09465,Artifact,,memory,,,syscall,0,,,,,,,7fdec8df1000,1000,2425.0,,,cartservice
+741,c5c29351a538b7ee0d852629ac72c87d,Artifact,,memory,,,syscall,0,,,,,,,7fdec8977000,1000,2425.0,,,cartservice
+742,b60696bf27872afbc7e97a19e6653de9,Artifact,,memory,,,syscall,0,,,,,,,7fdec65a1000,1000,2425.0,,,cartservice
+743,1bd87f7d1ca691ec866337dd3f681a64,Artifact,,memory,,,syscall,0,,,,,,,7fdeb46f1000,1000,2425.0,,,cartservice
+744,8ab4fa04392ca1affde5f7f8f2f93d71,Artifact,,memory,,,syscall,0,,,,,,,7fdea2260000,100000,2425.0,,,cartservice
+745,70eedf83c18a158b1884c79f2ff9b33e,Artifact,,memory,,,syscall,0,,,,,,,7fdea2250000,10000,2425.0,,,cartservice
+746,ee94bec73832ce7edee69b4dca168c13,Artifact,,memory,,,syscall,0,,,,,,,7fdea2240000,10000,2425.0,,,cartservice
+747,42dbd51c9e3aa99437e397b389e0ef3a,Artifact,,memory,,,syscall,0,,,,,,,7fdea2200000,40000,2425.0,,,cartservice
+748,f1a7db866bcf82b77a76a7060afe8e0e,Artifact,,memory,,,syscall,0,,,,,,,7fdea21c0000,40000,2425.0,,,cartservice
+749,0c6b360ec8d0936a963a730142f7c31b,Artifact,,memory,,,syscall,0,,,,,,,7fdea2180000,40000,2425.0,,,cartservice
+750,178af84a0fd196e2ac6b4a4aac12a5fb,Artifact,,memory,,,syscall,0,,,,,,,7f42e7d52000,40000,2451.0,,,currencyservice
+751,51aa5bf5dc26f39a9b786fdcb25e5376,Artifact,,memory,,,syscall,0,,,,,,,7f42e7d32000,20000,2451.0,,,currencyservice
+752,36e9c2eb71517d0acc86cdd658d118cb,Artifact,,memory,,,syscall,0,,,,,,,7f42e7c32000,100000,2451.0,,,currencyservice
+753,51694d1b8233e0d617e525fac83abb59,Artifact,,memory,,,syscall,0,,,,,,,7f42e7432000,800000,2451.0,,,currencyservice
+754,3cf6da84a2074fe65701d5ae12de4eaa,Artifact,,memory,,,syscall,0,,,,,,,7f42e3432000,4000000,2451.0,,,currencyservice
+755,997b7eeaa0d207e35db2db955cbff863,Artifact,,memory,,,syscall,0,,,,,,,7f42c3432000,20000000,2451.0,,,currencyservice
+756,e883ff47c001d65fd589fcf487285246,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2451.0,,,currencyservice
+757,b99f9ce1101077c20a2783c254101944,Artifact,,memory,,,syscall,0,,,,,,,7f42c1432000,2000000,2451.0,,,currencyservice
+758,286fffed9d89ed5015a533dd8f7b7c09,Artifact,,memory,,,syscall,0,,,,,,,7f42c1221000,210c10,2451.0,,,currencyservice
+759,f38b1aa40ca836970db1d38ff125ebb7,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2451.0,,,currencyservice
+760,117bc96eda651c852b5feae7cccd303b,Artifact,,memory,,,syscall,1,,,,,,,7f42e7d32000,20000,2451.0,,,currencyservice
+761,3f85c84d70deb29e49154bcbedb4c9da,Artifact,,memory,,,syscall,0,,,,,,,7f42e7cb2000,1000,2451.0,,,currencyservice
+762,2dc388dfe4d049fdfd3dd433cccd4f19,Artifact,,memory,,,syscall,0,,,,,,,7f42e7838000,1000,2451.0,,,currencyservice
+763,4d376d457fadf0bab773d5f20e4592d8,Artifact,,memory,,,syscall,0,,,,,,,7f42e5462000,1000,2451.0,,,currencyservice
+764,b049ef43e304f1b7c83b704d14d60344,Artifact,,memory,,,syscall,0,,,,,,,7f42d35b2000,1000,2451.0,,,currencyservice
+765,7cbc356b6951933db5d6235d20b5e09e,Artifact,,memory,,,syscall,0,,,,,,,7f42c1121000,100000,2451.0,,,currencyservice
+766,cf355ee35318cddb1e6189fa75b66224,Artifact,,memory,,,syscall,0,,,,,,,7f42c1111000,10000,2451.0,,,currencyservice
+767,66c5826c07f1c6d343a4dc06b77ec458,Artifact,,memory,,,syscall,0,,,,,,,7f42c1101000,10000,2451.0,,,currencyservice
+768,fdce842e618408e08b241f13e7777a7f,Artifact,,memory,,,syscall,0,,,,,,,7fb31bca4000,40000,2476.0,,,paymentservice
+769,83e09fb49397106df533740c5d41955e,Artifact,,memory,,,syscall,0,,,,,,,7fb31bc84000,20000,2476.0,,,paymentservice
+770,1942af40d884e713f664cd541b544134,Artifact,,memory,,,syscall,0,,,,,,,7fb31bb84000,100000,2476.0,,,paymentservice
+771,ec72e79221d85f9939cbd00bbc78dfdb,Artifact,,memory,,,syscall,0,,,,,,,7fb31b384000,800000,2476.0,,,paymentservice
+772,cede313a7023356248d80e36eddb0770,Artifact,,memory,,,syscall,0,,,,,,,7fb317384000,4000000,2476.0,,,paymentservice
+773,40170982d7f1c8e5a7e1fc8c6779691d,Artifact,,memory,,,syscall,0,,,,,,,7fb2f7384000,20000000,2476.0,,,paymentservice
+774,2a99fe59ac7edd2f0bc54ad32f3605b6,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2476.0,,,paymentservice
+775,38bcf2bbf1bab3016254008a98d65967,Artifact,,memory,,,syscall,0,,,,,,,7fb2f5384000,2000000,2476.0,,,paymentservice
+776,6f8b5b83b518313a69e780e3e31904b2,Artifact,,memory,,,syscall,0,,,,,,,7fb2f5173000,210c10,2476.0,,,paymentservice
+777,8c5308291916fe090eb5414ecc355adb,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2476.0,,,paymentservice
+778,6ac0c55a2d3baf80281f949c27872ab3,Artifact,,memory,,,syscall,1,,,,,,,7fb31bc84000,20000,2476.0,,,paymentservice
+779,93928b5611d5d26093124f91e07d9b2a,Artifact,,memory,,,syscall,0,,,,,,,7fb31bc04000,1000,2476.0,,,paymentservice
+780,ad4ee9adba07292cf1c1a3c5fe834e07,Artifact,,memory,,,syscall,0,,,,,,,7fb31b78a000,1000,2476.0,,,paymentservice
+781,b3717498f2c82bb222f78f6b0f2fd73a,Artifact,,memory,,,syscall,0,,,,,,,7fb3193b4000,1000,2476.0,,,paymentservice
+782,3e57e7a7d8b1ac886ffe236f910e2ae0,Artifact,,memory,,,syscall,0,,,,,,,7fb307504000,1000,2476.0,,,paymentservice
+783,3231ab38db5a4caa9037caebc9a1e113,Artifact,,memory,,,syscall,0,,,,,,,7fb2f5073000,100000,2476.0,,,paymentservice
+784,a2834e0f3a1bf05b744128e3c03d4cc2,Artifact,,memory,,,syscall,0,,,,,,,7fb2f5063000,10000,2476.0,,,paymentservice
+785,b67a0ae2a3fdc991157f37f1a35302ec,Artifact,,memory,,,syscall,0,,,,,,,7fb2f5053000,10000,2476.0,,,paymentservice
+786,37dc545e8bc9f2720384cb6f0c5f7420,Artifact,,memory,,,syscall,0,,,,,,,7f30538e5000,40000,2482.0,,,productcatalogservice
+787,3ccb6efde8558a4973de3ade24344b76,Artifact,,memory,,,syscall,0,,,,,,,7f30538c5000,20000,2482.0,,,productcatalogservice
+788,59ea2f70192e72ba0de5af1d528ed02d,Artifact,,memory,,,syscall,0,,,,,,,7f30537c5000,100000,2482.0,,,productcatalogservice
+789,a54ee85ea797b06df71c01e40e4da471,Artifact,,memory,,,syscall,0,,,,,,,7f3052fc5000,800000,2482.0,,,productcatalogservice
+790,3fb4ae812e52749a2c441c8c41a19328,Artifact,,memory,,,syscall,0,,,,,,,7f304efc5000,4000000,2482.0,,,productcatalogservice
+791,c070b107c7994a553bb9c230a4570f41,Artifact,,memory,,,syscall,0,,,,,,,7f302efc5000,20000000,2482.0,,,productcatalogservice
+792,1f9cfbbdf5f33f1ef886fa1681a291ef,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2482.0,,,productcatalogservice
+793,63b1fba6e5d2f1f212bb77ab692f65dc,Artifact,,memory,,,syscall,0,,,,,,,7f302cfc5000,2000000,2482.0,,,productcatalogservice
+794,803c9cf55307d139d9e0556cc07cf487,Artifact,,memory,,,syscall,0,,,,,,,7f302cdb4000,210c10,2482.0,,,productcatalogservice
+795,148693b1e4a52105d6099e821d053ac0,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2482.0,,,productcatalogservice
+796,c506580644a16a046880c13f8beb0ab4,Artifact,,memory,,,syscall,1,,,,,,,7f30538c5000,20000,2482.0,,,productcatalogservice
+797,5f5ec151447764ce3a84a22421c4150e,Artifact,,memory,,,syscall,0,,,,,,,7f3053845000,1000,2482.0,,,productcatalogservice
+798,c2c55692bcd15045256bcda78ca4afdb,Artifact,,memory,,,syscall,0,,,,,,,7f30533cb000,1000,2482.0,,,productcatalogservice
+799,08832b92d0ec05b3f6fc7a195ff084d8,Artifact,,memory,,,syscall,0,,,,,,,7f3050ff5000,1000,2482.0,,,productcatalogservice
+800,bf882cb294580a227600fe8b4c452b5c,Artifact,,memory,,,syscall,0,,,,,,,7f303f145000,1000,2482.0,,,productcatalogservice
+801,6b3b7eedbe81fe2800ef92491b9cdfa8,Artifact,,memory,,,syscall,0,,,,,,,7f302ccb4000,100000,2482.0,,,productcatalogservice
+802,d603d9af3227c9cc942a307f4b5d03f3,Artifact,,memory,,,syscall,0,,,,,,,7f302cca4000,10000,2482.0,,,productcatalogservice
+803,64bd5e8d97ff7b96b9d10f3864440d06,Artifact,,memory,,,syscall,0,,,,,,,7f302cc94000,10000,2482.0,,,productcatalogservice
+804,e1a3a23e460e187c6c0c04dfd49e27a0,Artifact,,memory,,,syscall,0,,,,,,,7f302cc54000,40000,2482.0,,,productcatalogservice
+805,1b682e580f8aba3b5eeb688de12d28c8,Artifact,,memory,,,syscall,0,,,,,,,7fb2f5013000,40000,2476.0,,,paymentservice
+806,ded7e507a6761614e314c164dc6ea706,Artifact,,memory,,,syscall,0,,,,,,,7f42c10c1000,40000,2451.0,,,currencyservice
+807,2064ab5ec0872540ae738397d3138353,Artifact,,memory,,,syscall,0,,,,,,,7fb2f4fd3000,40000,2476.0,,,paymentservice
+808,cc0e53cf519ff7b80078bd310467edbd,Artifact,,memory,,,syscall,0,,,,,,,7f42c1081000,40000,2451.0,,,currencyservice
+809,16662dea72e86be8fb4ad39ff0ee4d0d,Artifact,,memory,,,syscall,0,,,,,,,7f42c1041000,40000,2451.0,,,currencyservice
+810,40e5d58e82bd897c9de7e904862174c9,Artifact,,memory,,,syscall,0,,,,,,,7fb2f4f93000,40000,2476.0,,,paymentservice
+811,a8c9edb996fac07c7807f618fcdf447a,Artifact,,memory,,,syscall,0,,,,,,,7f42c1001000,40000,2451.0,,,currencyservice
+812,5e6a22c469c64438e1628ff9eb97fe5c,Artifact,,memory,,,syscall,0,,,,,,,7f302cc14000,40000,2482.0,,,productcatalogservice
+813,bc8daa490865a3d600d99d94673681e1,Artifact,,memory,,,syscall,0,,,,,,,7f302cbd4000,40000,2482.0,,,productcatalogservice
+814,fc2ee9b5cf11197b69bcb1682d5b4193,Artifact,,memory,,,syscall,0,,,,,,,7f1009198000,183000,5893.0,,,cartservice
+815,d29e8b7c6b7f2f8fbbfc372bc8134939,Artifact,,memory,,,syscall,0,,,,,,,7f100919a000,181000,5893.0,,,cartservice
+816,c0adac233dd72d81deac0ea7f3bcda79,Artifact,,memory,,,syscall,0,,,,,,,7f1029af6000,4000,5893.0,,,cartservice
+817,3a3be4e4fa078d6cd3e95c543dce1b3c,Artifact,,memory,,,syscall,0,,,,,,,7f1029af6000,1000,5893.0,,,cartservice
+818,e7701769ec318e5b5d3892d09177ba05,Artifact,,unnamed pipe,,0.0,syscall,0,,,,,,,,,5893.0,203.0,204.0,cartservice
+819,a2406318e4235746f8649c2c01e548cc,Artifact,,memory,,,syscall,0,,,,,,,7f1029ae5000,11000,5893.0,,,cartservice
+820,6b40a24456ab0901939950a6ddb6428e,Artifact,,memory,,,syscall,0,,,,,,,7f1029a4f000,11000,5893.0,,,cartservice
+821,6a7276d9af632c007a66e75663de0df7,Artifact,,memory,,,syscall,0,,,,,,,7f1029a3e000,11000,5893.0,,,cartservice
+822,9a3f47c4ca147c938693341bb5a138a9,Artifact,,memory,,,syscall,0,,,,,,,561928d64000,1000,5893.0,,,cartservice
+823,f7ece4e4c8b1f218347aaaba26ae7e4f,Artifact,,memory,,,syscall,0,,,,,,,7f8666d78000,40000,2518.0,,,cartservice
+824,5294061fbe78022af67d4ac44e350e32,Artifact,,memory,,,syscall,0,,,,,,,7f8666d58000,20000,2518.0,,,cartservice
+825,dfe8c5d2bfe473cf6ccdbe4c73e06dea,Artifact,,memory,,,syscall,0,,,,,,,7f8666c58000,100000,2518.0,,,cartservice
+826,5dcff0db29f774a69ae9373b0cc05fba,Artifact,,memory,,,syscall,0,,,,,,,7f8666458000,800000,2518.0,,,cartservice
+827,8efbea56e901eedf545177eb8b624940,Artifact,,memory,,,syscall,0,,,,,,,7f8662458000,4000000,2518.0,,,cartservice
+828,aafdbd98eaa8452ee204e7f57890f2d5,Artifact,,memory,,,syscall,0,,,,,,,7f8642458000,20000000,2518.0,,,cartservice
+829,18d453687a3de23e17476cdf18e1752b,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2518.0,,,cartservice
+830,be7f3636b7b460e3d1e668f1db2519ed,Artifact,,memory,,,syscall,0,,,,,,,7f8640458000,2000000,2518.0,,,cartservice
+831,b156bf01a2ef584a6c59b124ea0b5c9b,Artifact,,memory,,,syscall,0,,,,,,,7f8640247000,210c10,2518.0,,,cartservice
+832,2a1bc626da56833e7bcb3bb144471ddc,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2518.0,,,cartservice
+833,8bd37037196066fc342145bb1b7fee75,Artifact,,memory,,,syscall,0,,,,,,,7f8640067000,40000,2518.0,,,cartservice
+834,0eaf5a0702b287e051afb6f437bd703c,Artifact,,memory,,,syscall,0,,,,,,,7fe092e87000,40000,2539.0,,,productcatalogservice
+835,f4b1d3c772f3abc58d18fd04395df994,Artifact,,memory,,,syscall,0,,,,,,,7fe092e67000,20000,2539.0,,,productcatalogservice
+836,2acd4a4334f09bd49248e6d10cd7dd04,Artifact,,memory,,,syscall,0,,,,,,,7fe092d67000,100000,2539.0,,,productcatalogservice
+837,133d7f8629bed095309a4cd160586f4c,Artifact,,memory,,,syscall,0,,,,,,,7fe092567000,800000,2539.0,,,productcatalogservice
+838,447595cd092e356a43a71cb4d00824d9,Artifact,,memory,,,syscall,0,,,,,,,7fe08e567000,4000000,2539.0,,,productcatalogservice
+839,827d4090fa86b8a2399b97ffd03bb2d4,Artifact,,memory,,,syscall,0,,,,,,,7fe06e567000,20000000,2539.0,,,productcatalogservice
+840,be7178644806e90a00b2b3b07c6c25a9,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2539.0,,,productcatalogservice
+841,33c601a7708cd5081314db8cd37d15b9,Artifact,,memory,,,syscall,0,,,,,,,7fe06c567000,2000000,2539.0,,,productcatalogservice
+842,eb309092cb3eb79d21c2fc2ac5f04599,Artifact,,memory,,,syscall,0,,,,,,,7fe06c356000,210c10,2539.0,,,productcatalogservice
+843,5492a55e6658ebccfe0095d6d489e5da,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2539.0,,,productcatalogservice
+844,e6cffa86ddd8fd89c044a68077fd1bc4,Artifact,,memory,,,syscall,1,,,,,,,7fe092e67000,20000,2539.0,,,productcatalogservice
+845,e56f0dac2f9aba106dee8090838b4748,Artifact,,memory,,,syscall,0,,,,,,,7fe092de7000,1000,2539.0,,,productcatalogservice
+846,1b61d000e2c78d1d68cd8272bc4ccd64,Artifact,,memory,,,syscall,0,,,,,,,7fe09296d000,1000,2539.0,,,productcatalogservice
+847,b00bd4fadda37da724fd9ea749879ddc,Artifact,,memory,,,syscall,0,,,,,,,7fe090597000,1000,2539.0,,,productcatalogservice
+848,aeaabd523a0e8c36ceac7ac0cbff3491,Artifact,,memory,,,syscall,0,,,,,,,7fe07e6e7000,1000,2539.0,,,productcatalogservice
+849,8e494c312a6cb07ebb8e5db237a5de1d,Artifact,,memory,,,syscall,0,,,,,,,7fe06c256000,100000,2539.0,,,productcatalogservice
+850,04d5f52bd800c6e99fd92575951208a2,Artifact,,memory,,,syscall,0,,,,,,,7fe06c246000,10000,2539.0,,,productcatalogservice
+851,f4ff1e7f83f0b0200d685fea800ab22e,Artifact,,memory,,,syscall,0,,,,,,,7fe06c236000,10000,2539.0,,,productcatalogservice
+852,f6589a14ee3b022768a16f4c69c9c8ee,Artifact,,memory,,,syscall,0,,,,,,,7fe06c1f6000,40000,2539.0,,,productcatalogservice
+853,5b066f15bd1459ee1e0408794082dbb2,Artifact,,memory,,,syscall,0,,,,,,,7fe06c1b6000,40000,2539.0,,,productcatalogservice
+854,adec885969e5972865626ba944f9d3c0,Artifact,,memory,,,syscall,0,,,,,,,7f4b7fdb2000,40000,2561.0,,,currencyservice
+855,d9ed773763d5d97fb9dbdf907baf8bf6,Artifact,,memory,,,syscall,0,,,,,,,7f4b7fd92000,20000,2561.0,,,currencyservice
+856,3fd9870b717d4a246dac433e15af86a1,Artifact,,memory,,,syscall,0,,,,,,,7f4b7fc92000,100000,2561.0,,,currencyservice
+857,474dd2663095526e185ca485d4289cfa,Artifact,,memory,,,syscall,0,,,,,,,7f4b7f492000,800000,2561.0,,,currencyservice
+858,9e717f81c5fc80e09b030d6e7163cf34,Artifact,,memory,,,syscall,0,,,,,,,7f4b7b492000,4000000,2561.0,,,currencyservice
+859,6776e407dbbc44f8db47be3fe0cfa900,Artifact,,memory,,,syscall,0,,,,,,,7f4b5b492000,20000000,2561.0,,,currencyservice
+860,0a265e88643105d75307360a47052747,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2561.0,,,currencyservice
+861,31db73b739cbfb90de7c27bdfc86cbe2,Artifact,,memory,,,syscall,0,,,,,,,7f4b59492000,2000000,2561.0,,,currencyservice
+862,e59fffa51e16dbca4c0ceb4b1fdbf6da,Artifact,,memory,,,syscall,0,,,,,,,7f4b59281000,210c10,2561.0,,,currencyservice
+863,758cb0e0de9a982c60c52f7cecb8f223,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2561.0,,,currencyservice
+864,307633c4e0fd14ba78111b5996b4d2cb,Artifact,,memory,,,syscall,1,,,,,,,7f4b7fd92000,20000,2561.0,,,currencyservice
+865,0535cd9cb8e8ffab89e24117335a4978,Artifact,,memory,,,syscall,0,,,,,,,7f4b7fd12000,1000,2561.0,,,currencyservice
+866,af17c42cb03de27e015d0cf34327c5c9,Artifact,,memory,,,syscall,0,,,,,,,7f4b7f898000,1000,2561.0,,,currencyservice
+867,a4d3c504290e68fd3f4d59e72a2ed860,Artifact,,memory,,,syscall,0,,,,,,,7f4b7d4c2000,1000,2561.0,,,currencyservice
+868,e68fa631e36e44bf0d1619771b024a40,Artifact,,memory,,,syscall,0,,,,,,,7f4b6b612000,1000,2561.0,,,currencyservice
+869,07f022d91ac14ec0ba0fe7e1a3eb923d,Artifact,,memory,,,syscall,0,,,,,,,7f4b59181000,100000,2561.0,,,currencyservice
+870,639a37e8b49d180e611eb35ca6f99431,Artifact,,memory,,,syscall,0,,,,,,,7f4b59171000,10000,2561.0,,,currencyservice
+871,6d283c3bfe77d4cd9f82acb571f75fb7,Artifact,,memory,,,syscall,0,,,,,,,7f4b59161000,10000,2561.0,,,currencyservice
+872,3fd292fbe812439a4f33f2a3969621a4,Artifact,,memory,,,syscall,0,,,,,,,7f4b59121000,40000,2561.0,,,currencyservice
+873,2e847fb8b938e7617f7446e4f6e4579b,Artifact,,memory,,,syscall,0,,,,,,,7f4b590e1000,40000,2561.0,,,currencyservice
+874,18c777e8b66d3c23a0d433fd43a71312,Artifact,,memory,,,syscall,0,,,,,,,7f4b590a1000,40000,2561.0,,,currencyservice
+875,5acea05c46fad67cd54122f98cf04d81,Artifact,,memory,,,syscall,0,,,,,,,7fa53a4e3000,40000,2638.0,,,frontend
+876,3e82d4a0cdedc3f0a6a06e6c4c2b4d8e,Artifact,,memory,,,syscall,0,,,,,,,7fa53a4c3000,20000,2638.0,,,frontend
+877,ef98affeef64d1b1c45012ada9026be1,Artifact,,memory,,,syscall,0,,,,,,,7fa53a3c3000,100000,2638.0,,,frontend
+878,c56a2d8a9830775776f40a4d8016e387,Artifact,,memory,,,syscall,0,,,,,,,7fa539bc3000,800000,2638.0,,,frontend
+879,b522c027d1d3e92378e648ebb8263152,Artifact,,memory,,,syscall,0,,,,,,,7fa535bc3000,4000000,2638.0,,,frontend
+880,a4d15fb95d5ea08587c56201491d3cc7,Artifact,,memory,,,syscall,0,,,,,,,7fa515bc3000,20000000,2638.0,,,frontend
+881,194af76f66127e6d480d1291306a5189,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2638.0,,,frontend
+882,a7b75a72535ba917eac63909a17aec93,Artifact,,memory,,,syscall,0,,,,,,,7fa513bc3000,2000000,2638.0,,,frontend
+883,952d85317afe0585503681470af3cc03,Artifact,,memory,,,syscall,0,,,,,,,7fa5139b2000,210c10,2638.0,,,frontend
+884,9de19d4358f45f4d5c553026d469bc3c,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2638.0,,,frontend
+885,2fc8a46d29d3747c82ce1d269d5aa878,Artifact,,memory,,,syscall,1,,,,,,,7fa53a4c3000,20000,2638.0,,,frontend
+886,ab0c0f924a8a312ecbc9b38b70e3c5a9,Artifact,,memory,,,syscall,0,,,,,,,7fa53a443000,1000,2638.0,,,frontend
+887,06d84e1894b11bac1fe30bd4d08276bd,Artifact,,memory,,,syscall,0,,,,,,,7fa539fc9000,1000,2638.0,,,frontend
+888,960e7b463c5bb14d72199719f7e95c32,Artifact,,memory,,,syscall,0,,,,,,,7fa537bf3000,1000,2638.0,,,frontend
+889,0ef23f3e9764c7ce1a30724f9e173df3,Artifact,,memory,,,syscall,0,,,,,,,7fa525d43000,1000,2638.0,,,frontend
+890,b50519735c9b5405d7bb32c3a834876e,Artifact,,memory,,,syscall,0,,,,,,,7fa5138b2000,100000,2638.0,,,frontend
+891,45f8e62d9f820bebc74fa1f3f85fdc85,Artifact,,memory,,,syscall,0,,,,,,,7fa5138a2000,10000,2638.0,,,frontend
+892,b979f37d5a4c8fd3ccb61b87c565ab46,Artifact,,memory,,,syscall,0,,,,,,,7fa513892000,10000,2638.0,,,frontend
+893,4212745c86c2fec13d0b250b8120636d,Artifact,,memory,,,syscall,0,,,,,,,7fa513852000,40000,2638.0,,,frontend
+894,27b69c2ed5ece857caf31842972bca77,Artifact,,memory,,,syscall,0,,,,,,,7fa513812000,40000,2638.0,,,frontend
+895,7de9951e368e1e05c26b746e3f6bd4dd,Artifact,,memory,,,syscall,0,,,,,,,7f82f1204000,40000,2629.0,,,frontend
+896,0a088d0018c7599a9b7ea8cde29a52fc,Artifact,,memory,,,syscall,0,,,,,,,7f82f11e4000,20000,2629.0,,,frontend
+897,d56ecab7f3458a691f6d464c08da273e,Artifact,,memory,,,syscall,0,,,,,,,7f82f10e4000,100000,2629.0,,,frontend
+898,387e623d999c1d33feaa0dab66dba32b,Artifact,,memory,,,syscall,0,,,,,,,7f82f08e4000,800000,2629.0,,,frontend
+899,4feb4df4bb0596774b92c4ba55d2bf51,Artifact,,memory,,,syscall,0,,,,,,,7f82ec8e4000,4000000,2629.0,,,frontend
+900,2adbc19809b02710e8abbfae41e49b01,Artifact,,memory,,,syscall,0,,,,,,,7f82cc8e4000,20000000,2629.0,,,frontend
+901,e48ad1545a7023db8210fcad39117efd,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2629.0,,,frontend
+902,de8c7fafcfe5ade65933c020c9a23840,Artifact,,memory,,,syscall,0,,,,,,,7f82ca8e4000,2000000,2629.0,,,frontend
+903,cb8fb8c123ac7c1321a8501d00d170e2,Artifact,,memory,,,syscall,0,,,,,,,7f82ca6d3000,210c10,2629.0,,,frontend
+904,5ca34e6df08585f5a109990c6cd275ae,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2629.0,,,frontend
+905,5998f1731e74dfc9a1622ad0efd34eb5,Artifact,,memory,,,syscall,1,,,,,,,7f82f11e4000,20000,2629.0,,,frontend
+906,83d2a34f3c43a7a149a2f1a34871821d,Artifact,,memory,,,syscall,0,,,,,,,7f82f1164000,1000,2629.0,,,frontend
+907,0cf92ac8c4c3bd526cbc2bdbd46148c6,Artifact,,memory,,,syscall,0,,,,,,,7f82f0cea000,1000,2629.0,,,frontend
+908,8ecad97e42d8e93aa31c246213008c3b,Artifact,,memory,,,syscall,0,,,,,,,7f82ee914000,1000,2629.0,,,frontend
+909,c32e951edf00602201566d5b2a52b911,Artifact,,memory,,,syscall,0,,,,,,,7f82dca64000,1000,2629.0,,,frontend
+910,782f707ed8350c759983105d9d78adb9,Artifact,,memory,,,syscall,0,,,,,,,7f82ca5d3000,100000,2629.0,,,frontend
+911,c1e1da98e10650c3c5576487e2814f46,Artifact,,memory,,,syscall,0,,,,,,,7f82ca5c3000,10000,2629.0,,,frontend
+912,ad76775ebcbcf2e5d6fbf0717b5e09b6,Artifact,,memory,,,syscall,0,,,,,,,7f82ca5b3000,10000,2629.0,,,frontend
+913,3750eb2d45a5f04b1524fb20c57dbfff,Artifact,,memory,,,syscall,0,,,,,,,7f82ca573000,40000,2629.0,,,frontend
+914,2526113c474ab81f1ea983264f24fae6,Artifact,,memory,,,syscall,0,,,,,,,7f82ca533000,40000,2629.0,,,frontend
+915,69807fbfdfca4f439d930928cd7428aa,Artifact,,memory,,,syscall,0,,,,,,,7f555a5fa000,40000,2761.0,,,recommendationservice
+916,3b2d909486095643e71cc793ba6916d0,Artifact,,memory,,,syscall,0,,,,,,,7f555a5da000,20000,2761.0,,,recommendationservice
+917,e224d595aeaab516991eafdc151c6286,Artifact,,memory,,,syscall,0,,,,,,,7f555a4da000,100000,2761.0,,,recommendationservice
+918,0f0ac30fe4f53a19621f6ad377c32613,Artifact,,memory,,,syscall,0,,,,,,,7f5559cda000,800000,2761.0,,,recommendationservice
+919,ca7bfc63cf4695ba89c8feaf658d5116,Artifact,,memory,,,syscall,0,,,,,,,7f5555cda000,4000000,2761.0,,,recommendationservice
+920,55dc389e67ffe84c5ff6e7e136bb6fa2,Artifact,,memory,,,syscall,0,,,,,,,7f5535cda000,20000000,2761.0,,,recommendationservice
+921,a86771e2e66beab79d6e58e68b25a4e4,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2761.0,,,recommendationservice
+922,20306fbfb60e9092094577aad56e9736,Artifact,,memory,,,syscall,0,,,,,,,7f5533cda000,2000000,2761.0,,,recommendationservice
+923,3f9cea3b59453be41d303ea840d39b94,Artifact,,memory,,,syscall,0,,,,,,,7f5533ac9000,210c10,2761.0,,,recommendationservice
+924,20d695adf2a756d8f0f5ad5dcedf8789,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2761.0,,,recommendationservice
+925,fb8909ed22c4cd3f86587160994a2b18,Artifact,,memory,,,syscall,1,,,,,,,7f555a5da000,20000,2761.0,,,recommendationservice
+926,0ae39a3cfad56e01f2d9676f5706aa09,Artifact,,memory,,,syscall,0,,,,,,,7f555a55a000,1000,2761.0,,,recommendationservice
+927,013b986537f0ea533856491c9e62d811,Artifact,,memory,,,syscall,0,,,,,,,7f555a0e0000,1000,2761.0,,,recommendationservice
+928,6b8ece8c941ca0db40d6453bce2b8055,Artifact,,memory,,,syscall,0,,,,,,,7f5557d0a000,1000,2761.0,,,recommendationservice
+929,a9b960bb05ba0ebad58ae8067e0f6dd5,Artifact,,memory,,,syscall,0,,,,,,,7f5545e5a000,1000,2761.0,,,recommendationservice
+930,f266e59cda755fa34e395e29f250e9e6,Artifact,,memory,,,syscall,0,,,,,,,7f7cf7681000,40000,2767.0,,,paymentservice
+931,998279a0f48b3ac5c02d85422c64247c,Artifact,,memory,,,syscall,0,,,,,,,7f7cf7661000,20000,2767.0,,,paymentservice
+932,51248ea1ee1556e207b2f4076ffdb52d,Artifact,,memory,,,syscall,0,,,,,,,7f7cf7561000,100000,2767.0,,,paymentservice
+933,b9971a00f53d4c95f818baccd87f7030,Artifact,,memory,,,syscall,0,,,,,,,7f7cf6d61000,800000,2767.0,,,paymentservice
+934,6f819468d176cbf5c0e7d671d1fcdef1,Artifact,,memory,,,syscall,0,,,,,,,7f7cf2d61000,4000000,2767.0,,,paymentservice
+935,ea56b6402ecfcd1fa713b9315c911bf8,Artifact,,memory,,,syscall,0,,,,,,,7f7cd2d61000,20000000,2767.0,,,paymentservice
+936,25f8521039261785eea1d82fbbd488d6,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2767.0,,,paymentservice
+937,e98d06202105b0f8c17faddcf8fd4153,Artifact,,memory,,,syscall,0,,,,,,,7f7cd0d61000,2000000,2767.0,,,paymentservice
+938,949a3d77df19b274e78692179f68dbd8,Artifact,,memory,,,syscall,0,,,,,,,7f7cd0b50000,210c10,2767.0,,,paymentservice
+939,e10f0b31d8da0857dba22d5d386ef60b,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2767.0,,,paymentservice
+940,6bf2e96c6ae0e26bae5210a3f152d070,Artifact,,memory,,,syscall,1,,,,,,,7f7cf7661000,20000,2767.0,,,paymentservice
+941,5cd530db99cd8fab3496378482b32226,Artifact,,memory,,,syscall,0,,,,,,,7f7cf75e1000,1000,2767.0,,,paymentservice
+942,79cf0466bb63ab4d4ff14cdae7ce469c,Artifact,,memory,,,syscall,0,,,,,,,7f7cf7167000,1000,2767.0,,,paymentservice
+943,d7fdaec3dd3b10ca614a83c3a316cae4,Artifact,,memory,,,syscall,0,,,,,,,7f7cf4d91000,1000,2767.0,,,paymentservice
+944,6a6248cf44db4565597b85af8aa9e3d8,Artifact,,memory,,,syscall,0,,,,,,,7f7ce2ee1000,1000,2767.0,,,paymentservice
+945,f113843f2e051ef25c965df4842d0375,Artifact,,memory,,,syscall,0,,,,,,,7f7cd0a50000,100000,2767.0,,,paymentservice
+946,6e83d4bf507203d7ec1ea47defee8491,Artifact,,memory,,,syscall,0,,,,,,,7f7cd0a40000,10000,2767.0,,,paymentservice
+947,4535dd3bef840c5d6091745a87c470b9,Artifact,,memory,,,syscall,0,,,,,,,7f7cd0a30000,10000,2767.0,,,paymentservice
+948,949f43b93de2dac46b80c8b2abfc1807,Artifact,,memory,,,syscall,0,,,,,,,7f55339c9000,100000,2761.0,,,recommendationservice
+949,3587210dad312ec1f460ff04761a57d8,Artifact,,memory,,,syscall,0,,,,,,,7f7cd09f0000,40000,2767.0,,,paymentservice
+950,ad02b2acebb3b9a7e3ed0247c3847ade,Artifact,,memory,,,syscall,0,,,,,,,7f9e51991000,40000,2770.0,,,checkoutservice
+951,40d8eaa9111f877615b2cb4aebd3aea2,Artifact,,memory,,,syscall,0,,,,,,,7f9e51971000,20000,2770.0,,,checkoutservice
+952,d8ceecffb9a0f6439000c28eb0fcff1d,Artifact,,memory,,,syscall,0,,,,,,,7f9e51871000,100000,2770.0,,,checkoutservice
+953,e3f9ed8fec15ac2daa184e4fab48b885,Artifact,,memory,,,syscall,0,,,,,,,7f9e51071000,800000,2770.0,,,checkoutservice
+954,dae7256ca39899bc437fcfefeecf044f,Artifact,,memory,,,syscall,0,,,,,,,7f9e4d071000,4000000,2770.0,,,checkoutservice
+955,cf7d77a469f65a320b78488a8e69eafa,Artifact,,memory,,,syscall,0,,,,,,,7f9e2d071000,20000000,2770.0,,,checkoutservice
+956,cacc9ac37424d7afdf5153c3f46cf654,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2770.0,,,checkoutservice
+957,19c863ab39bb6ce1394e1d6a2f288ebb,Artifact,,memory,,,syscall,0,,,,,,,7f9e2b071000,2000000,2770.0,,,checkoutservice
+958,ffec59490712396517bdd8e7f1b880cf,Artifact,,memory,,,syscall,0,,,,,,,7f9e2ae60000,210c10,2770.0,,,checkoutservice
+959,db173c286cc31ee714d2e53d01dd5b37,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2770.0,,,checkoutservice
+960,520c2091018169d26d647534a1366458,Artifact,,memory,,,syscall,1,,,,,,,7f9e51971000,20000,2770.0,,,checkoutservice
+961,1f71259265ae9a75485417b17ecfe6f2,Artifact,,memory,,,syscall,0,,,,,,,7f9e518f1000,1000,2770.0,,,checkoutservice
+962,8be19afa9cef791e3178b7124e661ff7,Artifact,,memory,,,syscall,0,,,,,,,7f9e51477000,1000,2770.0,,,checkoutservice
+963,599de527adb4509ad10e54b9506d0451,Artifact,,memory,,,syscall,0,,,,,,,7f9e4f0a1000,1000,2770.0,,,checkoutservice
+964,a923c004e5bdd86f5c85e5c36bf79f50,Artifact,,memory,,,syscall,0,,,,,,,7f9e3d1f1000,1000,2770.0,,,checkoutservice
+965,d63e4fd58f9309835bcc7febe7565bf3,Artifact,,memory,,,syscall,0,,,,,,,7f9e2ad60000,100000,2770.0,,,checkoutservice
+966,c2f7ab88ef96acd0006e004b42f952ae,Artifact,,memory,,,syscall,0,,,,,,,7f9e2ad50000,10000,2770.0,,,checkoutservice
+967,026a17828f49531e8f69c12a2d2d2737,Artifact,,memory,,,syscall,0,,,,,,,7f9e2ad40000,10000,2770.0,,,checkoutservice
+968,c0873a0d2989211e03d3cc1954308b3a,Artifact,,memory,,,syscall,0,,,,,,,7f55339b9000,10000,2761.0,,,recommendationservice
+969,571236e70529e7c2ac0a73e4c1514074,Artifact,,memory,,,syscall,0,,,,,,,7f55339a9000,10000,2761.0,,,recommendationservice
+970,1d1f7f4788c445f537988599f66021c5,Artifact,,memory,,,syscall,0,,,,,,,7f9e2ad00000,40000,2770.0,,,checkoutservice
+971,c40a9b0e8e326651762285aebcc4a913,Artifact,,memory,,,syscall,0,,,,,,,7f7cd09b0000,40000,2767.0,,,paymentservice
+972,52a0324ab5da9b84bf2adc7f58b8032e,Artifact,,memory,,,syscall,0,,,,,,,7f7cd0970000,40000,2767.0,,,paymentservice
+973,d61c7d89d183ba87f4fe811f4151c2ad,Artifact,,memory,,,syscall,0,,,,,,,7f9ae548f000,40000,2764.0,,,recommendationservice
+974,9ffc4ff478970779ebe044ab9105d729,Artifact,,memory,,,syscall,0,,,,,,,7f9ae546f000,20000,2764.0,,,recommendationservice
+975,6c3d5a086f89c23dbdda9b69a96a5ec2,Artifact,,memory,,,syscall,0,,,,,,,7f9ae536f000,100000,2764.0,,,recommendationservice
+976,ea4542be1b15ce8ee62079f5129a7e11,Artifact,,memory,,,syscall,0,,,,,,,7f9ae4b6f000,800000,2764.0,,,recommendationservice
+977,a5fd913193dc75a048f377f97b7cf43a,Artifact,,memory,,,syscall,0,,,,,,,7f9ae0b6f000,4000000,2764.0,,,recommendationservice
+978,514debc437e007eaa107dc5aaa4266dc,Artifact,,memory,,,syscall,0,,,,,,,7f9ac0b6f000,20000000,2764.0,,,recommendationservice
+979,2cf32be96ebe3a6a46a097e473428d7f,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2764.0,,,recommendationservice
+980,a0a2d7b09b31412f51e4a5320d04c4ff,Artifact,,memory,,,syscall,0,,,,,,,7f9abeb6f000,2000000,2764.0,,,recommendationservice
+981,25d9f9be324bfac8a16adc266725980c,Artifact,,memory,,,syscall,0,,,,,,,7f9abe95e000,210c10,2764.0,,,recommendationservice
+982,6fda48cd6d1f2530c16d9b6da5e19636,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2764.0,,,recommendationservice
+983,3f766a276285ea3a9603b98e746545b6,Artifact,,memory,,,syscall,1,,,,,,,7f9ae546f000,20000,2764.0,,,recommendationservice
+984,2c36eea47a21ceda95f5c74a75135a94,Artifact,,memory,,,syscall,0,,,,,,,7f9ae53ef000,1000,2764.0,,,recommendationservice
+985,3ba82673b47748c62d034d05b938e423,Artifact,,memory,,,syscall,0,,,,,,,7f9ae4f75000,1000,2764.0,,,recommendationservice
+986,a40851da6a3e3cee6ed6c2d47a20e57d,Artifact,,memory,,,syscall,0,,,,,,,7f9ae2b9f000,1000,2764.0,,,recommendationservice
+987,46105263c4167423e02c353990f5bed0,Artifact,,memory,,,syscall,0,,,,,,,7f9ad0cef000,1000,2764.0,,,recommendationservice
+988,b78c998f33a0c1c473c341f724e20ace,Artifact,,memory,,,syscall,0,,,,,,,7f9abe85e000,100000,2764.0,,,recommendationservice
+989,1ca20a67043fe153f4d17d344919b0f6,Artifact,,memory,,,syscall,0,,,,,,,7f9abe84e000,10000,2764.0,,,recommendationservice
+990,50cdd280e3a46f834ed308e02a1c9df8,Artifact,,memory,,,syscall,0,,,,,,,7f9abe83e000,10000,2764.0,,,recommendationservice
+991,01865381ecbabfc4d1a3020140019711,Artifact,,memory,,,syscall,0,,,,,,,7f9abe7fe000,40000,2764.0,,,recommendationservice
+992,8bf3fa8eea6da16f77fe04ef3ed0231c,Artifact,,memory,,,syscall,0,,,,,,,7f9e2acc0000,40000,2770.0,,,checkoutservice
+993,3cb609e91457092abcb956fa4fe10edd,Artifact,,memory,,,syscall,0,,,,,,,7f5533969000,40000,2761.0,,,recommendationservice
+994,3750d446e1648dc1f64abefc185a7137,Artifact,,memory,,,syscall,0,,,,,,,7f5533929000,40000,2761.0,,,recommendationservice
+995,1b148c69e33136ad6692002e76a4198f,Artifact,,memory,,,syscall,0,,,,,,,7f55338e9000,40000,2761.0,,,recommendationservice
+996,2254c299f71307808412148e89bf9845,Artifact,,memory,,,syscall,0,,,,,,,7f908bb33000,40000,2837.0,,,checkoutservice
+997,2c9c038d056a5e6406aed05273784ea6,Artifact,,memory,,,syscall,0,,,,,,,7f908bb13000,20000,2837.0,,,checkoutservice
+998,12f65b989510b0763256f43a4b882ce5,Artifact,,memory,,,syscall,0,,,,,,,7f908ba13000,100000,2837.0,,,checkoutservice
+999,e68687f731b740abbeb64bc4061c4726,Artifact,,memory,,,syscall,0,,,,,,,7f908b213000,800000,2837.0,,,checkoutservice
+1000,e1208f78ba8d1cac1fb9a669c6d253c7,Artifact,,memory,,,syscall,0,,,,,,,7f9087213000,4000000,2837.0,,,checkoutservice
+1001,736e8f1703678c681c444a32af671fd3,Artifact,,memory,,,syscall,0,,,,,,,7f9067213000,20000000,2837.0,,,checkoutservice
+1002,c5288a21f3521b7df744dbfaaa301351,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2837.0,,,checkoutservice
+1003,67c5581a88bc3b93ffda73bfc0ae623d,Artifact,,memory,,,syscall,0,,,,,,,7f9065213000,2000000,2837.0,,,checkoutservice
+1004,517aaa01e3058f68ca66d8639d147188,Artifact,,memory,,,syscall,0,,,,,,,7f9065002000,210c10,2837.0,,,checkoutservice
+1005,a099341dedd119f9a14512cda76c420d,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2837.0,,,checkoutservice
+1006,479276446bac0b3f6b71df79843bb133,Artifact,,memory,,,syscall,1,,,,,,,7f908bb13000,20000,2837.0,,,checkoutservice
+1007,982c167e1740a89fa646c5a55e9ac5b8,Artifact,,memory,,,syscall,0,,,,,,,7f908ba93000,1000,2837.0,,,checkoutservice
+1008,e5db2705a63dd83c5bfd30a74ba7cd67,Artifact,,memory,,,syscall,0,,,,,,,7f908b619000,1000,2837.0,,,checkoutservice
+1009,465d085b0090398b9f8c33877ac6f8f6,Artifact,,memory,,,syscall,0,,,,,,,7f9089243000,1000,2837.0,,,checkoutservice
+1010,cf7bc53b1f0c24bffe4cb81b6d751fe9,Artifact,,memory,,,syscall,0,,,,,,,7f9077393000,1000,2837.0,,,checkoutservice
+1011,dbb15f6019fe4feedd0eeb0fca0b0b16,Artifact,,memory,,,syscall,0,,,,,,,7f9064f02000,100000,2837.0,,,checkoutservice
+1012,096c5683d7ba79c3ac3588d5c2c9070e,Artifact,,memory,,,syscall,0,,,,,,,7f9064ef2000,10000,2837.0,,,checkoutservice
+1013,2635fa115461ce5d76d90cee39c22792,Artifact,,memory,,,syscall,0,,,,,,,7f9064ee2000,10000,2837.0,,,checkoutservice
+1014,ed12a8a531ae91f3e6c35473c176113a,Artifact,,memory,,,syscall,0,,,,,,,7f9064ea2000,40000,2837.0,,,checkoutservice
+1015,8d7b85ba1779871be24aa1ec6f440645,Artifact,,memory,,,syscall,0,,,,,,,7f9064e62000,40000,2837.0,,,checkoutservice
+1016,7bd4e57dd704e8e9983860469dd378c7,Artifact,,memory,,,syscall,0,,,,,,,7f9064e22000,40000,2837.0,,,checkoutservice
+1017,4c7875ba395c07c482941e22d5b0cbd3,Artifact,,memory,,,syscall,0,,,,,,,7fb72ec7d000,40000,2898.0,,,frontend
+1018,5d421f97a457b1dfd888ef554c210fbc,Artifact,,memory,,,syscall,0,,,,,,,7fb72ec5d000,20000,2898.0,,,frontend
+1019,d1d0edb6355ea866fb5504af956e2d99,Artifact,,memory,,,syscall,0,,,,,,,7fb72eb5d000,100000,2898.0,,,frontend
+1020,3b3ec23ae01629b3decca3ee1c324978,Artifact,,memory,,,syscall,0,,,,,,,7fb72e35d000,800000,2898.0,,,frontend
+1021,62afdefe98f61c345607228f29e32f22,Artifact,,memory,,,syscall,0,,,,,,,7fb72a35d000,4000000,2898.0,,,frontend
+1022,8a255a911cc82255a09724e34e1ca0b1,Artifact,,memory,,,syscall,0,,,,,,,7fb70a35d000,20000000,2898.0,,,frontend
+1023,1e1b7ecfa99ac45bcb50ed636a4cff53,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2898.0,,,frontend
+1024,dbb44268c928d7357770c9cc38b80a93,Artifact,,memory,,,syscall,0,,,,,,,7fb70835d000,2000000,2898.0,,,frontend
+1025,3dee4312a4cb45400179041fa7fb7c8e,Artifact,,memory,,,syscall,0,,,,,,,7fb70814c000,210c10,2898.0,,,frontend
+1026,3c4a95a03fdbfea120e80799705043d3,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2898.0,,,frontend
+1027,23b0f714ff92da274388189777bfb477,Artifact,,memory,,,syscall,1,,,,,,,7fb72ec5d000,20000,2898.0,,,frontend
+1028,141a430059d3c953ef294367f78ab5a9,Artifact,,memory,,,syscall,0,,,,,,,7fb72ebdd000,1000,2898.0,,,frontend
+1029,dcf5f91bcbdb474653128fa45c7b8546,Artifact,,memory,,,syscall,0,,,,,,,7fb72e763000,1000,2898.0,,,frontend
+1030,02d69e16f99478b2266972567920b523,Artifact,,memory,,,syscall,0,,,,,,,7fb72c38d000,1000,2898.0,,,frontend
+1031,1d372fdbe00a2e13809512dec039ca41,Artifact,,memory,,,syscall,0,,,,,,,7fb71a4dd000,1000,2898.0,,,frontend
+1032,0d94b30d30b34605cc37fd17ce78b043,Artifact,,memory,,,syscall,0,,,,,,,7fb70804c000,100000,2898.0,,,frontend
+1033,738e0860c6da73cd6c5f278e86ee794e,Artifact,,memory,,,syscall,0,,,,,,,7fb70803c000,10000,2898.0,,,frontend
+1034,d4b7b12a4890043368d25dfaf87f7729,Artifact,,memory,,,syscall,0,,,,,,,7fb70802c000,10000,2898.0,,,frontend
+1035,e803e044ebcd34a5ac561b7fc5d88a0f,Artifact,,memory,,,syscall,0,,,,,,,7f5a9a713000,40000,2901.0,,,frontend
+1036,50f7b1f3b4bb6078953f44c56e729647,Artifact,,memory,,,syscall,0,,,,,,,7f5a9a6f3000,20000,2901.0,,,frontend
+1037,307065367a499661555a9880a1b067d6,Artifact,,memory,,,syscall,0,,,,,,,7f5a9a5f3000,100000,2901.0,,,frontend
+1038,25c0045886bd6a11c8ab7b3e9c74a3ea,Artifact,,memory,,,syscall,0,,,,,,,7f5a99df3000,800000,2901.0,,,frontend
+1039,c44500133765c598af08b7b65122fa22,Artifact,,memory,,,syscall,0,,,,,,,7f5a95df3000,4000000,2901.0,,,frontend
+1040,992336c1e46168e3f1c9d7881a884d31,Artifact,,memory,,,syscall,0,,,,,,,7f5a75df3000,20000000,2901.0,,,frontend
+1041,7bb9c587b3bcfd4cad6733521e014de7,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2901.0,,,frontend
+1042,3f864b94c8f2c1706d8ec04734f2b284,Artifact,,memory,,,syscall,0,,,,,,,7f5a73df3000,2000000,2901.0,,,frontend
+1043,373e5816770078d75831aea623d8bc12,Artifact,,memory,,,syscall,0,,,,,,,7f5a73be2000,210c10,2901.0,,,frontend
+1044,ec0c993a5a7e1d3aee4c76acbed8a0cb,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2901.0,,,frontend
+1045,0590c7f32eb368bdff55435958c1ed7a,Artifact,,memory,,,syscall,1,,,,,,,7f5a9a6f3000,20000,2901.0,,,frontend
+1046,35c35a0edfcc93a27548715642a9cb6c,Artifact,,memory,,,syscall,0,,,,,,,7f5a9a673000,1000,2901.0,,,frontend
+1047,69423e2cae71a8793382543506b2d1d2,Artifact,,memory,,,syscall,0,,,,,,,7f5a9a1f9000,1000,2901.0,,,frontend
+1048,9c44810a88572a714bb970b20d495980,Artifact,,memory,,,syscall,0,,,,,,,7f5a97e23000,1000,2901.0,,,frontend
+1049,846d89db34ded65a0696b0dc46ba1dff,Artifact,,memory,,,syscall,0,,,,,,,7f5a85f73000,1000,2901.0,,,frontend
+1050,c1e452599c76a0bf837352e97630836c,Artifact,,memory,,,syscall,0,,,,,,,7f5a73ae2000,100000,2901.0,,,frontend
+1051,adc885f4f10b0aac32064f30df35dd35,Artifact,,memory,,,syscall,0,,,,,,,7f5a73ad2000,10000,2901.0,,,frontend
+1052,b228d8ddbb34434344b77d8d4f616581,Artifact,,memory,,,syscall,0,,,,,,,7f5a73ac2000,10000,2901.0,,,frontend
+1053,338175f4a1a706595bc96a4d116f68ed,Artifact,,memory,,,syscall,0,,,,,,,7fb707fec000,40000,2898.0,,,frontend
+1054,8e19bb9234b49c68cd4dc1f9c945b53e,Artifact,,memory,,,syscall,0,,,,,,,7fb707fac000,40000,2898.0,,,frontend
+1055,b82209beba45637ce1f188f65dbbe774,Artifact,,memory,,,syscall,0,,,,,,,7f5a73a82000,40000,2901.0,,,frontend
+1056,6e095a8b5e681e69e1eea02fd3ff342a,Artifact,,memory,,,syscall,0,,,,,,,7f5a73a42000,40000,2901.0,,,frontend
+1057,6285893b8f598da385a84d9f1fda308e,Artifact,,memory,,,syscall,0,,,,,,,7fb707f6c000,40000,2898.0,,,frontend
+1058,b562dba302693136ae4b1e3487b24b9a,Artifact,,memory,,,syscall,0,,,,,,,7fb707f2c000,40000,2898.0,,,frontend
+1059,093eb8df24a075bb54ba247ca9b195d0,Artifact,,memory,,,syscall,0,,,,,,,7f5a73a02000,40000,2901.0,,,frontend
+1060,a1651287c1fa1a808efa2266271ed548,Artifact,,memory,,,syscall,0,,,,,,,7f09d78af000,40000,2950.0,,,paymentservice
+1061,66464da386ffc0096faa00836447bebc,Artifact,,memory,,,syscall,0,,,,,,,7f09d788f000,20000,2950.0,,,paymentservice
+1062,2e0df5fe5f3adaea41c55a85a7c8c3cb,Artifact,,memory,,,syscall,0,,,,,,,7f09d778f000,100000,2950.0,,,paymentservice
+1063,2a9f9aec4fee1669994736815675cb67,Artifact,,memory,,,syscall,0,,,,,,,7f09d6f8f000,800000,2950.0,,,paymentservice
+1064,71060ba97008ef52c2687b0441871e68,Artifact,,memory,,,syscall,0,,,,,,,7f09d2f8f000,4000000,2950.0,,,paymentservice
+1065,bfb55d1b76fa0440ebcec8ef09563739,Artifact,,memory,,,syscall,0,,,,,,,7f09b2f8f000,20000000,2950.0,,,paymentservice
+1066,bf4587e4df83b596413f83fa96722d83,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2950.0,,,paymentservice
+1067,c3edc4838ddc0c496575bc151468ffff,Artifact,,memory,,,syscall,0,,,,,,,7f09b0f8f000,2000000,2950.0,,,paymentservice
+1068,0a1603c422f9eb1ff0e96bde0ea4d407,Artifact,,memory,,,syscall,0,,,,,,,7f09b0d7e000,210c10,2950.0,,,paymentservice
+1069,9ffee7222a31f9ff6458abec72dd2768,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2950.0,,,paymentservice
+1070,e418283936ec63c2828de391590fbfcb,Artifact,,memory,,,syscall,1,,,,,,,7f09d788f000,20000,2950.0,,,paymentservice
+1071,596eb78a171f6dafad4edf2c9e8c03a0,Artifact,,memory,,,syscall,0,,,,,,,7f09d780f000,1000,2950.0,,,paymentservice
+1072,d92cbfd70ca0772b2f77bc7c268c476b,Artifact,,memory,,,syscall,0,,,,,,,7f09d7395000,1000,2950.0,,,paymentservice
+1073,01d56fa55b9a96c8105184e0f76741e1,Artifact,,memory,,,syscall,0,,,,,,,7f09d4fbf000,1000,2950.0,,,paymentservice
+1074,1caf810b7395804307f3401ea9138474,Artifact,,memory,,,syscall,0,,,,,,,7f09c310f000,1000,2950.0,,,paymentservice
+1075,584d3092f39116f0bd934451e963f389,Artifact,,memory,,,syscall,0,,,,,,,7f09b0c7e000,100000,2950.0,,,paymentservice
+1076,a609f2c297e816f03472d6110c434a10,Artifact,,memory,,,syscall,0,,,,,,,7f09b0c6e000,10000,2950.0,,,paymentservice
+1077,33cd2b4dfbe6e6976459f9b3de5a3e04,Artifact,,memory,,,syscall,0,,,,,,,7f09b0c5e000,10000,2950.0,,,paymentservice
+1078,68b8c4ed4a348911ac5c0d11e2482fc7,Artifact,,memory,,,syscall,0,,,,,,,7f09b0c1e000,40000,2950.0,,,paymentservice
+1079,f08003d2589097ec97fc2943019a125b,Artifact,,memory,,,syscall,0,,,,,,,7f0c9098d000,40000,2951.0,,,recommendationservice
+1080,283f67beac7ea1b52a0009abb5f59895,Artifact,,memory,,,syscall,0,,,,,,,7f0c9096d000,20000,2951.0,,,recommendationservice
+1081,5368e153672a675adb9e09a689c106b2,Artifact,,memory,,,syscall,0,,,,,,,7f0c9086d000,100000,2951.0,,,recommendationservice
+1082,e9b808e17402aedab49a1fe513c97a5a,Artifact,,memory,,,syscall,0,,,,,,,7f0c9006d000,800000,2951.0,,,recommendationservice
+1083,2b0060d1763c58d62711d5d0520c027f,Artifact,,memory,,,syscall,0,,,,,,,7f0c8c06d000,4000000,2951.0,,,recommendationservice
+1084,32711db410bcf7a155ba1507b8a7bede,Artifact,,memory,,,syscall,0,,,,,,,7f0c6c06d000,20000000,2951.0,,,recommendationservice
+1085,b3d5ff9f3ce0e315edc0911eab614fab,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,2951.0,,,recommendationservice
+1086,74eac77ebcce6269b73fb3c1a3446ec2,Artifact,,memory,,,syscall,0,,,,,,,7f0c6a06d000,2000000,2951.0,,,recommendationservice
+1087,e10aff59bf59a03c8430f1a2e3d48188,Artifact,,memory,,,syscall,0,,,,,,,7f0c69e5c000,210c10,2951.0,,,recommendationservice
+1088,750f8508e1dc4b4853069160564ebc22,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,2951.0,,,recommendationservice
+1089,e3f9a282c3aec7b6c8faf2085dfe62aa,Artifact,,memory,,,syscall,1,,,,,,,7f0c9096d000,20000,2951.0,,,recommendationservice
+1090,1f071c69cd3e11d225b41b7ca3c63328,Artifact,,memory,,,syscall,0,,,,,,,7f0c908ed000,1000,2951.0,,,recommendationservice
+1091,4e1e730724dcd6e39a2f265277cc7270,Artifact,,memory,,,syscall,0,,,,,,,7f0c90473000,1000,2951.0,,,recommendationservice
+1092,86bc4706d9557b99d8c3a1ba4d0483a0,Artifact,,memory,,,syscall,0,,,,,,,7f0c8e09d000,1000,2951.0,,,recommendationservice
+1093,99b4470cdcccccd389394670ba4a9977,Artifact,,memory,,,syscall,0,,,,,,,7f0c7c1ed000,1000,2951.0,,,recommendationservice
+1094,95527205ffd9c358094bf02179a79060,Artifact,,memory,,,syscall,0,,,,,,,7f0c69d5c000,100000,2951.0,,,recommendationservice
+1095,2ff8b677b83c352cbf12a27a617120b4,Artifact,,memory,,,syscall,0,,,,,,,7f0c69d4c000,10000,2951.0,,,recommendationservice
+1096,1e678b0ddc8897cdc6a646c8b20860be,Artifact,,memory,,,syscall,0,,,,,,,7f0c69d3c000,10000,2951.0,,,recommendationservice
+1097,c8ba5946b3fbc33f9582c3b3e0f643cb,Artifact,,memory,,,syscall,0,,,,,,,7f0c69cfc000,40000,2951.0,,,recommendationservice
+1098,56a5018c28504e325c7c6143651fd019,Artifact,,memory,,,syscall,0,,,,,,,7f0c69cbc000,40000,2951.0,,,recommendationservice
+1099,ed65b07a729e3e8b3b70f7193ed5f5dd,Artifact,,memory,,,syscall,0,,,,,,,7f887b2d0000,40000,2965.0,,,recommendationservice
+1100,d22eaaa3ea6875025961e51b7b77f5a6,Artifact,,memory,,,syscall,0,,,,,,,7f887b2b0000,20000,2965.0,,,recommendationservice
+1101,9510acc0f0ae9fd702d9c1ec8bf49597,Artifact,,memory,,,syscall,0,,,,,,,7f887b1b0000,100000,2965.0,,,recommendationservice
+1102,2fd67df57462454aacc42137a958f1e7,Artifact,,memory,,,syscall,0,,,,,,,7f887a9b0000,800000,2965.0,,,recommendationservice
+1103,7b33ce96a8e1c24fd9622195e2e01c40,Artifact,,memory,,,syscall,0,,,,,,,7f88769b0000,4000000,2965.0,,,recommendationservice
+1104,fdf5fe7cdd3191d8753739e405a4de7f,Artifact,,memory,,,syscall,0,,,,,,,7f88569b0000,20000000,2965.0,,,recommendationservice
+1105,12358d135f8cd25b75910fb2b52cb575,Artifact,,memory,,,syscall,0,,,,,,,7f88545ff000,40000,2965.0,,,recommendationservice
+1106,96a832b1fccb06a9e11edcba70e208d5,Artifact,,memory,,,syscall,0,,,,,,,7f88545bf000,40000,2965.0,,,recommendationservice
+1107,e073d177e19968cca07b8e404112b880,Artifact,,memory,,,syscall,0,,,,,,,7f91c7497000,40000,3005.0,,,paymentservice
+1108,4d665b74809dd8d27c34f2efecb9596f,Artifact,,memory,,,syscall,0,,,,,,,7f91c7477000,20000,3005.0,,,paymentservice
+1109,c98f24ea098ad74eec9053e10c989c35,Artifact,,memory,,,syscall,0,,,,,,,7f91c7377000,100000,3005.0,,,paymentservice
+1110,3f4c813bedc152677333e2b03401f5de,Artifact,,memory,,,syscall,0,,,,,,,7f91c6b77000,800000,3005.0,,,paymentservice
+1111,6b77f620c5fe9b001a1f2432bbb448dc,Artifact,,memory,,,syscall,0,,,,,,,7f91c2b77000,4000000,3005.0,,,paymentservice
+1112,bb0bd95c3dda732b86c38abc7d218027,Artifact,,memory,,,syscall,0,,,,,,,7f91a2b77000,20000000,3005.0,,,paymentservice
+1113,3e351284a812421ca9cb2446bb8cebce,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3005.0,,,paymentservice
+1114,bcc9d6e9f890f0c0445f2e48f1375854,Artifact,,memory,,,syscall,0,,,,,,,7f91a0b77000,2000000,3005.0,,,paymentservice
+1115,7152bcbaa63c7a954de6008249a890e8,Artifact,,memory,,,syscall,0,,,,,,,7f91a0966000,210c10,3005.0,,,paymentservice
+1116,566b8ad99bb5ff6cca28543063f6cdc6,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3005.0,,,paymentservice
+1117,6459f5fabde83536b8a7d9474c9fe1af,Artifact,,memory,,,syscall,1,,,,,,,7f91c7477000,20000,3005.0,,,paymentservice
+1118,831160150f4fdb235b8c5b017e9e48f1,Artifact,,memory,,,syscall,0,,,,,,,7f91c73f7000,1000,3005.0,,,paymentservice
+1119,755f099564d23945e4e838d96bb9b88d,Artifact,,memory,,,syscall,0,,,,,,,7f91c6f7d000,1000,3005.0,,,paymentservice
+1120,cb67d658da0e8420de64e71c6ff7cb3f,Artifact,,memory,,,syscall,0,,,,,,,7f91c4ba7000,1000,3005.0,,,paymentservice
+1121,deb4cba1b18d585c0be42eb847828f82,Artifact,,memory,,,syscall,0,,,,,,,7f91b2cf7000,1000,3005.0,,,paymentservice
+1122,83db079325a4b4962315f8a41bdf837e,Artifact,,memory,,,syscall,0,,,,,,,7f91a0866000,100000,3005.0,,,paymentservice
+1123,5bec44b6553c0902f786fe7517deb716,Artifact,,memory,,,syscall,0,,,,,,,7f91a0856000,10000,3005.0,,,paymentservice
+1124,8c8033698ccda558946426709d563850,Artifact,,memory,,,syscall,0,,,,,,,7f91a0846000,10000,3005.0,,,paymentservice
+1125,0b7e1476bb980d07b77d49b19547c69a,Artifact,,memory,,,syscall,0,,,,,,,7f91a0806000,40000,3005.0,,,paymentservice
+1126,aeb83b250ae2971080e94140c39f11a5,Artifact,,memory,,,syscall,0,,,,,,,7f91a07c6000,40000,3005.0,,,paymentservice
+1127,89d4431278f558cc56d95c116a0da71c,Artifact,,memory,,,syscall,0,,,,,,,7f91a0786000,40000,3005.0,,,paymentservice
+1128,508e62be8e8b7d573fc1003a311310e4,Artifact,,memory,,,syscall,0,,,,,,,7f9b11e88000,40000,3030.0,,,cartservice
+1129,4ce96b915daddb093ca73e88ae47275f,Artifact,,memory,,,syscall,0,,,,,,,7f9b11e68000,20000,3030.0,,,cartservice
+1130,0654f2e4ab96f361874b7d0bb3b6a01d,Artifact,,memory,,,syscall,0,,,,,,,7f9b11d68000,100000,3030.0,,,cartservice
+1131,3dcb8dcdbb12cc9312d4aef071357616,Artifact,,memory,,,syscall,0,,,,,,,7f9b11568000,800000,3030.0,,,cartservice
+1132,9f6d04ab87ee31ab8b4d1aa6ca709d20,Artifact,,memory,,,syscall,0,,,,,,,7f9b0d568000,4000000,3030.0,,,cartservice
+1133,f4efe5454a282bcd675c19367eb6eb5a,Artifact,,memory,,,syscall,0,,,,,,,7f9aed568000,20000000,3030.0,,,cartservice
+1134,3ae090ce601c883f4df2e8621bd81622,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3030.0,,,cartservice
+1135,ee27fc58e15b8076e3fabcceca12a526,Artifact,,memory,,,syscall,0,,,,,,,7f9aeb568000,2000000,3030.0,,,cartservice
+1136,46e4257a74b84e60b03f48ecda0ec266,Artifact,,memory,,,syscall,0,,,,,,,7f9aeb357000,210c10,3030.0,,,cartservice
+1137,631077a2cdb3cd1bca1aa87e0505bebc,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3030.0,,,cartservice
+1138,0ae0d0c5ed82b2e14d2912ed866567e2,Artifact,,memory,,,syscall,1,,,,,,,7f9b11e68000,20000,3030.0,,,cartservice
+1139,4ed5cb6215b0d8b076c9d4109b777c66,Artifact,,memory,,,syscall,0,,,,,,,7f9b11de8000,1000,3030.0,,,cartservice
+1140,3060226b4f414e28d5da2046de7de852,Artifact,,memory,,,syscall,0,,,,,,,7f9b1196e000,1000,3030.0,,,cartservice
+1141,f600fafce895f28ab5fd1bf8236c7e1f,Artifact,,memory,,,syscall,0,,,,,,,7f9b0f598000,1000,3030.0,,,cartservice
+1142,5e402d8add0971ed798ede593e5da35c,Artifact,,memory,,,syscall,0,,,,,,,7f9afd6e8000,1000,3030.0,,,cartservice
+1143,0c82db7ed2f50384e0c0acfa154be519,Artifact,,memory,,,syscall,0,,,,,,,7f9aeb257000,100000,3030.0,,,cartservice
+1144,31e877a90d96d3d52fee704692a50f52,Artifact,,memory,,,syscall,0,,,,,,,7f9aeb247000,10000,3030.0,,,cartservice
+1145,06034bf3831cd41e4e83f52e64c1ccf4,Artifact,,memory,,,syscall,0,,,,,,,7f9aeb237000,10000,3030.0,,,cartservice
+1146,a84d39b19d3250326e03cfcb1b2f9646,Artifact,,memory,,,syscall,0,,,,,,,7f9aeb1f7000,40000,3030.0,,,cartservice
+1147,cbe1907f383b9276d4830f19870b3e11,Artifact,,memory,,,syscall,0,,,,,,,7f9aeb1b7000,40000,3030.0,,,cartservice
+1148,4936d1298760b6d583db2793e75a72ce,Artifact,,memory,,,syscall,0,,,,,,,7f9aeb177000,40000,3030.0,,,cartservice
+1149,6b83636d8c2166d9a3026e7ffb538348,Artifact,,memory,,,syscall,0,,,,,,,7f9aeb137000,40000,3030.0,,,cartservice
+1150,f85c10433efb2e2ae41d7ba0bc4eaab2,Artifact,,memory,,,syscall,0,,,,,,,7f92e28cb000,40000,3052.0,,,currencyservice
+1151,f75dc13f2e8dd24ff68aba35c1d99b51,Artifact,,memory,,,syscall,0,,,,,,,7f92e28ab000,20000,3052.0,,,currencyservice
+1152,67f863f9b86031b56c2fcd8e5a34a4ea,Artifact,,memory,,,syscall,0,,,,,,,7f92e27ab000,100000,3052.0,,,currencyservice
+1153,ea02b030714969a55acc7dc624eaac92,Artifact,,memory,,,syscall,0,,,,,,,7f92e1fab000,800000,3052.0,,,currencyservice
+1154,7cc0afd130da66f64b6d5a8044cc4a3f,Artifact,,memory,,,syscall,0,,,,,,,7f92ddfab000,4000000,3052.0,,,currencyservice
+1155,a9b5a8b1614c881298f60ca1f3c5a56b,Artifact,,memory,,,syscall,0,,,,,,,7f92bdfab000,20000000,3052.0,,,currencyservice
+1156,a6882c5c87366d397966fbb16e7ce452,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3052.0,,,currencyservice
+1157,33a1aa4f10b836e148d91d879abafe95,Artifact,,memory,,,syscall,0,,,,,,,7f92bbfab000,2000000,3052.0,,,currencyservice
+1158,54e39e16280e90c066ba5bd5dd0e2056,Artifact,,memory,,,syscall,0,,,,,,,7f92bbd9a000,210c10,3052.0,,,currencyservice
+1159,9d58efc8998d92d245071cef06a3eaad,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3052.0,,,currencyservice
+1160,91824e5c09bdacc26007ab28073ddbbe,Artifact,,memory,,,syscall,1,,,,,,,7f92e28ab000,20000,3052.0,,,currencyservice
+1161,31db07dbae90861594fdd5a662398793,Artifact,,memory,,,syscall,0,,,,,,,7f92e282b000,1000,3052.0,,,currencyservice
+1162,c4e84a3334399b3ecd44f176c7566a59,Artifact,,memory,,,syscall,0,,,,,,,7f92e23b1000,1000,3052.0,,,currencyservice
+1163,b955efd97953e2fa85d282c8e9063dd9,Artifact,,memory,,,syscall,0,,,,,,,7f92dffdb000,1000,3052.0,,,currencyservice
+1164,f42e6bee59d2d81cfa81a5adb8a4cb51,Artifact,,memory,,,syscall,0,,,,,,,7f92ce12b000,1000,3052.0,,,currencyservice
+1165,4d0051514fbff29a955fb47f0d219470,Artifact,,memory,,,syscall,0,,,,,,,7f92bbc9a000,100000,3052.0,,,currencyservice
+1166,809a6b0dd1dc3c2c854542c0720d5cfb,Artifact,,memory,,,syscall,0,,,,,,,7f92bbc8a000,10000,3052.0,,,currencyservice
+1167,122c72b13b963e22aed38a520177659f,Artifact,,memory,,,syscall,0,,,,,,,7f92bbc7a000,10000,3052.0,,,currencyservice
+1168,4e6e647e1fca925e350eb0cc4938c6ab,Artifact,,memory,,,syscall,0,,,,,,,7f92bbc3a000,40000,3052.0,,,currencyservice
+1169,64e4e1d50778c582423423f6db02ace1,Artifact,,memory,,,syscall,0,,,,,,,7f52a8024000,40000,3070.0,,,paymentservice
+1170,942b9bff36dcdb474152d1e915bb5c16,Artifact,,memory,,,syscall,0,,,,,,,7f52a8004000,20000,3070.0,,,paymentservice
+1171,17467e5ebe27d0a8891cd01dcf39b90b,Artifact,,memory,,,syscall,0,,,,,,,7f52a7f04000,100000,3070.0,,,paymentservice
+1172,a79bd0472bc182b47091a4c81057ffae,Artifact,,memory,,,syscall,0,,,,,,,7f52a7704000,800000,3070.0,,,paymentservice
+1173,1f4be377a7aad2f9b0209f68d7622f98,Artifact,,memory,,,syscall,0,,,,,,,7f52a3704000,4000000,3070.0,,,paymentservice
+1174,53194362e84c6038b952410e5d4b558c,Artifact,,memory,,,syscall,0,,,,,,,7f5283704000,20000000,3070.0,,,paymentservice
+1175,50c524a5e263528f384f9db351ba02c9,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3070.0,,,paymentservice
+1176,a88e09dd518df0b2ced92f9afae65975,Artifact,,memory,,,syscall,0,,,,,,,7f5281704000,2000000,3070.0,,,paymentservice
+1177,1bac8db5bc42b57888f488936e3b76c5,Artifact,,memory,,,syscall,0,,,,,,,7f52814f3000,210c10,3070.0,,,paymentservice
+1178,136324959a3e96a6b21003e6131bd952,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3070.0,,,paymentservice
+1179,b7c96bf0b11e3544209917a6b3f478fc,Artifact,,memory,,,syscall,1,,,,,,,7f52a8004000,20000,3070.0,,,paymentservice
+1180,e9e89fab825d1a54877c4cbaec57de66,Artifact,,memory,,,syscall,0,,,,,,,7f52a7f84000,1000,3070.0,,,paymentservice
+1181,b7b12dd29b3e90936acefd385ed53482,Artifact,,memory,,,syscall,0,,,,,,,7f52a7b0a000,1000,3070.0,,,paymentservice
+1182,8baa041e616153ac0f517d1840fb5152,Artifact,,memory,,,syscall,0,,,,,,,7f52a5734000,1000,3070.0,,,paymentservice
+1183,9600ef31928c7ae4cac0bad5d377f650,Artifact,,memory,,,syscall,0,,,,,,,7f5293884000,1000,3070.0,,,paymentservice
+1184,32284f8155f7c5d1e86e5888c450061c,Artifact,,memory,,,syscall,0,,,,,,,7f52813f3000,100000,3070.0,,,paymentservice
+1185,9d17657337be758323af23cddf028de0,Artifact,,memory,,,syscall,0,,,,,,,7f52813e3000,10000,3070.0,,,paymentservice
+1186,7ad81e2df042b31bce8828bc25ca1279,Artifact,,memory,,,syscall,0,,,,,,,7f52813d3000,10000,3070.0,,,paymentservice
+1187,0606dbb2eeb51b195dc29a3ce4f0801c,Artifact,,memory,,,syscall,0,,,,,,,7f5281393000,40000,3070.0,,,paymentservice
+1188,726885e1a8f74d9cd097a27bbff136f8,Artifact,,memory,,,syscall,0,,,,,,,7f5281353000,40000,3070.0,,,paymentservice
+1189,c8d2c810bcd8a946a77fd14b2400a0a0,Artifact,,memory,,,syscall,0,,,,,,,7f92bbbfa000,40000,3052.0,,,currencyservice
+1190,e3cb243b85e8fd89e81bb31e486942d1,Artifact,,memory,,,syscall,0,,,,,,,7f92bbbba000,40000,3052.0,,,currencyservice
+1191,5ffe091624762ba0fb32a26048b09f4f,Artifact,,memory,,,syscall,0,,,,,,,7f628f8d5000,40000,3117.0,,,adservice
+1192,926aa34f6272e36cb47f91a96c1a31b0,Artifact,,memory,,,syscall,0,,,,,,,7f628f8b5000,20000,3117.0,,,adservice
+1193,d12eca7b867f8d13178df6e20e05f6e0,Artifact,,memory,,,syscall,0,,,,,,,7f628f7b5000,100000,3117.0,,,adservice
+1194,6ee3fb93951ea38730062cce00964dcf,Artifact,,memory,,,syscall,0,,,,,,,7f628efb5000,800000,3117.0,,,adservice
+1195,e02bf3082f9f695e56bdb755e6dd3f81,Artifact,,memory,,,syscall,0,,,,,,,7f628afb5000,4000000,3117.0,,,adservice
+1196,38533a56e8932cca334bfcd0a4fa7eb5,Artifact,,memory,,,syscall,0,,,,,,,7f626afb5000,20000000,3117.0,,,adservice
+1197,88bed86b7631036182c2dd8da5775a84,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3117.0,,,adservice
+1198,d3cec60a1c9db1154cedf59c0fc717ac,Artifact,,memory,,,syscall,0,,,,,,,7f6268fb5000,2000000,3117.0,,,adservice
+1199,101333ba8ae9e6bdc777972f570e2c78,Artifact,,memory,,,syscall,0,,,,,,,7f6268da4000,210c10,3117.0,,,adservice
+1200,4473dbf8439fcc96240885c5bdf13c44,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3117.0,,,adservice
+1201,0c9fd80837eba26c493a9025723e8792,Artifact,,memory,,,syscall,1,,,,,,,7f628f8b5000,20000,3117.0,,,adservice
+1202,3d9872ffe95bb1f0665ffa8707b0d616,Artifact,,memory,,,syscall,0,,,,,,,7f628f835000,1000,3117.0,,,adservice
+1203,291200a0359c24edd3e15a89bccd613a,Artifact,,memory,,,syscall,0,,,,,,,7f628f3bb000,1000,3117.0,,,adservice
+1204,1a9eb04838d88023a73905a34612df58,Artifact,,memory,,,syscall,0,,,,,,,7f628cfe5000,1000,3117.0,,,adservice
+1205,b077eba4c6ef073e4a361598b1361881,Artifact,,memory,,,syscall,0,,,,,,,7f627b135000,1000,3117.0,,,adservice
+1206,7781578909f6be1808db7cef47e63c6a,Artifact,,memory,,,syscall,0,,,,,,,7f6268ca4000,100000,3117.0,,,adservice
+1207,38f3b3d942cba0f74a296e3b5cf526d8,Artifact,,memory,,,syscall,0,,,,,,,7f6268c94000,10000,3117.0,,,adservice
+1208,c9bd1dffd3ed212bc53a845899f04050,Artifact,,memory,,,syscall,0,,,,,,,7f6268c84000,10000,3117.0,,,adservice
+1209,a7e47d79792846dae384f680c46d7967,Artifact,,memory,,,syscall,0,,,,,,,7f6268c44000,40000,3117.0,,,adservice
+1210,d8c8610cf4dc7e48567ce3e41f02356a,Artifact,,memory,,,syscall,0,,,,,,,7f6268c04000,40000,3117.0,,,adservice
+1211,f6e5554630a8dd957f112d43395a12a3,Artifact,,memory,,,syscall,0,,,,,,,7f29d7a45000,40000,3138.0,,,cartservice
+1212,f93ce4dab8a6a10eb89369574277e067,Artifact,,memory,,,syscall,0,,,,,,,7f29d7a25000,20000,3138.0,,,cartservice
+1213,2e695eaa06fed6d0a218bc273b9eeabe,Artifact,,memory,,,syscall,0,,,,,,,7f29d7925000,100000,3138.0,,,cartservice
+1214,6f8dc78692bee84ecdb200dc4591ba3f,Artifact,,memory,,,syscall,0,,,,,,,7f29d7125000,800000,3138.0,,,cartservice
+1215,0b8b6e86bc203c5357f79797a9322775,Artifact,,memory,,,syscall,0,,,,,,,7f29d3125000,4000000,3138.0,,,cartservice
+1216,d542f7c3a3328565006d11b3e9d9963a,Artifact,,memory,,,syscall,0,,,,,,,7f29b3125000,20000000,3138.0,,,cartservice
+1217,4bd7ebcd669795c301bf54f43c57941e,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3138.0,,,cartservice
+1218,e2e84db6c7961db40b05069fcc115dca,Artifact,,memory,,,syscall,0,,,,,,,7f29b1125000,2000000,3138.0,,,cartservice
+1219,652a7e559fa63fef5c511f7a5851b447,Artifact,,memory,,,syscall,0,,,,,,,7f29b0f14000,210c10,3138.0,,,cartservice
+1220,569f0d28a2cbe63468e7d7d182ef0aca,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3138.0,,,cartservice
+1221,63744c380391a918554d6b3330dbea76,Artifact,,memory,,,syscall,1,,,,,,,7f29d7a25000,20000,3138.0,,,cartservice
+1222,6fa855f429a2bc90fe70fe7bc2d87bae,Artifact,,memory,,,syscall,0,,,,,,,7f29d79a5000,1000,3138.0,,,cartservice
+1223,c70abd3a01234cb3e4055d01f598ed45,Artifact,,memory,,,syscall,0,,,,,,,7f29d752b000,1000,3138.0,,,cartservice
+1224,5e12a550d8819d9e560605461fc9965d,Artifact,,memory,,,syscall,0,,,,,,,7f29d5155000,1000,3138.0,,,cartservice
+1225,c1e17ed4f5e8ac12893cf1a1ce04b261,Artifact,,memory,,,syscall,0,,,,,,,7f29c32a5000,1000,3138.0,,,cartservice
+1226,d9bb3e79713ffc85afdf77f7dba2d214,Artifact,,memory,,,syscall,0,,,,,,,7f29b0e14000,100000,3138.0,,,cartservice
+1227,e1b2be422feab6c26a98ba23e829525e,Artifact,,memory,,,syscall,0,,,,,,,7f29b0e04000,10000,3138.0,,,cartservice
+1228,db4764c7c411bbdf9671219d541dfd0d,Artifact,,memory,,,syscall,0,,,,,,,7f29b0df4000,10000,3138.0,,,cartservice
+1229,70b7e7b50f09505c65ee1054e6839acf,Artifact,,memory,,,syscall,0,,,,,,,7f29b0db4000,40000,3138.0,,,cartservice
+1230,287ee330ba39c1c7f9bcedb9c23e74e7,Artifact,,memory,,,syscall,0,,,,,,,7f29b0d74000,40000,3138.0,,,cartservice
+1231,0b83e2c59488bc7e30f38d639249af75,Artifact,,memory,,,syscall,0,,,,,,,7f6ff2616000,40000,3162.0,,,productcatalogservice
+1232,dfbf67dc9846ccabc4ebd0313547e04a,Artifact,,memory,,,syscall,0,,,,,,,7f6fcdcf6000,20000000,3162.0,,,productcatalogservice
+1233,21edfcd190456588630e23cb40ca786f,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3162.0,,,productcatalogservice
+1234,359a417170bf24e55959aad6ea8eb8ec,Artifact,,memory,,,syscall,0,,,,,,,7f6fcbcf6000,2000000,3162.0,,,productcatalogservice
+1235,fc45a61e24a6c87f86a7c0e2ef3f2c19,Artifact,,memory,,,syscall,0,,,,,,,7f6fcb945000,40000,3162.0,,,productcatalogservice
+1236,7f45577ad1a857a6aff0b997658616fe,Artifact,,memory,,,syscall,0,,,,,,,7f6fcb905000,40000,3162.0,,,productcatalogservice
+1237,e7ff2c03f0268bac8ace2775f981adde,Artifact,,memory,,,syscall,0,,,,,,,7f1ca5ffb000,40000,3185.0,,,currencyservice
+1238,3763f3d7daef67d7301bd19659a0f998,Artifact,,memory,,,syscall,0,,,,,,,7f1ca5fdb000,20000,3185.0,,,currencyservice
+1239,d6e56904e087eee09bab994694d705f1,Artifact,,memory,,,syscall,0,,,,,,,7f1ca5edb000,100000,3185.0,,,currencyservice
+1240,6ac5c95aafe2910e17ad0f19f52d2978,Artifact,,memory,,,syscall,0,,,,,,,7f1ca56db000,800000,3185.0,,,currencyservice
+1241,5f561a6d572d580a1d748b6521dc6dfb,Artifact,,memory,,,syscall,0,,,,,,,7f1ca16db000,4000000,3185.0,,,currencyservice
+1242,29bc688a3a1e36aee5d3065a165bae82,Artifact,,memory,,,syscall,0,,,,,,,7f1c816db000,20000000,3185.0,,,currencyservice
+1243,8f202a80c356eeceb531eeced2cff22e,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3185.0,,,currencyservice
+1244,15b4c089b4cb64101b86e1e3a1065000,Artifact,,memory,,,syscall,0,,,,,,,7f1c7f6db000,2000000,3185.0,,,currencyservice
+1245,66bf875da6c4036f0bf69753bb23de70,Artifact,,memory,,,syscall,0,,,,,,,7f1c7f4ca000,210c10,3185.0,,,currencyservice
+1246,c35ce04cd7266eec36fb3d7e276ef725,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3185.0,,,currencyservice
+1247,9d8c59b48f81f7d286b1adab71b426d7,Artifact,,memory,,,syscall,1,,,,,,,7f1ca5fdb000,20000,3185.0,,,currencyservice
+1248,07aa3dfa39884f09856b951954453f88,Artifact,,memory,,,syscall,0,,,,,,,7f1ca5f5b000,1000,3185.0,,,currencyservice
+1249,23f68962b3de7a2454c62cd132cb7896,Artifact,,memory,,,syscall,0,,,,,,,7f1ca5ae1000,1000,3185.0,,,currencyservice
+1250,ec3e4af76d9c4c460a15a242c5b248a5,Artifact,,memory,,,syscall,0,,,,,,,7f1ca370b000,1000,3185.0,,,currencyservice
+1251,0ead01fb39c05f52ca169fceb6a4c42d,Artifact,,memory,,,syscall,0,,,,,,,7f1c9185b000,1000,3185.0,,,currencyservice
+1252,33b94f4de3cc949d0eedb404f9a17f01,Artifact,,memory,,,syscall,0,,,,,,,7f1c7f3ca000,100000,3185.0,,,currencyservice
+1253,d3d2d5616ca0edc2afd382ab9646cd49,Artifact,,memory,,,syscall,0,,,,,,,7f1c7f3ba000,10000,3185.0,,,currencyservice
+1254,045cf1bdbaf95768996791f15e0e5b05,Artifact,,memory,,,syscall,0,,,,,,,7f1c7f3aa000,10000,3185.0,,,currencyservice
+1255,51474c33607f3154a488127a2cee856a,Artifact,,memory,,,syscall,0,,,,,,,7f1c7f36a000,40000,3185.0,,,currencyservice
+1256,cba5b1d6482e392495e69c092b6de14f,Artifact,,memory,,,syscall,0,,,,,,,7f1c7f32a000,40000,3185.0,,,currencyservice
+1257,5bebb9224bf9590bae264dc29601b214,Artifact,,memory,,,syscall,0,,,,,,,7f0a40bfd000,40000,3207.0,,,paymentservice
+1258,c01ad322192660ce0f2ed511125dfac2,Artifact,,memory,,,syscall,0,,,,,,,7f0a40bdd000,20000,3207.0,,,paymentservice
+1259,8de91197a5a5748571e37a3b78c902c1,Artifact,,memory,,,syscall,0,,,,,,,7f0a40add000,100000,3207.0,,,paymentservice
+1260,f426c135c611588ef7a1d20380dd1dbf,Artifact,,memory,,,syscall,0,,,,,,,7f0a402dd000,800000,3207.0,,,paymentservice
+1261,f79409425421b4cf9f3dc2afcdf85330,Artifact,,memory,,,syscall,0,,,,,,,7f0a3c2dd000,4000000,3207.0,,,paymentservice
+1262,c2f82d6c3fb28ffeaa3468f889a93a30,Artifact,,memory,,,syscall,0,,,,,,,7f0a1c2dd000,20000000,3207.0,,,paymentservice
+1263,6188155d0c3893053949b9ce5d13ef0b,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3207.0,,,paymentservice
+1264,33fbbc68a1a035f2389de5aed8aa4aef,Artifact,,memory,,,syscall,0,,,,,,,7f0a1a2dd000,2000000,3207.0,,,paymentservice
+1265,676937e7b9f9229832b5bdae71b7b21a,Artifact,,memory,,,syscall,0,,,,,,,7f0a1a0cc000,210c10,3207.0,,,paymentservice
+1266,fd3ea465e0b1aaebff2efc9455f80243,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3207.0,,,paymentservice
+1267,b2be1ceb0bc43fb132a10e301cd3e2bd,Artifact,,memory,,,syscall,1,,,,,,,7f0a40bdd000,20000,3207.0,,,paymentservice
+1268,31ca9e1da1e4fe510febc82cb62d3cb2,Artifact,,memory,,,syscall,0,,,,,,,7f0a40b5d000,1000,3207.0,,,paymentservice
+1269,fa3e7124e9f556199f811c11bb605d8a,Artifact,,memory,,,syscall,0,,,,,,,7f0a406e3000,1000,3207.0,,,paymentservice
+1270,d99bd14296970114f5cf51d1388da8a5,Artifact,,memory,,,syscall,0,,,,,,,7f0a3e30d000,1000,3207.0,,,paymentservice
+1271,b119bbe759594d2f9e40ff2a82fb56c6,Artifact,,memory,,,syscall,0,,,,,,,7f0a2c45d000,1000,3207.0,,,paymentservice
+1272,0f8bef23a565b5631b7d77401d26f768,Artifact,,memory,,,syscall,0,,,,,,,7f0a19fcc000,100000,3207.0,,,paymentservice
+1273,7334140e891f0ddbc0fd6142a8f61df0,Artifact,,memory,,,syscall,0,,,,,,,7f0a19fbc000,10000,3207.0,,,paymentservice
+1274,0fa2aa0eb69d4338e98cab860d3b8a59,Artifact,,memory,,,syscall,0,,,,,,,7f0a19fac000,10000,3207.0,,,paymentservice
+1275,fc14976eb51f7d4996eea3711094cf10,Artifact,,memory,,,syscall,0,,,,,,,7f0a19f6c000,40000,3207.0,,,paymentservice
+1276,e8c74e284015656a7690c6cc7786356c,Artifact,,memory,,,syscall,0,,,,,,,7f0a19f2c000,40000,3207.0,,,paymentservice
+1277,591f81425b6fcb786c218dcf93a7d2f2,Artifact,,memory,,,syscall,0,,,,,,,7f0a19eec000,40000,3207.0,,,paymentservice
+1278,0db1b727394135dfa340bc61eada8dc4,Artifact,,memory,,,syscall,0,,,,,,,7f60445cd000,40000,3261.0,,,frontend
+1279,edd3c3bdb0a12e8608795919878cfb6c,Artifact,,memory,,,syscall,0,,,,,,,7f60445ad000,20000,3261.0,,,frontend
+1280,4125f2bdaf260aec855bdcfd1d46817b,Artifact,,memory,,,syscall,0,,,,,,,7f60444ad000,100000,3261.0,,,frontend
+1281,413cd720ee7dd066661e1ae137f17959,Artifact,,memory,,,syscall,0,,,,,,,7f6043cad000,800000,3261.0,,,frontend
+1282,fcd24a71cb32c285de9f51a8f548c19d,Artifact,,memory,,,syscall,0,,,,,,,7f603fcad000,4000000,3261.0,,,frontend
+1283,631540671a1b4f028991412e1cd1f1e4,Artifact,,memory,,,syscall,0,,,,,,,7f601fcad000,20000000,3261.0,,,frontend
+1284,fc70b02f700e42798b443b503b00d4a7,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3261.0,,,frontend
+1285,a0c72aa377d9b7f1d3b985ddb8248900,Artifact,,memory,,,syscall,0,,,,,,,7f601dcad000,2000000,3261.0,,,frontend
+1286,a30bcea7ed89ad3ca3581ddd19d8be19,Artifact,,memory,,,syscall,0,,,,,,,7f601da9c000,210c10,3261.0,,,frontend
+1287,260e94327c8f80b757dce1f20cf00c23,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3261.0,,,frontend
+1288,0341fc9b4979117b628f02a50f742190,Artifact,,memory,,,syscall,1,,,,,,,7f60445ad000,20000,3261.0,,,frontend
+1289,afd8ede457be1cf904c3c242c56a72f7,Artifact,,memory,,,syscall,0,,,,,,,7f604452d000,1000,3261.0,,,frontend
+1290,900a8d84a6e684c88004726c92abd4ca,Artifact,,memory,,,syscall,0,,,,,,,7f60440b3000,1000,3261.0,,,frontend
+1291,5b3bdc14de35e2da12448ef9ac97f1ed,Artifact,,memory,,,syscall,0,,,,,,,7f6041cdd000,1000,3261.0,,,frontend
+1292,9be2821c3a39609084d9f5c43572c26a,Artifact,,memory,,,syscall,0,,,,,,,7f602fe2d000,1000,3261.0,,,frontend
+1293,00b3c5b0d61e18debc46bf47c5d9a779,Artifact,,memory,,,syscall,0,,,,,,,7f601d99c000,100000,3261.0,,,frontend
+1294,e42608c51073d7566ee7f380b5d57435,Artifact,,memory,,,syscall,0,,,,,,,7f601d98c000,10000,3261.0,,,frontend
+1295,0c5873e08dff79467a3601990141d285,Artifact,,memory,,,syscall,0,,,,,,,7fb636aeb000,40000,3271.0,,,frontend
+1296,19817336deea4f72630d25a9dcd2a1fe,Artifact,,memory,,,syscall,0,,,,,,,7fb636acb000,20000,3271.0,,,frontend
+1297,fe16f0f9c7d7e2f57a80e1cc6b25b6d6,Artifact,,memory,,,syscall,0,,,,,,,7fb6369cb000,100000,3271.0,,,frontend
+1298,20fa4dc51ba34357add8011cbdf31065,Artifact,,memory,,,syscall,0,,,,,,,7fb6361cb000,800000,3271.0,,,frontend
+1299,03d3905bd6b8d342c5243f80a9ae62d9,Artifact,,memory,,,syscall,0,,,,,,,7fb6321cb000,4000000,3271.0,,,frontend
+1300,bea3ed0c6f8d9569ff617690c07f4f90,Artifact,,memory,,,syscall,0,,,,,,,7fb6121cb000,20000000,3271.0,,,frontend
+1301,5c210437271f5da5dee54203615529ce,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3271.0,,,frontend
+1302,8d9b241aacebd11eb780d7ea4411ca3f,Artifact,,memory,,,syscall,0,,,,,,,7fb6101cb000,2000000,3271.0,,,frontend
+1303,c88838fb98672a1608e9b902d8033e67,Artifact,,memory,,,syscall,0,,,,,,,7fb60ffba000,210c10,3271.0,,,frontend
+1304,ec61f397644fe3bdb3f36c48eae90b93,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3271.0,,,frontend
+1305,18e56681e4ec07efdabf4732fccec7fa,Artifact,,memory,,,syscall,1,,,,,,,7fb636acb000,20000,3271.0,,,frontend
+1306,1b43c360174e7466a8cc3f74e8d6f033,Artifact,,memory,,,syscall,0,,,,,,,7fb636a4b000,1000,3271.0,,,frontend
+1307,d92391eb6bb1cbba6abd01184ca44326,Artifact,,memory,,,syscall,0,,,,,,,7fb6365d1000,1000,3271.0,,,frontend
+1308,827827a0e3aa1bcc8ff71327eea4a912,Artifact,,memory,,,syscall,0,,,,,,,7fb6341fb000,1000,3271.0,,,frontend
+1309,1ffb591eda376a9097a7fa91fd97a24f,Artifact,,memory,,,syscall,0,,,,,,,7fb62234b000,1000,3271.0,,,frontend
+1310,1ede225f13d9196741507800888b8cd3,Artifact,,memory,,,syscall,0,,,,,,,7fb60feba000,100000,3271.0,,,frontend
+1311,3e84963b61a3fb0c751033a45321e03e,Artifact,,memory,,,syscall,0,,,,,,,7fb60feaa000,10000,3271.0,,,frontend
+1312,baca4dcae88bbde2b3ad6f615e197b93,Artifact,,memory,,,syscall,0,,,,,,,7fb60fe9a000,10000,3271.0,,,frontend
+1313,5d5199540dd1474ac03f0e95b00c1a94,Artifact,,memory,,,syscall,0,,,,,,,7fb60fe5a000,40000,3271.0,,,frontend
+1314,150ee93c9858759e49198f04e0caeb99,Artifact,,memory,,,syscall,0,,,,,,,7fb60fe1a000,40000,3271.0,,,frontend
+1315,2ab20fd72c4b0aa44911f5f772db4187,Artifact,,memory,,,syscall,0,,,,,,,7f3d480af000,40000,3298.0,,,adservice
+1316,0f3467fb08e0e6d6b56060af43a35291,Artifact,,memory,,,syscall,0,,,,,,,7f3d4808f000,20000,3298.0,,,adservice
+1317,f7a84c25769a0d89b73200f3d23588d4,Artifact,,memory,,,syscall,0,,,,,,,7f3d47f8f000,100000,3298.0,,,adservice
+1318,ca35cec8378f10c2d49d9e4be6155cc8,Artifact,,memory,,,syscall,0,,,,,,,7f3d4778f000,800000,3298.0,,,adservice
+1319,c10e24435511e99c80f839d750f7c225,Artifact,,memory,,,syscall,0,,,,,,,7f3d4378f000,4000000,3298.0,,,adservice
+1320,9042a64ac6c52e951c9ae1f69eb1e24b,Artifact,,memory,,,syscall,0,,,,,,,7f3d2378f000,20000000,3298.0,,,adservice
+1321,42581099af733b4de368c041600570d2,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3298.0,,,adservice
+1322,7d058a039afa4cb2ac8c62372c80f0dd,Artifact,,memory,,,syscall,0,,,,,,,7f3d2178f000,2000000,3298.0,,,adservice
+1323,a68fcbbc4e4a2bc2b52b6f7ff61c0ceb,Artifact,,memory,,,syscall,0,,,,,,,7f3d2157e000,210c10,3298.0,,,adservice
+1324,46b197e6e74f625806194d053a440e8e,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3298.0,,,adservice
+1325,7fa49abafe31e4a2667b351b64bac81f,Artifact,,memory,,,syscall,1,,,,,,,7f3d4808f000,20000,3298.0,,,adservice
+1326,fabd575bfa55eed50fb7244eac437051,Artifact,,memory,,,syscall,0,,,,,,,7f3d4800f000,1000,3298.0,,,adservice
+1327,da58e724795951209966875baac493f3,Artifact,,memory,,,syscall,0,,,,,,,7f3d47b95000,1000,3298.0,,,adservice
+1328,2443f2982d7ed4e164067984d1985aad,Artifact,,memory,,,syscall,0,,,,,,,7f3d457bf000,1000,3298.0,,,adservice
+1329,9fc1347bc769b4e6c7a2a8200da69230,Artifact,,memory,,,syscall,0,,,,,,,7f3d3390f000,1000,3298.0,,,adservice
+1330,91422e1733b655e284cedbb6c0c014d1,Artifact,,memory,,,syscall,0,,,,,,,7f3d2147e000,100000,3298.0,,,adservice
+1331,49c48839ff7a574eb6c03a54f7ea0440,Artifact,,memory,,,syscall,0,,,,,,,7f3d2146e000,10000,3298.0,,,adservice
+1332,89e4b550f8ac02e4572a5a55e461a578,Artifact,,memory,,,syscall,0,,,,,,,7f3d2145e000,10000,3298.0,,,adservice
+1333,eb9ea9b79bd298d9a80550044daf978d,Artifact,,memory,,,syscall,0,,,,,,,7f3d2141e000,40000,3298.0,,,adservice
+1334,480cdc9c6d9a48b953efc3f70c400dde,Artifact,,memory,,,syscall,0,,,,,,,7f3d213de000,40000,3298.0,,,adservice
+1335,d39293ccb55ad96238ad7b3f277d2eaa,Artifact,,memory,,,syscall,0,,,,,,,7fe5e638a000,40000,3321.0,,,paymentservice
+1336,26ad5d9c0cbd71f09505c24d69e040d8,Artifact,,memory,,,syscall,0,,,,,,,7fe5e636a000,20000,3321.0,,,paymentservice
+1337,240cbdc7d59d58517ae124cf94f1e49b,Artifact,,memory,,,syscall,0,,,,,,,7fe5e626a000,100000,3321.0,,,paymentservice
+1338,66258e990222074ad58da46401c43303,Artifact,,memory,,,syscall,0,,,,,,,7fe5e5a6a000,800000,3321.0,,,paymentservice
+1339,6655c2a2637668070a6a718ea785137d,Artifact,,memory,,,syscall,0,,,,,,,7fe5e1a6a000,4000000,3321.0,,,paymentservice
+1340,992c5385f0fc4feef66c5a40d3bc5151,Artifact,,memory,,,syscall,0,,,,,,,7fe5c1a6a000,20000000,3321.0,,,paymentservice
+1341,01229c966c4e6cdd795bb17ac3717235,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3321.0,,,paymentservice
+1342,4e4c289af32321c06b37f4271682a886,Artifact,,memory,,,syscall,0,,,,,,,7fe5bfa6a000,2000000,3321.0,,,paymentservice
+1343,cf96de5d4c88d8c1a2bbae00612ec933,Artifact,,memory,,,syscall,0,,,,,,,7fe5bf859000,210c10,3321.0,,,paymentservice
+1344,9e73d7c3133d0019c274454478b29886,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3321.0,,,paymentservice
+1345,53849214a3db598dd055beda8ac61abb,Artifact,,memory,,,syscall,1,,,,,,,7fe5e636a000,20000,3321.0,,,paymentservice
+1346,1540922c6a0156a0d695cdba17e5dabc,Artifact,,memory,,,syscall,0,,,,,,,7fe5e62ea000,1000,3321.0,,,paymentservice
+1347,d6b37bb125443e2785b5db3f0d456117,Artifact,,memory,,,syscall,0,,,,,,,7fe5e5e70000,1000,3321.0,,,paymentservice
+1348,30282b2f12b3868d7cb23f6845c0ba95,Artifact,,memory,,,syscall,0,,,,,,,7fe5e3a9a000,1000,3321.0,,,paymentservice
+1349,fa3016b667b62fc8d799c7840aa0b8f8,Artifact,,memory,,,syscall,0,,,,,,,7fe5d1bea000,1000,3321.0,,,paymentservice
+1350,810ce51cb7c8c38b2ee0dac26ea60610,Artifact,,memory,,,syscall,0,,,,,,,7fe5bf759000,100000,3321.0,,,paymentservice
+1351,95f1a3ae3bfc83282630296d12f0f1d0,Artifact,,memory,,,syscall,0,,,,,,,7fe5bf749000,10000,3321.0,,,paymentservice
+1352,45924b159ccdbd6f86bfd54f4bb662a3,Artifact,,memory,,,syscall,0,,,,,,,7fe5bf739000,10000,3321.0,,,paymentservice
+1353,01ad7da0389f29e82f018b2579bfe273,Artifact,,memory,,,syscall,0,,,,,,,7fe5bf6f9000,40000,3321.0,,,paymentservice
+1354,ae56ef5b3e90facd6c20bfcb1a67fa55,Artifact,,memory,,,syscall,0,,,,,,,7f6229b57000,40000,3347.0,,,recommendationservice
+1355,08f10e2414cc617362f9c43417dc84c2,Artifact,,memory,,,syscall,0,,,,,,,7f6229b37000,20000,3347.0,,,recommendationservice
+1356,c768964f58789237af25a1bf51d56397,Artifact,,memory,,,syscall,0,,,,,,,7f6229a37000,100000,3347.0,,,recommendationservice
+1357,1e09a36b2b77befbb2658ba464767090,Artifact,,memory,,,syscall,0,,,,,,,7f6229237000,800000,3347.0,,,recommendationservice
+1358,e0b0a56932c086c3b951ce642cc3aca5,Artifact,,memory,,,syscall,0,,,,,,,7f6225237000,4000000,3347.0,,,recommendationservice
+1359,c1868c20f32981c5a5e288d21bd68a64,Artifact,,memory,,,syscall,0,,,,,,,7f6205237000,20000000,3347.0,,,recommendationservice
+1360,b5c07a0ec7a273ee159003b23771b322,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3347.0,,,recommendationservice
+1361,bd9f163d6b9869326859a4fbbd5e102c,Artifact,,memory,,,syscall,0,,,,,,,7f6203237000,2000000,3347.0,,,recommendationservice
+1362,92768b77dbed44ec65c440edceda891a,Artifact,,memory,,,syscall,0,,,,,,,7f6203026000,210c10,3347.0,,,recommendationservice
+1363,0a5b78a2d5e53b4d211f7252339f4a3f,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3347.0,,,recommendationservice
+1364,109ee0f831c586b879293bc17898436c,Artifact,,memory,,,syscall,1,,,,,,,7f6229b37000,20000,3347.0,,,recommendationservice
+1365,c9278d6e79c0ab7e888520bcd8a0383e,Artifact,,memory,,,syscall,0,,,,,,,7f6229ab7000,1000,3347.0,,,recommendationservice
+1366,5fdad7ea4d48c52d366c4df11a969411,Artifact,,memory,,,syscall,0,,,,,,,7f622963d000,1000,3347.0,,,recommendationservice
+1367,d6dd8660e792595f3edd2be87ade75f5,Artifact,,memory,,,syscall,0,,,,,,,7f6227267000,1000,3347.0,,,recommendationservice
+1368,9a3cb59faa495438b72fa8cdd50019e3,Artifact,,memory,,,syscall,0,,,,,,,7f62153b7000,1000,3347.0,,,recommendationservice
+1369,8ca719cf602e9f6fe759aff5c0e16d4e,Artifact,,memory,,,syscall,0,,,,,,,7f6202f26000,100000,3347.0,,,recommendationservice
+1370,5300d83622ab11e98129fbe489e427cb,Artifact,,memory,,,syscall,0,,,,,,,7f6202f16000,10000,3347.0,,,recommendationservice
+1371,9671e9047559b17edf88b083af4899e1,Artifact,,memory,,,syscall,0,,,,,,,7f6202f06000,10000,3347.0,,,recommendationservice
+1372,0c3d2663c3bab5d927d49f5d2bca9445,Artifact,,memory,,,syscall,0,,,,,,,7f6202ec6000,40000,3347.0,,,recommendationservice
+1373,57664698f6ff73fa57f84614388436fe,Artifact,,memory,,,syscall,0,,,,,,,7f6202e86000,40000,3347.0,,,recommendationservice
+1374,574824951d376ca3f8247e316021b37e,Artifact,,memory,,,syscall,0,,,,,,,7f352fc8f000,40000,3346.0,,,recommendationservice
+1375,df7396925e08182629d9a4eebde8c857,Artifact,,memory,,,syscall,0,,,,,,,7f352fc6f000,20000,3346.0,,,recommendationservice
+1376,d1e8fb22f247828e9c4b74bd403370dc,Artifact,,memory,,,syscall,0,,,,,,,7f352fb6f000,100000,3346.0,,,recommendationservice
+1377,c8eb182fecaedf834baf0a0d5278ec68,Artifact,,memory,,,syscall,0,,,,,,,7f352f36f000,800000,3346.0,,,recommendationservice
+1378,361776f0509c51e3d395260198d2f34f,Artifact,,memory,,,syscall,0,,,,,,,7f352b36f000,4000000,3346.0,,,recommendationservice
+1379,4cc189892cd3463c6b91a1b50d8e62a9,Artifact,,memory,,,syscall,0,,,,,,,7f350b36f000,20000000,3346.0,,,recommendationservice
+1380,5762cf585349cc6a7c6f3bc361a5c5a3,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3346.0,,,recommendationservice
+1381,f787e53a98835eb5def9d9eeb0604c6d,Artifact,,memory,,,syscall,0,,,,,,,7f350936f000,2000000,3346.0,,,recommendationservice
+1382,09b78528ba5f8ef23c67fb0d4779b264,Artifact,,memory,,,syscall,0,,,,,,,7f350915e000,210c10,3346.0,,,recommendationservice
+1383,e4e5231c5a57953d50d3fee295299bd4,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3346.0,,,recommendationservice
+1384,88dedb370a82b29903db118f726c5bc3,Artifact,,memory,,,syscall,1,,,,,,,7f352fc6f000,20000,3346.0,,,recommendationservice
+1385,d6ec43e9882d935b3c89c7d772ac3365,Artifact,,memory,,,syscall,0,,,,,,,7f352fbef000,1000,3346.0,,,recommendationservice
+1386,69e777839d60494ca44fe652cd24b284,Artifact,,memory,,,syscall,0,,,,,,,7f352f775000,1000,3346.0,,,recommendationservice
+1387,81a8f2feafde0b474641fb13c9a33735,Artifact,,memory,,,syscall,0,,,,,,,7f352d39f000,1000,3346.0,,,recommendationservice
+1388,69702f32c307492bc6b00c20fb0ba6dd,Artifact,,memory,,,syscall,0,,,,,,,7f351b4ef000,1000,3346.0,,,recommendationservice
+1389,3deafeb346f2f10b9501e85a13961e18,Artifact,,memory,,,syscall,0,,,,,,,7f350905e000,100000,3346.0,,,recommendationservice
+1390,73bfafbaf959ee11002f5f0cc131694b,Artifact,,memory,,,syscall,0,,,,,,,7f350904e000,10000,3346.0,,,recommendationservice
+1391,c342527b8bc060d578c267a0dc389b45,Artifact,,memory,,,syscall,0,,,,,,,7f350903e000,10000,3346.0,,,recommendationservice
+1392,e64ed2b206c4d7231bfae99ccf8e27d2,Artifact,,memory,,,syscall,0,,,,,,,7f3508ffe000,40000,3346.0,,,recommendationservice
+1393,fc9caa5a2ad6426818c88b74b0671f19,Artifact,,memory,,,syscall,0,,,,,,,7f6202e46000,40000,3347.0,,,recommendationservice
+1394,452d7ec1f06f74f4d88aadb8b70ec6f8,Artifact,,memory,,,syscall,0,,,,,,,7f3508fbe000,40000,3346.0,,,recommendationservice
+1395,7ac81f293424ce946df20ea3847cd46b,Artifact,,memory,,,syscall,0,,,,,,,7f3508f7e000,40000,3346.0,,,recommendationservice
+1396,263893e70dde430e3dedb091d988e82e,Artifact,,memory,,,syscall,0,,,,,,,7fed9ccc7000,40000,3387.0,,,checkoutservice
+1397,95f67c7a6dfd37cf1414edd366afb273,Artifact,,memory,,,syscall,0,,,,,,,7fed9cca7000,20000,3387.0,,,checkoutservice
+1398,7f4041ef9b5c13c0ecb4996d57b3e613,Artifact,,memory,,,syscall,0,,,,,,,7fed9cba7000,100000,3387.0,,,checkoutservice
+1399,198e392fbe5e8d19b8d2f709c9c4f956,Artifact,,memory,,,syscall,0,,,,,,,7fed9c3a7000,800000,3387.0,,,checkoutservice
+1400,65fe2952e43061c36af816ea721b59d7,Artifact,,memory,,,syscall,0,,,,,,,7fed983a7000,4000000,3387.0,,,checkoutservice
+1401,5b6905c30d75367da2c50fe04759c30c,Artifact,,memory,,,syscall,0,,,,,,,7fed783a7000,20000000,3387.0,,,checkoutservice
+1402,cb5f031ca68f1b4be09bd1b401a43e6e,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3387.0,,,checkoutservice
+1403,49ca0c37c8e8d37967ce204a5e37b1bb,Artifact,,memory,,,syscall,0,,,,,,,7fed763a7000,2000000,3387.0,,,checkoutservice
+1404,4f99ca2a2158125aaff84a6a88faeb7e,Artifact,,memory,,,syscall,0,,,,,,,7fed76196000,210c10,3387.0,,,checkoutservice
+1405,a6c6ebff1a622ad5a78541e1df213bb0,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3387.0,,,checkoutservice
+1406,192642e2ff10b2bc768c4b39f3ae46bf,Artifact,,memory,,,syscall,1,,,,,,,7fed9cca7000,20000,3387.0,,,checkoutservice
+1407,7c5227ddec9e01e8470a0c0a8a4260be,Artifact,,memory,,,syscall,0,,,,,,,7fed9cc27000,1000,3387.0,,,checkoutservice
+1408,beb163d60121562f336172ec2a17e108,Artifact,,memory,,,syscall,0,,,,,,,7fed9c7ad000,1000,3387.0,,,checkoutservice
+1409,d3dad843eb22001cb7015063066b9ad2,Artifact,,memory,,,syscall,0,,,,,,,7fed9a3d7000,1000,3387.0,,,checkoutservice
+1410,4260931427ca1c5244ffd42c59f2282a,Artifact,,memory,,,syscall,0,,,,,,,7fed88527000,1000,3387.0,,,checkoutservice
+1411,d8fba158551064dad483aa85cd689f06,Artifact,,memory,,,syscall,0,,,,,,,7fed76096000,100000,3387.0,,,checkoutservice
+1412,aa8751dd30832166a1fbc1a7315cb641,Artifact,,memory,,,syscall,0,,,,,,,7fed76086000,10000,3387.0,,,checkoutservice
+1413,c94e475c52c6a74fb9bec6db97aea167,Artifact,,memory,,,syscall,0,,,,,,,7fed76076000,10000,3387.0,,,checkoutservice
+1414,75ce03e3b64dafe9b80790287bea55ef,Artifact,,memory,,,syscall,0,,,,,,,7fed76036000,40000,3387.0,,,checkoutservice
+1415,8699296f6cc70a9bb1cd1cd8de941446,Artifact,,memory,,,syscall,0,,,,,,,7fed75ff6000,40000,3387.0,,,checkoutservice
+1416,886af5189aebed8b75490cf03189ea08,Artifact,,memory,,,syscall,0,,,,,,,7fe2b1b33000,40000,3469.0,,,frontend
+1417,a81a07101a6ca9a2ca8f730d11983cef,Artifact,,memory,,,syscall,0,,,,,,,7fe2b1b13000,20000,3469.0,,,frontend
+1418,17dcca77256aa142c9d7be65de6064ef,Artifact,,memory,,,syscall,0,,,,,,,7fe2b1a13000,100000,3469.0,,,frontend
+1419,9b5f21d982e244149bf9fcf3a5188825,Artifact,,memory,,,syscall,0,,,,,,,7fe2b1213000,800000,3469.0,,,frontend
+1420,0604c82d0466c916b91f1fba23bf41f4,Artifact,,memory,,,syscall,0,,,,,,,7fe2ad213000,4000000,3469.0,,,frontend
+1421,ea1eb2b6344d4f8d4ff3d8e420375a06,Artifact,,memory,,,syscall,0,,,,,,,7fe28d213000,20000000,3469.0,,,frontend
+1422,f10434fa2d760d63714e977a235f9067,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3469.0,,,frontend
+1423,1d0328a17291186c352dacaad2f4640e,Artifact,,memory,,,syscall,0,,,,,,,7fe28b213000,2000000,3469.0,,,frontend
+1424,20d82a3cd02317b16dae73fa6eefd543,Artifact,,memory,,,syscall,0,,,,,,,7fe28b002000,210c10,3469.0,,,frontend
+1425,fb2e336930d4b88c19c5b4ca6041570c,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3469.0,,,frontend
+1426,d0b58c62ea8f03a5b2f7e0d6a8c880a6,Artifact,,memory,,,syscall,1,,,,,,,7fe2b1b13000,20000,3469.0,,,frontend
+1427,d284eb7bdacaf5ff5f78e15c32d763e8,Artifact,,memory,,,syscall,0,,,,,,,7fe2b1a93000,1000,3469.0,,,frontend
+1428,245b71ec0df69594a2f311bda8651036,Artifact,,memory,,,syscall,0,,,,,,,7fe2b1619000,1000,3469.0,,,frontend
+1429,9af8d7088d1601a86af5df63df0d7702,Artifact,,memory,,,syscall,0,,,,,,,7fe2af243000,1000,3469.0,,,frontend
+1430,161fbe600bb206709880f241e2cdb60f,Artifact,,memory,,,syscall,0,,,,,,,7fe29d393000,1000,3469.0,,,frontend
+1431,c7ef93254cab60290b307685743c9baf,Artifact,,memory,,,syscall,0,,,,,,,7fe28af02000,100000,3469.0,,,frontend
+1432,bf8c2a457d14260627aaabc4d6d8a039,Artifact,,memory,,,syscall,0,,,,,,,7fe28aef2000,10000,3469.0,,,frontend
+1433,747c6caab31f7ae7ffbd38b11b5590cc,Artifact,,memory,,,syscall,0,,,,,,,7fe28aee2000,10000,3469.0,,,frontend
+1434,ba75273f906d444ebc345b74e9b61338,Artifact,,memory,,,syscall,0,,,,,,,7fe28aea2000,40000,3469.0,,,frontend
+1435,9b8369556bccd85e49fab3754d85eb8b,Artifact,,memory,,,syscall,0,,,,,,,7fe28ae62000,40000,3469.0,,,frontend
+1436,6866366082a86d3fb096240ec8e56fac,Artifact,,memory,,,syscall,0,,,,,,,7fe28ae22000,40000,3469.0,,,frontend
+1437,c67c01eafee5153d68abec591db7cb72,Artifact,,memory,,,syscall,0,,,,,,,7f8bff44e000,40000,3527.0,,,recommendationservice
+1438,753b1849902945155a003a871c4dd803,Artifact,,memory,,,syscall,0,,,,,,,7f8bff42e000,20000,3527.0,,,recommendationservice
+1439,0a7a37d3d3f2fa5adf472bb025352423,Artifact,,memory,,,syscall,0,,,,,,,7f8bff32e000,100000,3527.0,,,recommendationservice
+1440,6581701340c1648d321a05a63a051b76,Artifact,,memory,,,syscall,0,,,,,,,7f8bfeb2e000,800000,3527.0,,,recommendationservice
+1441,8342941914dfd2291f83728dc8f1685d,Artifact,,memory,,,syscall,0,,,,,,,7f8bfab2e000,4000000,3527.0,,,recommendationservice
+1442,eef9b676ccf0c9237fb9665bcc9ac90f,Artifact,,memory,,,syscall,0,,,,,,,7f8bdab2e000,20000000,3527.0,,,recommendationservice
+1443,6289e68660cc5bf270e844962014e7af,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3527.0,,,recommendationservice
+1444,81cb41521aba2e7ea063aa5fef35821a,Artifact,,memory,,,syscall,0,,,,,,,7f8bd8b2e000,2000000,3527.0,,,recommendationservice
+1445,579e82d942a1643d5574ae9ae5b78797,Artifact,,memory,,,syscall,0,,,,,,,7f8bd891d000,210c10,3527.0,,,recommendationservice
+1446,39e02cecef2dff8733bc21d8726a7b98,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3527.0,,,recommendationservice
+1447,48ebb69a8e0d93594debf18dc6726495,Artifact,,memory,,,syscall,1,,,,,,,7f8bff42e000,20000,3527.0,,,recommendationservice
+1448,8351bcef1ef6bd65d74ea639e336f46f,Artifact,,memory,,,syscall,0,,,,,,,7f8bff3ae000,1000,3527.0,,,recommendationservice
+1449,944a6c0b8bc9e54c41f760c1f4b50af6,Artifact,,memory,,,syscall,0,,,,,,,7f8bfef34000,1000,3527.0,,,recommendationservice
+1450,b05991a78e4c983fd7d40ab1fa9dd223,Artifact,,memory,,,syscall,0,,,,,,,7f8bfcb5e000,1000,3527.0,,,recommendationservice
+1451,12868bad8b83b26815142adf2917c668,Artifact,,memory,,,syscall,0,,,,,,,7f8beacae000,1000,3527.0,,,recommendationservice
+1452,48ebc8dde704a58b8405387eb6515066,Artifact,,memory,,,syscall,0,,,,,,,7f8bd881d000,100000,3527.0,,,recommendationservice
+1453,3a1c43340b9da54739678acbab89c839,Artifact,,memory,,,syscall,0,,,,,,,7f8bd880d000,10000,3527.0,,,recommendationservice
+1454,c51a58cb64650c275b3963e8a0c4046e,Artifact,,memory,,,syscall,0,,,,,,,7f8bd87fd000,10000,3527.0,,,recommendationservice
+1455,af8d00b401dce1ea2fb582609eb99115,Artifact,,memory,,,syscall,0,,,,,,,7f8bd87bd000,40000,3527.0,,,recommendationservice
+1456,9718eb59f0cb8d31f03392165053dc72,Artifact,,memory,,,syscall,0,,,,,,,7f8bd877d000,40000,3527.0,,,recommendationservice
+1457,5c13998dc73f04d3b241bd2750e6fa9f,Artifact,,memory,,,syscall,0,,,,,,,7f8bd873d000,40000,3527.0,,,recommendationservice
+1458,7aac4108b9adbe1a4e0e1743224e4e4d,Artifact,,memory,,,syscall,0,,,,,,,7f8bd86fd000,40000,3527.0,,,recommendationservice
+1459,4d9ee15b9bd920e3f6f9c28d496cb347,Artifact,,memory,,,syscall,0,,,,,,,7f636e70d000,40000,3544.0,,,recommendationservice
+1460,f4f06a12d7ef877d3d7217b4c03ce550,Artifact,,memory,,,syscall,0,,,,,,,7f636e6ed000,20000,3544.0,,,recommendationservice
+1461,891c465258dd63f156cc149fef5525b9,Artifact,,memory,,,syscall,0,,,,,,,7f636e5ed000,100000,3544.0,,,recommendationservice
+1462,2aa4c0c121934310093c6fdf86ff227f,Artifact,,memory,,,syscall,0,,,,,,,7f636dded000,800000,3544.0,,,recommendationservice
+1463,1e3f62903d49c5a4cb26fd77e07a514b,Artifact,,memory,,,syscall,0,,,,,,,7f6369ded000,4000000,3544.0,,,recommendationservice
+1464,6f566e7f1cf3066b0f03cc40dc077850,Artifact,,memory,,,syscall,0,,,,,,,7f6349ded000,20000000,3544.0,,,recommendationservice
+1465,94f62eae72228fec43d6ee4a647f6c54,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3544.0,,,recommendationservice
+1466,b3893811ad8127c3e1725c53c6fce344,Artifact,,memory,,,syscall,0,,,,,,,7f6347ded000,2000000,3544.0,,,recommendationservice
+1467,9ba3c74381679826d88648dfa0168e08,Artifact,,memory,,,syscall,0,,,,,,,7f6347bdc000,210c10,3544.0,,,recommendationservice
+1468,f2394422312ad6d4614ea6c6f77e5a68,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3544.0,,,recommendationservice
+1469,9085abde6789eff00542cc20d7c3f52b,Artifact,,memory,,,syscall,1,,,,,,,7f636e6ed000,20000,3544.0,,,recommendationservice
+1470,9cbb562bb7aa42f5d34621e184deafa5,Artifact,,memory,,,syscall,0,,,,,,,7f636e66d000,1000,3544.0,,,recommendationservice
+1471,469c95a5376e524da1984953c552d604,Artifact,,memory,,,syscall,0,,,,,,,7f636e1f3000,1000,3544.0,,,recommendationservice
+1472,ae5f3e4e7370d9fc3444d76dffd65f52,Artifact,,memory,,,syscall,0,,,,,,,7f636be1d000,1000,3544.0,,,recommendationservice
+1473,ccc185042de294d731090d841aaf6928,Artifact,,memory,,,syscall,0,,,,,,,7f6359f6d000,1000,3544.0,,,recommendationservice
+1474,d05b79aeba7f4b1012a3102e08cc9cdc,Artifact,,memory,,,syscall,0,,,,,,,7f6347adc000,100000,3544.0,,,recommendationservice
+1475,0172b13d5c3919c4851e59322d8426b9,Artifact,,memory,,,syscall,0,,,,,,,7f6347acc000,10000,3544.0,,,recommendationservice
+1476,49f5e1f23cca400f17eb71ccf7e10758,Artifact,,memory,,,syscall,0,,,,,,,7f6347abc000,10000,3544.0,,,recommendationservice
+1477,2014639a67f5eeeb6df2c2f7ca43a031,Artifact,,memory,,,syscall,0,,,,,,,7f6347a7c000,40000,3544.0,,,recommendationservice
+1478,f10562587933e0deafd1f5c1ec510675,Artifact,,memory,,,syscall,0,,,,,,,7f6347a3c000,40000,3544.0,,,recommendationservice
+1479,64215b18061c67f12b5135dce8eaee5a,Artifact,,memory,,,syscall,0,,,,,,,7f63479fc000,40000,3544.0,,,recommendationservice
+1480,69a883f9f81cdfe665fb020696ffcf2b,Artifact,,memory,,,syscall,0,,,,,,,7fb0fe2dc000,40000,3570.0,,,paymentservice
+1481,b5c44f74f59c02fa52b56ebd7fc6cf18,Artifact,,memory,,,syscall,0,,,,,,,7fb0fe2bc000,20000,3570.0,,,paymentservice
+1482,aa762db11e30468aafdc491d058ebae8,Artifact,,memory,,,syscall,0,,,,,,,7fb0fe1bc000,100000,3570.0,,,paymentservice
+1483,07dbbb0730dcaf22cc7a858d048a6412,Artifact,,memory,,,syscall,0,,,,,,,7fb0fd9bc000,800000,3570.0,,,paymentservice
+1484,fdd4af5e6c321f67fca4238e2d5b48c5,Artifact,,memory,,,syscall,0,,,,,,,7fb0f99bc000,4000000,3570.0,,,paymentservice
+1485,ffe5f59574896a24585ffc5630d0e075,Artifact,,memory,,,syscall,0,,,,,,,7fb0d99bc000,20000000,3570.0,,,paymentservice
+1486,47a561d4aa25acf89223dc765a68f091,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3570.0,,,paymentservice
+1487,66b219b380731d23e68ecb78c1c6dc43,Artifact,,memory,,,syscall,0,,,,,,,7fb0d79bc000,2000000,3570.0,,,paymentservice
+1488,99f0c28b10cc04e0a21bd504227fd4af,Artifact,,memory,,,syscall,0,,,,,,,7fb0d77ab000,210c10,3570.0,,,paymentservice
+1489,c3f3f2c74e47ec56ed2ed22baae9e592,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3570.0,,,paymentservice
+1490,916627bca04f41b71331feaf9d008fff,Artifact,,memory,,,syscall,1,,,,,,,7fb0fe2bc000,20000,3570.0,,,paymentservice
+1491,a32789010c1312db2fc773bfda02ac92,Artifact,,memory,,,syscall,0,,,,,,,7fb0fe23c000,1000,3570.0,,,paymentservice
+1492,6d50f5e6f9738ecc986fa95fdbf83e50,Artifact,,memory,,,syscall,0,,,,,,,7fb0fddc2000,1000,3570.0,,,paymentservice
+1493,820f391f10eb5e54f3ad5c2914735bdb,Artifact,,memory,,,syscall,0,,,,,,,7fb0fb9ec000,1000,3570.0,,,paymentservice
+1494,5648b4b8b9a19bcd9abd4f03b5ec0785,Artifact,,memory,,,syscall,0,,,,,,,7fb0e9b3c000,1000,3570.0,,,paymentservice
+1495,70cc09c595e38136194af5864ec6d6fa,Artifact,,memory,,,syscall,0,,,,,,,7fb0d76ab000,100000,3570.0,,,paymentservice
+1496,4e134ac61976f598c4b49c8e919c53c1,Artifact,,memory,,,syscall,0,,,,,,,7fb0d769b000,10000,3570.0,,,paymentservice
+1497,bdb840a3e6c086dc696520bccea77df7,Artifact,,memory,,,syscall,0,,,,,,,7fb0d768b000,10000,3570.0,,,paymentservice
+1498,2cdfc1192d5a31c117f0d8cf52b1bfd0,Artifact,,memory,,,syscall,0,,,,,,,7f9f7db2f000,40000,3592.0,,,cartservice
+1499,2453546239e5f1f2117be68860546bc0,Artifact,,memory,,,syscall,0,,,,,,,7f9f7db0f000,20000,3592.0,,,cartservice
+1500,9bb9db32398faaf0b7ba2f6900264a69,Artifact,,memory,,,syscall,0,,,,,,,7f9f7da0f000,100000,3592.0,,,cartservice
+1501,ed2766f4efe7c3f6e97c1c7fdc7b188d,Artifact,,memory,,,syscall,0,,,,,,,7f9f7d20f000,800000,3592.0,,,cartservice
+1502,d4a247786b26b77552328d6b69735f06,Artifact,,memory,,,syscall,0,,,,,,,7f9f7920f000,4000000,3592.0,,,cartservice
+1503,013e1318f22eab5bb0d2beb0290e5628,Artifact,,memory,,,syscall,0,,,,,,,7f9f5920f000,20000000,3592.0,,,cartservice
+1504,cdfb80e407f6952414ea0796bf32d3b5,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3592.0,,,cartservice
+1505,fff02d5d05748d39ac1a389a4bf8bfd0,Artifact,,memory,,,syscall,0,,,,,,,7f9f5720f000,2000000,3592.0,,,cartservice
+1506,23af78308c3fc41f2e318ef5c927a648,Artifact,,memory,,,syscall,0,,,,,,,7f9f56ffe000,210c10,3592.0,,,cartservice
+1507,4fb923c23d2eef1225a77c7daf9c8aed,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3592.0,,,cartservice
+1508,b15058b2781bf97455596fea81a5f1b3,Artifact,,memory,,,syscall,1,,,,,,,7f9f7db0f000,20000,3592.0,,,cartservice
+1509,a82167b913d64103dbaa466f159ee37a,Artifact,,memory,,,syscall,0,,,,,,,7f9f7da8f000,1000,3592.0,,,cartservice
+1510,c9023b9e425c0189e66dabd5633823ec,Artifact,,memory,,,syscall,0,,,,,,,7f9f7d615000,1000,3592.0,,,cartservice
+1511,34649ab9828e7a7d5e3e2bde46251f4c,Artifact,,memory,,,syscall,0,,,,,,,7f9f7b23f000,1000,3592.0,,,cartservice
+1512,f17e522bc1197c7f50260d79542da6fe,Artifact,,memory,,,syscall,0,,,,,,,7f9f6938f000,1000,3592.0,,,cartservice
+1513,79c98c7fb35e33143c5f3e7e0663748b,Artifact,,memory,,,syscall,0,,,,,,,7f9f56efe000,100000,3592.0,,,cartservice
+1514,e6f3271c95cd45e8618fdce8fb3c1b62,Artifact,,memory,,,syscall,0,,,,,,,7f9f56eee000,10000,3592.0,,,cartservice
+1515,a5706b4f737571d697c0d2d9827902df,Artifact,,memory,,,syscall,0,,,,,,,7f9f56ede000,10000,3592.0,,,cartservice
+1516,051d96261c2ee21278e8c06db3c3cf3c,Artifact,,memory,,,syscall,0,,,,,,,7f9f56e9e000,40000,3592.0,,,cartservice
+1517,97cc239c8c5011a44f0e63389fe30d15,Artifact,,memory,,,syscall,0,,,,,,,7f9f56e5e000,40000,3592.0,,,cartservice
+1518,a2c93c28fdde74e19597aeb82fb1c498,Artifact,,memory,,,syscall,0,,,,,,,7f9f56e1e000,40000,3592.0,,,cartservice
+1519,754008a47d89f9f3e4844c1a0900936c,Artifact,,memory,,,syscall,0,,,,,,,7fe300f52000,40000,3615.0,,,currencyservice
+1520,e1778f54c1dafdd6f75ccc2388c0c537,Artifact,,memory,,,syscall,0,,,,,,,7fe300f32000,20000,3615.0,,,currencyservice
+1521,9ad2d167026d2949c2f116ceadd80d4d,Artifact,,memory,,,syscall,0,,,,,,,7fe300e32000,100000,3615.0,,,currencyservice
+1522,bd532e7f2fb49a0d4b04b6df3a273b7e,Artifact,,memory,,,syscall,0,,,,,,,7fe300632000,800000,3615.0,,,currencyservice
+1523,2cdbe44f16a1946b9b6189403f5977a4,Artifact,,memory,,,syscall,0,,,,,,,7fe2fc632000,4000000,3615.0,,,currencyservice
+1524,9b21ceb8767a7469a502055d86e55e44,Artifact,,memory,,,syscall,0,,,,,,,7fe2dc632000,20000000,3615.0,,,currencyservice
+1525,ff8649ed9e9a760e5d777b80e51e558a,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3615.0,,,currencyservice
+1526,3a5745907dec0c73fa11a1430d2c3d9e,Artifact,,memory,,,syscall,0,,,,,,,7fe2da632000,2000000,3615.0,,,currencyservice
+1527,627efefa5c0b098571c357c72c144136,Artifact,,memory,,,syscall,0,,,,,,,7fe2da421000,210c10,3615.0,,,currencyservice
+1528,96cb55e6c3e7f2bb804f47f9232f7ccd,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3615.0,,,currencyservice
+1529,271198d57d18cc4c04693ef00d02d53a,Artifact,,memory,,,syscall,1,,,,,,,7fe300f32000,20000,3615.0,,,currencyservice
+1530,ca3fae94f11427d77dd1b4fe0f301c75,Artifact,,memory,,,syscall,0,,,,,,,7fe300eb2000,1000,3615.0,,,currencyservice
+1531,f2db341e448259a29fed5169c596926c,Artifact,,memory,,,syscall,0,,,,,,,7fe300a38000,1000,3615.0,,,currencyservice
+1532,979afa3180b7c9a3240f90896e3207d0,Artifact,,memory,,,syscall,0,,,,,,,7fe2fe662000,1000,3615.0,,,currencyservice
+1533,e90ba57ce939693fb54f4a56e1897e7f,Artifact,,memory,,,syscall,0,,,,,,,7fe2ec7b2000,1000,3615.0,,,currencyservice
+1534,b7504f214f1183272f62f247d4ae8c82,Artifact,,memory,,,syscall,0,,,,,,,7fe2da321000,100000,3615.0,,,currencyservice
+1535,630bb810ebb8b1369d3fdabb28f8fe73,Artifact,,memory,,,syscall,0,,,,,,,7fe2da311000,10000,3615.0,,,currencyservice
+1536,367b8afbafa0963cd332bfee56ebde4f,Artifact,,memory,,,syscall,0,,,,,,,7fe2da301000,10000,3615.0,,,currencyservice
+1537,9c1d6c7555f1a3e154df5a0d2463d71b,Artifact,,memory,,,syscall,0,,,,,,,7fe2da2c1000,40000,3615.0,,,currencyservice
+1538,213a0a0d2d54f9413d05fbdc9ed70ecc,Artifact,,memory,,,syscall,0,,,,,,,7fe2da281000,40000,3615.0,,,currencyservice
+1539,60d104742e46e2f2dc8e58e8a264df8e,Artifact,,memory,,,syscall,0,,,,,,,7faa3aade000,40000,3643.0,,,productcatalogservice
+1540,ff6df981adf26f0a220faa6a1a818dc5,Artifact,,memory,,,syscall,0,,,,,,,7faa3aabe000,20000,3643.0,,,productcatalogservice
+1541,599d01699530403b445bdaed428edb61,Artifact,,memory,,,syscall,0,,,,,,,7faa3a9be000,100000,3643.0,,,productcatalogservice
+1542,81e720f0edf160ae5821be51fce16885,Artifact,,memory,,,syscall,0,,,,,,,7faa3a1be000,800000,3643.0,,,productcatalogservice
+1543,d6e6996dc79aba1d9149808f040d4a16,Artifact,,memory,,,syscall,0,,,,,,,7faa361be000,4000000,3643.0,,,productcatalogservice
+1544,159bf7218036bf97c0dcf2aeb7f81139,Artifact,,memory,,,syscall,0,,,,,,,7faa161be000,20000000,3643.0,,,productcatalogservice
+1545,721ef95eb783baf64963974fa1c18bc2,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3643.0,,,productcatalogservice
+1546,cff68255c7f21d662e7cbdb425d1c54c,Artifact,,memory,,,syscall,0,,,,,,,7faa141be000,2000000,3643.0,,,productcatalogservice
+1547,6388e5533b216fc36bc5b564738e8144,Artifact,,memory,,,syscall,0,,,,,,,7faa13fad000,210c10,3643.0,,,productcatalogservice
+1548,5bfa8d4c42170f3a827e77b17aab783a,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3643.0,,,productcatalogservice
+1549,e63cd414986f70a9f692255f39a40a49,Artifact,,memory,,,syscall,1,,,,,,,7faa3aabe000,20000,3643.0,,,productcatalogservice
+1550,e2074cf50747352c106ba08e3fab12d2,Artifact,,memory,,,syscall,0,,,,,,,7faa3aa3e000,1000,3643.0,,,productcatalogservice
+1551,6b51e88e78bcdee278729d1b3af0b2eb,Artifact,,memory,,,syscall,0,,,,,,,7faa3a5c4000,1000,3643.0,,,productcatalogservice
+1552,4ec0c0b63fc9633e3a9273d64cee853a,Artifact,,memory,,,syscall,0,,,,,,,7faa381ee000,1000,3643.0,,,productcatalogservice
+1553,a6ce8a8de57bc783be16e364620a5af2,Artifact,,memory,,,syscall,0,,,,,,,7faa2633e000,1000,3643.0,,,productcatalogservice
+1554,d0061ffbbb2a429765f824b3a9557728,Artifact,,memory,,,syscall,0,,,,,,,7faa13ead000,100000,3643.0,,,productcatalogservice
+1555,08651c3edaa06731d10300509ca898b0,Artifact,,memory,,,syscall,0,,,,,,,7faa13e9d000,10000,3643.0,,,productcatalogservice
+1556,a12e86ff05a3ef9f1da04ccc45403d05,Artifact,,memory,,,syscall,0,,,,,,,7faa13e8d000,10000,3643.0,,,productcatalogservice
+1557,93280dbbeccd17a1e626f374ea144366,Artifact,,memory,,,syscall,0,,,,,,,7fe45abaa000,40000,3657.0,,,paymentservice
+1558,e59144ca12563cbb86555b17fe4a11cf,Artifact,,memory,,,syscall,0,,,,,,,7fe45ab8a000,20000,3657.0,,,paymentservice
+1559,17484eef4520ba4062d908f49e2f9c3c,Artifact,,memory,,,syscall,0,,,,,,,7fe45aa8a000,100000,3657.0,,,paymentservice
+1560,f3518e34262cf41bdacf381c52cc60eb,Artifact,,memory,,,syscall,0,,,,,,,7fe45a28a000,800000,3657.0,,,paymentservice
+1561,eea582e98582eef691d2b0a2d208c3e3,Artifact,,memory,,,syscall,0,,,,,,,7fe45628a000,4000000,3657.0,,,paymentservice
+1562,7aa0fd33fd76edd1e760f253a9a27ccc,Artifact,,memory,,,syscall,0,,,,,,,7fe43628a000,20000000,3657.0,,,paymentservice
+1563,bac631b7673c4c495ffcc3aaa1eafc91,Artifact,,memory,,,syscall,0,,,,,,,c000000000,4000000,3657.0,,,paymentservice
+1564,27bc405827529ceffdc5ff3d03c308e2,Artifact,,memory,,,syscall,0,,,,,,,7fe43428a000,2000000,3657.0,,,paymentservice
+1565,a4ae1633d44945a74c83b8cfef0ccea1,Artifact,,memory,,,syscall,0,,,,,,,7fe434079000,210c10,3657.0,,,paymentservice
+1566,3893608617f829259a04893e65915e5e,Artifact,,memory,,,syscall,0,,,,,,,c000000000,400000,3657.0,,,paymentservice
+1567,2d21c5a4296fda34b2f98e9e4cf690fa,Artifact,,memory,,,syscall,1,,,,,,,7fe45ab8a000,20000,3657.0,,,paymentservice
+1568,51dd9a7444a45d7de2a8c9e43a4e1495,Artifact,,memory,,,syscall,0,,,,,,,7fe45ab0a000,1000,3657.0,,,paymentservice
+1569,7021f766f37ad74e14c49bedd61e7f3a,Artifact,,memory,,,syscall,0,,,,,,,7fe45a690000,1000,3657.0,,,paymentservice
+1570,027e0dfa3392f60bae1939cb06a59698,Artifact,,memory,,,syscall,0,,,,,,,7fe4582ba000,1000,3657.0,,,paymentservice
+1571,fde387787888e67c14ddd4cb564dd74e,Artifact,,memory,,,syscall,0,,,,,,,7fe44640a000,1000,3657.0,,,paymentservice
+1572,7c2449810ed9fa5b3a7268c3c9054746,Artifact,,memory,,,syscall,0,,,,,,,7fe433f79000,100000,3657.0,,,paymentservice
+1573,e42c94e07eeb67b22db5bfe04871a556,Artifact,,memory,,,syscall,0,,,,,,,7fe433f69000,10000,3657.0,,,paymentservice
+1574,b73dc1bfd3dbf8baf9df86abb1edd701,Artifact,,memory,,,syscall,0,,,,,,,7fe433f59000,10000,3657.0,,,paymentservice
+1575,e632a6b0731ba7453465352ffa5fcf15,Artifact,,memory,,,syscall,0,,,,,,,7fe433f19000,40000,3657.0,,,paymentservice
+1576,3590db22532593fa2136e450a85658f3,Artifact,,memory,,,syscall,0,,,,,,,7fe433ed9000,40000,3657.0,,,paymentservice
+1577,c2d9426e2cdd5a172638ac72381b1048,Artifact,,memory,,,syscall,0,,,,,,,7fe433e99000,40000,3657.0,,,paymentservice
+1578,4687fe9021e5b8d3c7ac4fe3d1e89f6a,Artifact,/tmp/payload,file,644.0,1681921228.0,external,1,,,tcp,142.23.45.67,54321.0,4026532277.0,0x7ffc123456,4096.0,1234.0,3.0,4.0,frontend
+1579,ecdff5c9b6f4c964746829e513ac3e01,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,54321.0,tcp,142.23.45.67,80.0,-1.0,,,,,,frontend
+1580,7d930824cf115df8d3b1e56fd9018f1f,Artifact,,memory map,,0.0,syscall,0,,,,,,4026532123.0,0x7ffde12ab000,8192.0,1723.0,3.0,4.0,frontend
+1581,2b7c1d5aa966a948f7afd061d72f6576,Artifact,/tmp/stage2.bin,file,755.0,1681921230.0,external,2,,,,,,4026532277.0,,16384.0,1234.0,5.0,6.0,external
+1582,f92d146f15e06f2ea4d0bc9aaa788b6b,Artifact,,network socket,,0.0,syscall,0,0.0.0.0,57236.0,tcp,127.0.0.1,8080.0,-1.0,,,,,,frontend
+1583,0ef366a12c22d68dcc35e410ab69719e,Artifact,/tmp/linpeas.sh,file,755.0,1681922830.0,external,1,,,,,,4026532277.0,,16384.0,9877.0,7.0,8.0,external
+1584,1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d,Artifact,/tmp/linpeas_output.txt,file,644.0,1681922832.0,external,1,,,,,,4026532277.0,,24576.0,9877.0,,9.0,external
+1585,2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e,Artifact,,memory dump,,0.0,external,0,,,,,,4026532277.0,0x7ffac123b000,65536.0,9877.0,9.0,10.0,external
+1586,3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f,Artifact,/tmp/recommendation_logs.log,file,640.0,1681922834.0,recommendationservice,1,,,,,,4026532343.0,,8192.0,1724.0,,11.0,recommendationservice
+1587,4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e,Artifact,/etc/sudoers,file,440.0,1681924000.0,frontend,1,,,,,,4026532277.0,,4096.0,9877.0,,12.0,frontend
+1588,5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0a,Artifact,,serialized object,644.0,1681924001.0,recommendationservice,1,,,,,,4026532343.0,0x7ffac123b000,8192.0,1724.0,,13.0,recommendationservice
+1589,6d7e8f9a0b1c2d3e4f5a6b7c8d9e0a1b,Artifact,/tmp/admin_access.txt,file,640.0,1681924002.0,recommendationservice,1,,,,,,4026532343.0,,8192.0,1724.0,,14.0,recommendationservice
+1590,7e8f9a0b1c2d3e4f5a6b7c8d9e0a1b2c,Artifact,/tmp/deserialization_exploit.py,file,600.0,1681924003.0,recommendationservice,1,,,,,,4026532343.0,,8192.0,1724.0,,15.0,recommendationservice
