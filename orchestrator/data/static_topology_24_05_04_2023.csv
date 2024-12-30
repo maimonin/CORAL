@@ -1,0 +1,25 @@
+Pod-ID,IP,Pod-Inbound-List,Protocol,Port
+redis-cart,192.168.50.118,"[('cartservice', '7070', 'TCP')]",TCP,6379
+adservice_0,192.168.50.13,"[('frontend_1', 42316, 'TCP'), ('frontend_2', 9702, 'TCP'), ('frontend_3', 13979, 'TCP')]",TCP,42491
+adservice_1,192.168.75.215,"[('frontend_0', 56591, 'TCP')]",TCP,51179
+productcatalogservice_0,192.168.110.6,"[('recommendationservice_1', 31365, 'TCP'), ('checkoutservice_1', 26256, 'TCP'), ('checkoutservice_2', 31679, 'TCP'), ('frontend_2', 9702, 'TCP'), ('frontend_3', 13979, 'TCP')]",TCP,10350
+productcatalogservice_1,192.168.50.49,"[('recommendationservice_0', 1986, 'TCP'), ('recommendationservice_2', 57034, 'TCP'), ('checkoutservice_0', 14905, 'TCP'), ('frontend_0', 56591, 'TCP'), ('frontend_1', 42316, 'TCP')]",TCP,39351
+cartservice,192.168.50.165,"[('checkoutservice_0', 14905, 'TCP'), ('checkoutservice_1', 26256, 'TCP'), ('checkoutservice_2', 31679, 'TCP'), ('frontend_0', 56591, 'TCP'), ('frontend_1', 42316, 'TCP'), ('frontend_2', 9702, 'TCP'), ('frontend_3', 13979, 'TCP')]",TCP,7070
+currencyservice_0,192.168.210.183,"[('checkoutservice_1', 26256, 'TCP'), ('checkoutservice_2', 31679, 'TCP'), ('frontend_1', 42316, 'TCP'), ('frontend_3', 13979, 'TCP')]",TCP,22199
+currencyservice_1,192.168.50.92,"[('checkoutservice_0', 14905, 'TCP'), ('frontend_0', 56591, 'TCP'), ('frontend_2', 9702, 'TCP')]",TCP,21669
+emailservice_0,192.168.95.79,"[('checkoutservice_1', 26256, 'TCP')]",TCP,10772
+emailservice_1,192.168.210.237,"[('checkoutservice_0', 14905, 'TCP'), ('checkoutservice_2', 31679, 'TCP')]",TCP,40050
+paymentservice_0,192.168.95.3,"[('checkoutservice_1', 26256, 'TCP'), ('checkoutservice_2', 31679, 'TCP')]",TCP,27156
+paymentservice_1,192.168.110.56,"[('checkoutservice_0', 14905, 'TCP')]",TCP,18202
+recommendationservice_0,192.168.75.17,"[('frontend_2', 9702, 'TCP')]",TCP,1986
+recommendationservice_1,192.168.210.61,"[('frontend_1', 42316, 'TCP'), ('frontend_3', 13979, 'TCP')]",TCP,31365
+recommendationservice_2,192.168.75.73,"[('frontend_0', 56591, 'TCP')]",TCP,57034
+shippingservice_0,192.168.110.188,"[('checkoutservice_1', 26256, 'TCP'), ('checkoutservice_2', 31679, 'TCP'), ('frontend_0', 56591, 'TCP'), ('frontend_1', 42316, 'TCP')]",TCP,53853
+shippingservice_1,192.168.75.167,"[('checkoutservice_0', 14905, 'TCP'), ('frontend_2', 9702, 'TCP'), ('frontend_3', 13979, 'TCP')]",TCP,61147
+checkoutservice_0,192.168.110.123,"[('frontend_2', 9702, 'TCP'), ('frontend_3', 13979, 'TCP')]",TCP,14905
+checkoutservice_1,192.168.75.111,"[('frontend_1', 42316, 'TCP')]",TCP,26256
+checkoutservice_2,192.168.75.254,"[('frontend_0', 56591, 'TCP')]",TCP,31679
+frontend_0,192.168.95.162,['Internet'],TCP,56591
+frontend_1,192.168.50.164,['Internet'],TCP,42316
+frontend_2,192.168.110.13,['Internet'],TCP,9702
+frontend_3,192.168.75.57,['Internet'],TCP,13979
