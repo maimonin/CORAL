@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: productcatalogservice-1-allow-checkoutservice-2
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: checkoutservice-2
+    ports:
+    - port: 23628
+  podSelector:
+    matchLabels:
+      app: productcatalogservice-1

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: emailservice-7
+spec:
+  ports:
+  - name: grpc
+    port: 49005
+    targetPort: 49005
+  selector:
+    app: emailservice-7
+  type: ClusterIP

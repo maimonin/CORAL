@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: emailservice-7-allow-checkoutservice-7
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: checkoutservice-7
+    ports:
+    - port: 19417
+  podSelector:
+    matchLabels:
+      app: emailservice-7

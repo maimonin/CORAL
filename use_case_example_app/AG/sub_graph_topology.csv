@@ -1,0 +1,13 @@
+Pod-ID,IP,Pod-Inbound-List,Protocol,Port
+redis-cart,192.168.50.118,"[('cartservice', '7070', 'TCP')]",TCP,6379
+adservice_0,192.168.50.13,"[('frontend_3', 13979, 'TCP')]",TCP,42491
+productcatalogservice_0,192.168.110.6,"[('recommendationservice_1', 31365, 'TCP'), ('frontend_3', 13979, 'TCP')]",TCP,10350
+productcatalogservice_1,192.168.50.49,"[('checkoutservice_0', 14905, 'TCP')]",TCP,39351
+cartservice,192.168.50.165,"[('checkoutservice_0', 14905, 'TCP'), ('frontend_3', 13979, 'TCP')]",TCP,7070
+currencyservice_1,192.168.50.92,"[('checkoutservice_0', 14905, 'TCP')]",TCP,21669
+emailservice_1,192.168.210.237,"[('checkoutservice_0', 14905, 'TCP')]",TCP,40050
+paymentservice_1,192.168.110.56,"[('checkoutservice_0', 14905, 'TCP')]",TCP,18202
+recommendationservice_1,192.168.210.61,"[('frontend_3', 13979, 'TCP')]",TCP,31365
+shippingservice_1,192.168.75.167,"[('checkoutservice_0', 14905, 'TCP'), ('frontend_3', 13979, 'TCP')]",TCP,61147
+checkoutservice_0,192.168.110.123,"[('frontend_3', 13979, 'TCP')]",TCP,14905
+frontend_3,192.168.75.57,['Internet'],TCP,13979

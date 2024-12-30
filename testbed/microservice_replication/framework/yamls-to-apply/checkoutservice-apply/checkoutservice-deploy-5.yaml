@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: checkoutservice-5
+spec:
+  selector:
+    matchLabels:
+      app: checkoutservice-5
+  template:
+    metadata:
+      labels:
+        app: checkoutservice-5
+    spec:
+      containers:
+      - env:
+        - name: PORT
+          value: '23193'
+        - name: PRODUCT_CATALOG_SERVICE_ADDR
+          value: productcatalogservice-1:32780
+        - name: SHIPPING_SERVICE_ADDR
+          value: shippingservice-5:60729
+        - name: PAYMENT_SERVICE_ADDR
+          value: paymentservice-5:27099
+        - name: EMAIL_SERVICE_ADDR
+          value: emailservice-5:39734
+        - name: CURRENCY_SERVICE_ADDR
+          value: currencyservice-5:14249
+        - name: CART_SERVICE_ADDR
+          value: cartservice-1:7070
+        image: gcr.io/google-samples/microservices-demo/checkoutservice:v0.5.0
+        livenessProbe:
+          exec:
+            command:
+            - /bin/grpc_health_probe
+            - -addr=:23193
+        name: server
+        ports:
+        - containerPort: 23193
+        readinessProbe:
+          exec:
+            command:
+            - /bin/grpc_health_probe
+            - -addr=:23193
+        resources:
+          limits:
+            cpu: 200m
+            memory: 128Mi
+          requests:
+            cpu: 100m
+            memory: 64Mi
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+            - all
+          privileged: false
+          readOnlyRootFilesystem: true
+      securityContext:
+        fsGroup: 1000
+        runAsGroup: 1000
+        runAsNonRoot: true
+        runAsUser: 1000
+      serviceAccountName: default

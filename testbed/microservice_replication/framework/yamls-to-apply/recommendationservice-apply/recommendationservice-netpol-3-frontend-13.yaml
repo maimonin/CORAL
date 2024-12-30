@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: recommendationservice-3-allow-frontend-13
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend-13
+    ports:
+    - port: 2116
+  podSelector:
+    matchLabels:
+      app: recommendationservice-3

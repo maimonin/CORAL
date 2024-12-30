@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: recommendationservice-0
+spec:
+  ports:
+  - name: grpc
+    port: 26486
+    targetPort: 26486
+  selector:
+    app: recommendationservice-0
+  type: ClusterIP

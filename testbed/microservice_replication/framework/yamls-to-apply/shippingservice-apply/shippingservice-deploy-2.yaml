@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shippingservice-2
+spec:
+  selector:
+    matchLabels:
+      app: shippingservice-2
+  template:
+    metadata:
+      labels:
+        app: shippingservice-2
+    spec:
+      containers:
+      - env:
+        - name: PORT
+          value: '34213'
+        - name: DISABLE_PROFILER
+          value: '1'
+        image: gcr.io/google-samples/microservices-demo/shippingservice:v0.5.0
+        livenessProbe:
+          exec:
+            command:
+            - /bin/grpc_health_probe
+            - -addr=:34213
+        name: server
+        ports:
+        - containerPort: 34213
+        readinessProbe:
+          exec:
+            command:
+            - /bin/grpc_health_probe
+            - -addr=:34213
+          periodSeconds: 5
+        resources:
+          limits:
+            cpu: 200m
+            memory: 128Mi
+          requests:
+            cpu: 100m
+            memory: 64Mi
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+            - all
+          privileged: false
+          readOnlyRootFilesystem: true
+      securityContext:
+        fsGroup: 1000
+        runAsGroup: 1000
+        runAsNonRoot: true
+        runAsUser: 1000
+      serviceAccountName: default

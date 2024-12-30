@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: currencyservice-7
+spec:
+  ports:
+  - name: grpc
+    port: 57977
+    targetPort: 57977
+  selector:
+    app: currencyservice-7
+  type: ClusterIP

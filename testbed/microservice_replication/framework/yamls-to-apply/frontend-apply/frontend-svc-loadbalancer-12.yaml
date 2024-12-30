@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-external-12
+spec:
+  ports:
+  - name: http
+    port: 62963
+    targetPort: 62963
+  selector:
+    app: frontend-12
+  type: LoadBalancer

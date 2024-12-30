@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: paymentservice-5-allow-checkoutservice-5
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: checkoutservice-5
+    ports:
+    - port: 27099
+  podSelector:
+    matchLabels:
+      app: paymentservice-5

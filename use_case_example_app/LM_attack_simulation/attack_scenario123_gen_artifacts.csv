@@ -1,0 +1,14 @@
+id,type,path,subtype,permissions,epoch,source,version,memory address,size,tgid,local address,remote port,protocol,remote address,local port,net namespace,read fd,write fd,svc
+4687fe9021e5b8d3c7ac4fe3d1e89f6a,Artifact,/tmp/payload,file,644,1681921228,external,1,0x7ffc123456,4096,1234,,,tcp,142.23.45.67,54321,4026532277,3,4,frontend
+ecdff5c9b6f4c964746829e513ac3e01,Artifact,NaN,network socket,NaN,0,syscall,0,NaN,NaN,NaN,0.0.0.0,54321,tcp,142.23.45.67,80,-1,NaN,NaN,frontend
+7d930824cf115df8d3b1e56fd9018f1f,Artifact,NaN,memory map,NaN,0,syscall,0,0x7ffde12ab000,8192,1723,NaN,NaN,NaN,NaN,NaN,4026532123,3,4,frontend
+2b7c1d5aa966a948f7afd061d72f6576,Artifact,/tmp/stage2.bin,file,755,1681921230,external,2,NaN,16384,1234,NaN,NaN,NaN,NaN,NaN,4026532277,5,6,external
+f92d146f15e06f2ea4d0bc9aaa788b6b,Artifact,NaN,network socket,NaN,0,syscall,0,NaN,NaN,NaN,0.0.0.0,57236,tcp,127.0.0.1,8080,-1,NaN,NaN,frontend
+0ef366a12c22d68dcc35e410ab69719e,Artifact,/tmp/linpeas.sh,file,755,1681922830,external,1,NaN,16384,9877,NaN,NaN,NaN,NaN,NaN,4026532277,7,8,external
+1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d,Artifact,/tmp/linpeas_output.txt,file,644,1681922832,external,1,NaN,24576,9877,NaN,NaN,NaN,NaN,NaN,4026532277,NaN,9,external
+2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e,Artifact,NaN,memory dump,NaN,0,external,0,0x7ffac123b000,65536,9877,NaN,NaN,NaN,NaN,NaN,4026532277,9,10,external
+3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f,Artifact,/tmp/recommendation_logs.log,file,640,1681922834,recommendationservice,1,NaN,8192,1724,NaN,NaN,NaN,NaN,NaN,4026532343,NaN,11,recommendationservice
+4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e,Artifact,/etc/sudoers,file,440,1681924000,frontend,1,NaN,4096,9877,NaN,NaN,NaN,NaN,NaN,4026532277,NaN,12,frontend
+5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0a,Artifact,NaN,serialized object,644,1681924001,recommendationservice,1,0x7ffac123b000,8192,1724,NaN,NaN,NaN,NaN,NaN,4026532343,NaN,13,recommendationservice
+6d7e8f9a0b1c2d3e4f5a6b7c8d9e0a1b,Artifact,/tmp/admin_access.txt,file,640,1681924002,recommendationservice,1,NaN,8192,1724,NaN,NaN,NaN,NaN,NaN,4026532343,NaN,14,recommendationservice
+7e8f9a0b1c2d3e4f5a6b7c8d9e0a1b2c,Artifact,/tmp/deserialization_exploit.py,file,600,1681924003,recommendationservice,1,NaN,8192,1724,NaN,NaN,NaN,NaN,NaN,4026532343,NaN,15,recommendationservice

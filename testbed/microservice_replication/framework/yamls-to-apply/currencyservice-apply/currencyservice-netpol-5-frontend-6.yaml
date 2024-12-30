@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: currencyservice-5-allow-frontend-6
+  namespace: attack-graphs
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend-6
+    ports:
+    - port: 14249
+  podSelector:
+    matchLabels:
+      app: currencyservice-5

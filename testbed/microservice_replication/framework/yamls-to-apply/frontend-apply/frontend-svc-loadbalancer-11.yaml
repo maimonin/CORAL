@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-external-11
+spec:
+  ports:
+  - name: http
+    port: 51722
+    targetPort: 51722
+  selector:
+    app: frontend-11
+  type: LoadBalancer

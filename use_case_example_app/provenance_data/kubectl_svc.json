@@ -1,0 +1,543 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"adservice\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":9555,\"targetPort\":9555}],\"selector\":{\"app\":\"adservice\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:23Z",
+                "name": "adservice",
+                "namespace": "default",
+                "resourceVersion": "2502",
+                "uid": "8dbefcc0-d7f8-46f3-8741-85512a7b7d3b"
+            },
+            "spec": {
+                "clusterIP": "10.108.1.16",
+                "clusterIPs": [
+                    "10.108.1.16"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 9555,
+                        "protocol": "TCP",
+                        "targetPort": 9555
+                    }
+                ],
+                "selector": {
+                    "app": "adservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"cartservice\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":7070,\"targetPort\":7070}],\"selector\":{\"app\":\"cartservice\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:22Z",
+                "name": "cartservice",
+                "namespace": "default",
+                "resourceVersion": "2438",
+                "uid": "bd5657c9-ad19-461b-b1d1-017f3da385c9"
+            },
+            "spec": {
+                "clusterIP": "10.98.236.201",
+                "clusterIPs": [
+                    "10.98.236.201"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 7070,
+                        "protocol": "TCP",
+                        "targetPort": 7070
+                    }
+                ],
+                "selector": {
+                    "app": "cartservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"checkoutservice\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":5050,\"targetPort\":5050}],\"selector\":{\"app\":\"checkoutservice\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:21Z",
+                "name": "checkoutservice",
+                "namespace": "default",
+                "resourceVersion": "2347",
+                "uid": "0c613e84-b100-4114-ac67-54f171f2ba64"
+            },
+            "spec": {
+                "clusterIP": "10.110.227.234",
+                "clusterIPs": [
+                    "10.110.227.234"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 5050,
+                        "protocol": "TCP",
+                        "targetPort": 5050
+                    }
+                ],
+                "selector": {
+                    "app": "checkoutservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"currencyservice\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":7000,\"targetPort\":7000}],\"selector\":{\"app\":\"currencyservice\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:22Z",
+                "name": "currencyservice",
+                "namespace": "default",
+                "resourceVersion": "2471",
+                "uid": "6611dd87-c7f6-4ea8-8ed7-4e3fb70298e9"
+            },
+            "spec": {
+                "clusterIP": "10.103.142.252",
+                "clusterIPs": [
+                    "10.103.142.252"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 7000,
+                        "protocol": "TCP",
+                        "targetPort": 7000
+                    }
+                ],
+                "selector": {
+                    "app": "currencyservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"emailservice\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":5000,\"targetPort\":8080}],\"selector\":{\"app\":\"emailservice\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:21Z",
+                "name": "emailservice",
+                "namespace": "default",
+                "resourceVersion": "2330",
+                "uid": "caca85a9-6370-4da9-8ab5-ccf7c85a9b73"
+            },
+            "spec": {
+                "clusterIP": "10.108.244.180",
+                "clusterIPs": [
+                    "10.108.244.180"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 5000,
+                        "protocol": "TCP",
+                        "targetPort": 8080
+                    }
+                ],
+                "selector": {
+                    "app": "emailservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"frontend\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"http\",\"port\":80,\"targetPort\":8080}],\"selector\":{\"app\":\"frontend\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:22Z",
+                "name": "frontend",
+                "namespace": "default",
+                "resourceVersion": "2381",
+                "uid": "e6d7af31-fbf2-4d68-837f-7da9a40ffe40"
+            },
+            "spec": {
+                "clusterIP": "10.102.238.113",
+                "clusterIPs": [
+                    "10.102.238.113"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "http",
+                        "port": 80,
+                        "protocol": "TCP",
+                        "targetPort": 8080
+                    }
+                ],
+                "selector": {
+                    "app": "frontend"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"frontend-external\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"http\",\"port\":80,\"targetPort\":8080}],\"selector\":{\"app\":\"frontend\"},\"type\":\"LoadBalancer\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:22Z",
+                "name": "frontend-external",
+                "namespace": "default",
+                "resourceVersion": "2392",
+                "uid": "b13e8271-cbe9-48d2-86b3-d9f5b6814d99"
+            },
+            "spec": {
+                "allocateLoadBalancerNodePorts": true,
+                "clusterIP": "10.96.18.163",
+                "clusterIPs": [
+                    "10.96.18.163"
+                ],
+                "externalTrafficPolicy": "Cluster",
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "http",
+                        "nodePort": 32139,
+                        "port": 80,
+                        "protocol": "TCP",
+                        "targetPort": 8080
+                    }
+                ],
+                "selector": {
+                    "app": "frontend"
+                },
+                "sessionAffinity": "None",
+                "type": "LoadBalancer"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "creationTimestamp": "2023-09-26T10:00:52Z",
+                "labels": {
+                    "component": "apiserver",
+                    "provider": "kubernetes"
+                },
+                "name": "kubernetes",
+                "namespace": "default",
+                "resourceVersion": "194",
+                "uid": "1e97c413-6daf-476d-8b34-e188de55545b"
+            },
+            "spec": {
+                "clusterIP": "10.96.0.1",
+                "clusterIPs": [
+                    "10.96.0.1"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "https",
+                        "port": 443,
+                        "protocol": "TCP",
+                        "targetPort": 6443
+                    }
+                ],
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"paymentservice\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":50051,\"targetPort\":50051}],\"selector\":{\"app\":\"paymentservice\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:22Z",
+                "name": "paymentservice",
+                "namespace": "default",
+                "resourceVersion": "2403",
+                "uid": "f8c851cb-3a9f-488c-bf7f-57890d0211e4"
+            },
+            "spec": {
+                "clusterIP": "10.96.220.107",
+                "clusterIPs": [
+                    "10.96.220.107"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 50051,
+                        "protocol": "TCP",
+                        "targetPort": 50051
+                    }
+                ],
+                "selector": {
+                    "app": "paymentservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"productcatalogservice\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":3550,\"targetPort\":3550}],\"selector\":{\"app\":\"productcatalogservice\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:22Z",
+                "name": "productcatalogservice",
+                "namespace": "default",
+                "resourceVersion": "2419",
+                "uid": "65fbcb4b-f6df-4ed6-bd73-ca5dc920d9b6"
+            },
+            "spec": {
+                "clusterIP": "10.110.4.107",
+                "clusterIPs": [
+                    "10.110.4.107"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 3550,
+                        "protocol": "TCP",
+                        "targetPort": 3550
+                    }
+                ],
+                "selector": {
+                    "app": "productcatalogservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"recommendationservice\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":8080,\"targetPort\":8080}],\"selector\":{\"app\":\"recommendationservice\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:22Z",
+                "name": "recommendationservice",
+                "namespace": "default",
+                "resourceVersion": "2364",
+                "uid": "f0805b6c-f03e-434c-9ec6-ea3622f1c6b4"
+            },
+            "spec": {
+                "clusterIP": "10.111.218.189",
+                "clusterIPs": [
+                    "10.111.218.189"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 8080,
+                        "protocol": "TCP",
+                        "targetPort": 8080
+                    }
+                ],
+                "selector": {
+                    "app": "recommendationservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"redis-cart\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"tcp-redis\",\"port\":6379,\"targetPort\":6379}],\"selector\":{\"app\":\"redis-cart\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:22Z",
+                "name": "redis-cart",
+                "namespace": "default",
+                "resourceVersion": "2489",
+                "uid": "c89dd275-953e-4d13-b550-fc572f8427db"
+            },
+            "spec": {
+                "clusterIP": "10.103.242.101",
+                "clusterIPs": [
+                    "10.103.242.101"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "tcp-redis",
+                        "port": 6379,
+                        "protocol": "TCP",
+                        "targetPort": 6379
+                    }
+                ],
+                "selector": {
+                    "app": "redis-cart"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"shippingservice\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":50051,\"targetPort\":50051}],\"selector\":{\"app\":\"shippingservice\"},\"type\":\"ClusterIP\"}}\n"
+                },
+                "creationTimestamp": "2023-09-26T10:22:22Z",
+                "name": "shippingservice",
+                "namespace": "default",
+                "resourceVersion": "2480",
+                "uid": "225203c4-2e35-41d4-8980-62168170d496"
+            },
+            "spec": {
+                "clusterIP": "10.105.136.77",
+                "clusterIPs": [
+                    "10.105.136.77"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 50051,
+                        "protocol": "TCP",
+                        "targetPort": 50051
+                    }
+                ],
+                "selector": {
+                    "app": "shippingservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}
