@@ -1,12 +1,15 @@
 # Testbed
 
+---
 
-## Overview
+
 This directory is part of the CORAL framework and serves as the evaluation environment for the CORAL paper. The testbed is based on Google's "Online Boutique" cloud microservice demo and a custom microservice replication framework to test scalability and dynamic containerized environments.
 
 It contains two primary subdirectories:
 1. `google-microservices-demo`: Contains the deployment configuration for Google's "Online Boutique" application, a microservice-based e-commerce app.
 2. `microservice_replication`: Hosts the framework for replicating microservices to test scalability and interconnections within a Kubernetes environment.
+
+---
 
 
 ## Features
@@ -15,6 +18,9 @@ It contains two primary subdirectories:
 * **Deployment Configurations:** Predefined YAML files for setting up the "Online Boutique" demo application.
 * **Microservice Replication:** Framework for scaling the testbed with configurable replicas.
 * **Scalable Environment:** Designed to emulate operational Kubernetes environments.
+
+
+---
 
 
 ## Directory Structure
@@ -70,15 +76,15 @@ It contains two primary subdirectories:
 │   └── shippingservice_yaml.py
 ```
 
-### 1. `google-microservices-demo`
+### 1. `google-microservices-demo` Directory
 This subdirectory contains the "Online Boutique" application Kubernetes configuration files. It is composed of Kubernetes deployment and networking by the following components:
 
 * `deploy_and_svc_yamls`: YAML files for deployment and service definitions of all microservices.
 * `network-policies`: YAML files for defining network policies for each microservice to control inter-service communication.
 
-#### Online Boutique Application
+#### Online Boutique Demo Application
 
-The "Online Boutique" is a web-based e-commerce demo application consisting of 11 microservices that showcase Kubernetes (K8s) technologies. Users can browse items, add them to their cart, and make purchases. 
+The ["Online Boutique"](https://github.com/GoogleCloudPlatform/microservices-demo) is a web-based e-commerce demo application consisting of 11 microservices that showcase Kubernetes (K8s) technologies. Users can browse items, add them to their cart, and make purchases. 
 
 Key characteristics of the application:
 * Simple, scalable, and dynamic.
@@ -89,7 +95,7 @@ The application was deployed in two environments to ensure diverse testing:
 * Privately managed Kubernetes cluster.
 * Amazon Elastic Kubernetes Service (EKS).
 
-### 2. `microservice_replication`
+### 2. `microservice_replication` Directory
 This subdirectory provides a framework for replicating the microservices of the "Online Boutique" application. It allows scalability testing by creating multiple replicas with unique configurations. 
 The subdirectory contains the following components:
 
@@ -105,6 +111,9 @@ The replication process ensures:
 * Complete interconnectivity between all replicated microservices.
 
 This approach enables controlled topology changes for scalability and realistic test conditions.
+
+
+---
 
 
 ## Prerequisites
@@ -134,29 +143,29 @@ This approach enables controlled topology changes for scalability and realistic 
   * Container Network Interface (CNI): Calico.
 
 
-## Setup
-
-1. Setup computing environment.
-2. Setup Kubernetes cluster.
+---
 
 
 ## Usage
 
-See subdirectories' READMEs for detailed usage instructions:
-* [Google's Microservice Demo Application](google-microservices-demo/README.md)
-* [Microservice Replication Framework](microservice_replication/framework/README.md)
+1. Setup the computing environment.
 
+2. Setup the Kubernetes cluster.
 
-1. Deploy the "Online Boutique" application by applying deployment and service configurations:
+3. Deploy the "Online Boutique" application by applying deployment and service configurations:
   ```
   kubectl apply -f google-microservices-demo/deploy_and_svc_yamls/
   kubectl apply -f google-microservices-demo/network-policies/
   ```
-2. Replicate microservices using the Microservice Replication Framework scripts by running the main replication script:
+  For detailed information about the application, see its official repository: [Google's Microservices Demo](https://github.com/GoogleCloudPlatform/microservices-demo).
+
+4. Replicate microservices using the Microservice Replication Framework scripts by running the main replication script:
   ```
   microservice_replication/framework/microservices_factory.py
   ```
-3. Deploy the replicated microservices by applying the generated YAML files:
+  See framework subdirectory README for detailed usage instructions: [Microservice Replication Framework](microservice_replication/framework/README.md).
+
+5. Deploy the replicated microservices by applying the generated YAML files:
   ```
   kubectl apply -f microservice_replication/yamls-to-apply/
   ```
@@ -165,4 +174,7 @@ See subdirectories' READMEs for detailed usage instructions:
 ---
 
 
-For additional details, see the CORAL article, Section 4.1 "_Testbed setup_".
+## References
+
+* [CORAL article](https://doi.org/10.1016/j.cose.2024.104296), Section 4.1 "_Testbed setup_", for additional details.
+* Google's Microservices Demo GitHub repository: https://github.com/GoogleCloudPlatform/microservices-demo
