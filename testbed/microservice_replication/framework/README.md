@@ -2,7 +2,6 @@
 
 The Microservice Replication Framework enables the replication of existing microservices to create scalable, functional, and interconnected applications. It ensures that all replicated microservices are reachable from a frontend and maintains critical parent-child relationships between services.
 
----
 
 ## Features
 * Simplified creation of complex applications via microservice replication.
@@ -10,7 +9,6 @@ The Microservice Replication Framework enables the replication of existing micro
 * Automatic validation of replication dictionaries to maintain logical microservice dependencies.
 * Integration with Kubernetes for deployment and scaling.
 
----
 
 ## Architecture
 
@@ -130,16 +128,12 @@ The Network Policy scripts follow the following pattern:
   3. **Output**:
      - YAML files in the specified directory for application to the Kubernetes cluster.
 
----
-
   
 ## Prerequisites
 
 * Python 3.8+ and required Python libraries (see `requirements.txt`)
 * Kubernetes configuration files of an existing application (e.g., Online Boutique)
 * Kubernetes cluster with `kubectl` configured
-
----
 
 
 ## Directory Structure
@@ -190,7 +184,6 @@ The Network Policy scripts follow the following pattern:
 │   ├── shippingservice_yaml.py
 ```
 
----
   
 ##  Usage
 
