@@ -101,14 +101,14 @@ The main notebooks focus on lateral movement threat detection using provenance a
 
   
 * Subdirectory: `alerts_mechanism`
-  * Focuses on integrating security alerts with CORAL’s attack graphs.
+  * Focuses on integrating security alerts with CORAL’s attack and provenance graphs.
   - **Files:**
     - `alerts_mechanism_sigma_rules.ipynb`: Notebook demonstrating the generation and application of Sigma rules for security alerts.
     - `alerts_svc_to_rules.csv`, `alerts_svc_to_rules_with_prov_data.csv`: CSVs mapping alerts to services and rules, including provenance data.
     - `example_alert_generator.py`: Python script to simulate alert generation.
     - `lateral_movement_example_alerts.csv`: Example dataset of lateral movement-related alerts.
     - `sigma_rules_values_with_names.json`: JSON file containing Sigma rule definitions.
-  - **Subdirectory:**
+  - **Subdirectories:**
     - `sigma_rules`: Contains Sigma rule files used for defining alert mechanisms.
 
 
@@ -120,6 +120,7 @@ The main notebooks focus on lateral movement threat detection using provenance a
     - `data_for_attack_simulation_logs.ipynb`: Notebook for preparing data for simulation logs.
     - `prov_with_generated_*`: Files combining provenance data with simulated attack data.
     - `recommendationservice_distinct_cve.csv`: Recommendationservice (testbed application microservice) CVE analysis.
+
 
 * Subdirectory: `provenance_data`
   * Contains provenance data used for generating provenance graphs and further analysis.
