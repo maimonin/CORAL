@@ -1,15 +1,10 @@
 # Testbed
 
----
-
-
 This directory is part of the CORAL framework and serves as the evaluation environment for the CORAL paper. The testbed is based on Google's "Online Boutique" cloud microservice demo and a custom microservice replication framework to test scalability and dynamic containerized environments.
 
 It contains two primary subdirectories:
 1. `google-microservices-demo`: Contains the deployment configuration for Google's "Online Boutique" application, a microservice-based e-commerce app.
 2. `microservice_replication`: Hosts the framework for replicating microservices to test scalability and interconnections within a Kubernetes environment.
-
----
 
 
 ## Features
@@ -18,9 +13,6 @@ It contains two primary subdirectories:
 * **Deployment Configurations:** Predefined YAML files for setting up the "Online Boutique" demo application.
 * **Microservice Replication:** Framework for scaling the testbed with configurable replicas.
 * **Scalable Environment:** Designed to emulate operational Kubernetes environments.
-
-
----
 
 
 ## Directory Structure
@@ -113,9 +105,6 @@ The replication process ensures:
 This approach enables controlled topology changes for scalability and realistic test conditions.
 
 
----
-
-
 ## Prerequisites
 
 * Python 3.8+
@@ -143,9 +132,6 @@ This approach enables controlled topology changes for scalability and realistic 
   * Container Network Interface (CNI): Calico.
 
 
----
-
-
 ## Usage
 
 1. Setup the computing environment.
@@ -169,9 +155,6 @@ This approach enables controlled topology changes for scalability and realistic 
   ```
   kubectl apply -f microservice_replication/yamls-to-apply/
   ```
-
-
----
 
 
 ## References
