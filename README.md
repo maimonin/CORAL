@@ -1,6 +1,8 @@
 ﻿# CORAL: Container Online Risk Assessment with Logical Attack Graphs
 CORAL is a framework for continuous risk assessment of containerized environments using logical attack graphs. It efficiently identifies attack paths between containers without requiring graph rebuilding when the underlying architecture changes.
 
+Learn more about CORAL in our published paper: [CORAL: Container Online Risk Assessment with Logical attack graphs](https://kwnsfk27.r.eu-west-1.awstrack.me/L0/https:%2F%2Fauthors.elsevier.com%2Fc%2F1kMqxc43v4Os7/1/0102019423793f90-7424c711-8ad0-4cd6-ab96-a0e6ce5bbf0a-000000/yclPzElDHU4wqmI8CXViq8q8IYI=407)
+
 ## Features
 * Dynamic risk assessment for container environments using live attack graphs
 * Efficient reuse of generated attack graphs through intelligent graph similarity detection
@@ -133,11 +135,10 @@ CORAL supports various security use cases:
 ## Citation
 
 ```bibtex
-@article{coral2024,
-  title={CORAL: Container Online Risk Assessment with Logical Attack Graphs},
-  author={Tayouri, David and Cohen, Omri Sgan and Maimon, Inbar and Mimran, Dudu and Elovici, Yuval and Shabtai, Asaf},
-  journal={Preprint submitted to Elsevier},
-  year={2024}
-}
+David Tayouri, Omri Sgan Cohen, Inbar Maimon, Dudu Mimran, Yuval Elovici, Asaf Shabtai,
+"CORAL: Container Online Risk Assessment with Logical attack graphs,"
+Computers & Security, Volume 150, 2025, 104296, ISSN 0167-4048, https://doi.org/10.1016/j.cose.2024.104296.
+(https://www.sciencedirect.com/science/article/pii/S0167404824006023)
+
 ```
 
