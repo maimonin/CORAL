@@ -135,10 +135,19 @@ CORAL supports various security use cases:
 ## Citation
 
 ```bibtex
-David Tayouri, Omri Sgan Cohen, Inbar Maimon, Dudu Mimran, Yuval Elovici, Asaf Shabtai,
-"CORAL: Container Online Risk Assessment with Logical attack graphs,"
-Computers & Security, Volume 150, 2025, 104296, ISSN 0167-4048, https://doi.org/10.1016/j.cose.2024.104296.
-(https://www.sciencedirect.com/science/article/pii/S0167404824006023)
+@article{TAYOURI2025104296,
+title = {CORAL: Container Online Risk Assessment with Logical attack graphs},
+journal = {Computers & Security},
+volume = {150},
+pages = {104296},
+year = {2025},
+issn = {0167-4048},
+doi = {https://doi.org/10.1016/j.cose.2024.104296},
+url = {https://www.sciencedirect.com/science/article/pii/S0167404824006023},
+author = {David Tayouri and Omri {Sgan Cohen} and Inbar Maimon and Dudu Mimran and Yuval Elovici and Asaf Shabtai},
+keywords = {Container risk assessment, Attack graphs, Kubernetes, Vulnerability analysis, Risk exposure},
+abstract = {Container-based architectures, with their highly volatile runtime configurations, rapid code changes, and dependence on third-party code, have raised security concerns. The first step in establishing solid security footing in a production application is understanding its risk exposure profile. Attack graphs (AGs), which organize the topology and identified vulnerabilities into possible attack paths as part of a larger graph, help organizations assess and prioritize risks and establish a baseline for countermeasure planning and remediation. Although AGs are valuable, their use in the container environment, where the AG must be repeatedly rebuilt due to frequent data changes, is challenging. In this paper, we present a novel approach for efficiently building container-based AGs that meets the needs of highly dynamic, real-life applications. We propose CORAL, a framework for identifying attack paths between containers, which does not require rebuilding the graph each time the underlying architecture (code or topology) changes. CORAL accomplishes this by intelligently disregarding changes that should not trigger AG build and reusing fragments of existing AGs. We propose a model to evaluate the attack paths’ risks and highlighting the riskiest path in any AG. We evaluate CORAL’s performance in maintaining an up-to-date AG for an environment with many containers. Our proposed framework demonstrated excellent performance for large topologies — searching similar topologies and reusing their AGs was two orders of magnitude faster than AG regeneration. We demonstrate how CORAL can assist in efficiently detecting lateral movement attacks in containerized environments using provenance graphs.}
+}
 
 ```
 
