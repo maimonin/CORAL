@@ -1,0 +1,12 @@
+Pod-ID,IP,Pod-Inbound-List,Protocol,Port
+adservice,172.17.0.15,"[('frontend', '2105', 'TCP')]",TCP,8974
+cartservice,172.17.0.16,"[('checkoutservice', '3854', 'TCP'), ('frontend', '2105', 'TCP')]",TCP,7070
+checkoutservice,172.17.0.21,"[('frontend', '2105', 'TCP')]",TCP,3854
+currencyservice,172.17.0.3,"[('checkoutservice', '3854', 'TCP')]",TCP,64085
+emailservice,172.17.0.23,"[('checkoutservice', '3854', 'TCP')]",TCP,20996
+paymentservice,172.17.0.12,"[('checkoutservice', '3854', 'TCP')]",TCP,31933
+productcatalogservice,172.17.0.2,"[('frontend', '2105', 'TCP'), ('recommendationservice', '54251', 'TCP')]",TCP,23628
+recommendationservice,172.17.0.5,"[('frontend', '2105', 'TCP')]",TCP,54251
+redis-cart,172.17.0.19,"[('cartservice', '7070', 'TCP')]",TCP,6379
+shippingservice,172.17.0.20,"[('checkoutservice', '3854', 'TCP'), ('frontend', '2105', 'TCP')]",TCP,26797
+frontend,172.17.0.18,[Internet],TCP,2105
